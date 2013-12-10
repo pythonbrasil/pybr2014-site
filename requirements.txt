@@ -12,3 +12,5 @@ BeautifulSoup==3.2.1
 gunicorn==0.14.3
 Markdown==2.2.0
 xmltodict
+dj-database-url==0.2.2
+psycopg2==2.5.1

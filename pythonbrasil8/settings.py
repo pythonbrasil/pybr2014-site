@@ -1,6 +1,7 @@
 # coding: utf-8
 import os
 # Django settings for pythonbrasil8 project.
+import dj_database_url
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
@@ -12,10 +13,9 @@ ADMINS = ()
 MANAGERS = ADMINS
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(PROJECT_DIR, 'pythonbrasil8.sqlite3'),
-    }
+    'default': dj_database_url.config(
+        default='sqlite:///{0}'.format(os.path.join(PROJECT_DIR, 'pythonbrasil8.sqlite3')),
+    )
 }
 
 TIME_ZONE = 'America/Sao_Paulo'
