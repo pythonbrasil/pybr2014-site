@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 from django.conf import settings
 from django.conf.urls import patterns, url, include
+from django.conf.urls.static import static
 from django.contrib import admin
 from django.contrib.auth.views import password_reset, password_reset_confirm
 from django.views.generic import TemplateView
@@ -47,4 +48,4 @@ urlpatterns = patterns('',
 
     url(r'^news/', include('pythonbrasil8.news.urls', namespace='news')),
     url(r'^admin/', include(admin.site.urls)),
-)
+) + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
