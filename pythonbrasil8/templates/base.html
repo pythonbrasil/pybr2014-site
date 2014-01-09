@@ -3,188 +3,192 @@
 {% load i18n %}
 {% load setting %}
 {% load compress %}
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>{% block title %}PythonBrasil[8] Conference{% endblock %}</title>
+{% load static %}
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+  <title>{% block title %}Python Brasil [10]{% endblock  %}</title>
+  <!--[if lt IE 9]>
+    <script src="js/html5.js"></script>
+  <![endif]-->
+  <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,300italic,300' rel='stylesheet' type='text/css'>
 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-        <meta property="og:title" content="{% block og_title %}PythonBrasil[8] Conference{% endblock %}">
-        <meta property="og:description" content="{% block og_description %}PythonBrasil é o maior encontro da comunidade comunidade brasileira que utiliza e desenvolve a linguagem de programação Python{% endblock %}">
-        <meta property="og:type" content="website">
-        <meta property="og:image" content="http://2012.pythonbrasil.org.br/static/images/badges/im_attending_aside_pt.png" />
-        {% compress css %}
-        <link rel="stylesheet" href="{{ STATIC_URL }}css/reset.css" type="text/css" />
-        <link rel="stylesheet" href="{{ STATIC_URL }}css/grid.css" type="text/css" />
-        <link rel="stylesheet" href="{{ STATIC_URL }}css/common.css" type="text/css" />
-        <link rel="stylesheet" href="{{ STATIC_URL }}css/social.css" type="text/css" />
-        <link rel="stylesheet" href="{{ STATIC_URL }}css/responsive.css" type="text/css" />
-        {% block css %}{% endblock %}
-        {% endcompress %}
-        <link rel="shortcut icon" href="{{ STATIC_URL }}/images/header/favicon.ico" type="image/vnd.microsoft.icon" />
-        {% block js_top %}{% endblock %}
-        <link rel="alternate" type="application/rss+xml" title="RSS" href="{% url news:feed %}" />
-    </head>
+  <link rel="stylesheet" href="{% static 'css/grid.css' %}" />
+  <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="{% url news:feed %}" />
 
-    <body>
-        <div id="fb-root"></div>
-        <div id="header">
-            <div class="inner">
-
-                <div id="{% trans "logo" %}">
-                    <a href="{% url home %}" title="PythonBrasil[8]">PythonBrasil[8]</a>
-                </div>
-
-                <div id="menu" class="text_right">
-                    <div>
-                        <ul>
-                            <li class="{% is_active request.path 'about' %}">
-                            <a href="{% url about %}">{% trans "about" %}</a>
-                            </li>
-                            <li class="{% is_active request.path 'register' %}">
-                                <a href="{% url register %}" title="register">{% trans "register" %}</a>
-                            </li>
-                            <li class="{% is_active request.path 'schedule' %}">
-                                <a href="{% url schedule %}" title="schedule">{% trans "schedule" %}</a>
-                            </li>
-                            <li class="{% is_active request.path 'venue' %}">
-                                <a href="{% url venue %}">{% trans "venue" %}</a>
-                            </li>
-                            <li class="{% is_active request.path 'custom-sponsors' %}">
-                                <a href="{% url custom-sponsors %}">{% trans "sponsor" %}</a>
-                            </li>
-                            {% if request.user.is_authenticated %}
-                                <li class="{% is_active request.path 'dashboard-index' %}">
-                                    <a href="{% url dashboard-index %}" title="dashboard">dashboard</a>
-                                </li>
-                                <li class="{% is_active request.path 'auth_logout' %}">
-                                    <a href="{% url auth_logout %}">{% trans "logout" %}</a>
-                                </li>
-                            {% else %}
-                                <li class="{% is_active request.path 'auth_login' %}">
-                                    <a href="{% url auth_login %}">{% trans "log in" %}</a>
-                                </li>
-                            {% endif %}
-                       </ul>
-                    </div>
-                </div>
-
-                <div id="language-select">
-                    <ul>
-                        <li class="pt-br{% if request.LANGUAGE_CODE == "pt-br" %} selected{% endif %}">
-                            <a href="#pt-br">
-                                <span class="flag"></span>
-                                português
-                            </a>
-                        </li>
-                        <li class="en-us{% if request.LANGUAGE_CODE == "en-us" %} selected{% endif %}">
-                            <a href="#en-us">
-                                <span class="flag"></span>
-                                english
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div id="pre-register">
-                    <p> <a href="{% url dashboard-index %}" title="{% trans "buy your ticket now" %}"><span>{% trans "buy your ticket now" %} »</span></a> </p>
-
-                </div>
-                {% block social %}
-                    <div id="social" class="row">
-                       {% include "social.html" %}
-                    </div>
-                {% endblock %}
-            </div>
-        </div>
-        {% block greybar %}
-        <div class="dates">
-            <div class="wrapper">
-                    <div class="dates-container">
-                        <div class="inner">
-                          <p>{% trans "Call for proposals" %}</p>
-                            <h4>{% trans "Until October 1st" %}</h4>
-                        </div>
-                        <div class="inner">
-                            <p>{% trans "Sprints" %}</p>
-                            <h4>{% trans "November 20th" %}</h4>
-                        </div>
-                        <div class="inner">
-                            <p>{% trans "Tutorials" %}</p>
-                            <h4>{% trans "November 21th - 22th" %}</h4>
-                        </div>
-                        <div class="inner last">
-                            <p>{% trans "Talks & Exposition Hall" %}</p>
-                            <h4>{% trans "November 23th - 24th" %}</h4>
-                        </div>
-                        <div class="clearfix"></div>
-                    </div>
-            </div>
-        </div>
-        {% endblock %}
-
-        <div class="content">
-            <div class="inner row">
-                {% block content %}{% endblock %}
-            </div>
-        </div>
-
-        <div id="footer">
-            <div class="row">
-                <div class="about column grid_11">
-                    <p>
-                    {% trans "PythonBrasil is a non-proﬁt volunteer-driven conference for promoting the open-source Python programming language." %}
-                    {% trans "It is supported by the Brazilian Python Association (APyB) and by the Python Software Foundation (PSF)." %}
-                    </p>
-                </div>
-                <div class="logo column grid_1"></div>
-            </div>
-        </div>
-
-        <a href="https://github.com/pythonbrasil/pythonbrasil8" id="github-ribbon" title="Fork me on GitHub">
-            <img src="{{ STATIC_URL }}images/header/fork-me.png" alt="Fork me on GitHub" width="149" height="149" />
+  <!--[if (gt IE 8) | (IEMobile)]><!-->
+  <!--<![endif]-->
+  <!--[if (lt IE 9) & (!IEMobile)]>
+  <![endif]-->
+</head>
+<body>
+  <header class="maintop">
+    <div class="grid-container">
+      <h1 class="grid-80">
+        <a href="index.html">
+            <img src="{% static 'images/header/pybr_logo.png' %}" alt="Python Brasil [10]"/>
         </a>
+      </h1>
+      <div class="grid-20 loginbtn">
+        <a href="" class="white">Login</a>
+      </div>
+    </div>
+    <div class="banner">
+      <div class="banner-inner">
+        <div class="grid-container">
+          <div class="grid-20 mobile-grid-50 flags">
+            <a href=""><img src="{% static 'images/home/en.png' %}" /></a>
+            <a href=""><img src="{% static 'images/home/br.png' %}" /></a>
+          </div>
+          
+          <h2 class="grid-80 mobile-grid-50 topdatecall">Recife<span>2014</span></h2>
+          <div class="grid-100 carangueijo-big"><img src="{% static 'images/home/carangueijo460px.gif' %}" /></div>
+        </div>
+      </div>
+    </div>
+      <nav class="menu grid-container">
+        <ul>
+          <li><a href="" class="">Sobre</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Inscreva-se</a></li>
+          <li><a href="">Chamada de Trabalhos</a></li>
+          <li><a href="">Patrocinadores</a></li>
+          <li><a href="">Local</a></li>
+          <li><a href="">Recife</a></li>
+        </ul>
+      </nav>
+  </header>
+  <div class="subnav">
+      {% block subnav  %}{% endblock %}
+  </div>
+  
+  <div class="maincontent">
+    <div class="grid-container">
+      <section class="grid-65">
+          {% block content %}{% endblock %}
+      </section>
+      <aside class="special-sponsor-aside grid-35">
+        <a href="" class="btn">seja um patrocinador</a>
+        <ul class="sponsor-list">
+          <li>
+            <h4>DIAMOND</h4>
+            <img src="{% static 'images/patrocinadores/pycursos_logo.png' %}" alt="">
+          </li>
+          <li>
+            <h4>DIAMOND</h4>
+            <img src="{% static 'images/patrocinadores/pycursos_logo.png' %}" alt="">
+          </li>
+          <li>
+            <h4>DIAMOND</h4>
+            <img src="{% static 'images/patrocinadores/pycursos_logo.png' %}" alt="">
+          </li>
+        </ul>
+        <div class="how-sponsor-call">
+          <p>Learn how to become a sponsor <br />
+          <span>ARE YOU SPEAKING OR ATTENDING?</span></p>
+          <a href="" class="btn">grab a badge</a>
+        </div>
 
-        {% compress js %}
-        <script src="/static/js/mootools-1.4.5.js" type="text/javascript" charset="utf-8"></script>
-        <script>
-            (function(global) {
-                $$('#language-select a').addEvent('click', function(event){
-                    var href = this.get('href');
-                    event.stop()
-                    Cookie.write('{% setting "LANGUAGE_COOKIE_NAME" %}', href.slice(1, href.length));
-                    global.location.reload();
-                });
-            })(window);
-        </script>
-        {% endcompress %}
+        <div class="socialmedia">
+          <a href=""><img src="{% static 'images/home/fb.png' %}" alt="Página do Facebook da Python Brasil"></a>
+            <a href=""><img src="{% static 'images/home/tt.png' %}" alt="Twitter da Python Brasil"></a>
+        </div>
+      </aside>
+    </div>
+  </div>
+  <div class="grid-caranguejosmall grid-container">
+      <img class="caranguejosmall" src="{% static 'images/home/caranguejo_small.png' %}" />
+  </div>
+  <div class="sponsors-list-bottom">
+    <div class="grid-container">
+      <ul class="sponsor-list">
+        <li class="grid-25">
+          <h4>DIAMOND</h4>
+          <img src="{% static 'images/patrocinadores/pycursos_logo_small.png' %}" alt="">
+        </li>
+        <li class="grid-25">
+          <h4>DIAMOND</h4>
+          <img src="{% static 'images/patrocinadores/pycursos_logo_small.png' %}" alt="">
+        </li>
+        <li class="grid-25">
+          <h4>DIAMOND</h4>
+          <img src="{% static 'images/patrocinadores/pycursos_logo_small.png' %}" alt="">
+        </li>
+        <li class="grid-25">
+          <h4>GOLD</h4>
+          <img src="{% static 'images/patrocinadores/pycursos_logo_small.png' %}" alt="">
+        </li>
+        <li class="grid-25">
+          <h4>GOLD</h4>
+          <img src="{% static 'images/patrocinadores/pycursos_logo_small.png' %}" alt="">
+        </li>
+        <li class="grid-25">
+          <h4>GOLD</h4>
+          <img src="{% static 'images/patrocinadores/pycursos_logo_small.png' %}" alt="">
+        </li>
+        <li class="grid-25">
+          <h4>SILVER</h4>
+          <img src="{% static 'images/patrocinadores/pycursos_logo_small.png' %}" alt="">
+        </li>
+        <li class="grid-25">
+          <h4>SILVER</h4>
+          <img src="{% static 'images/patrocinadores/pycursos_logo_small.png' %}" alt="">
+        </li>
+        <li class="grid-25">
+          <h4>SILVER</h4>
+          <img src="{% static 'images/patrocinadores/pycursos_logo_small.png' %}" alt="">
+        </li>
+        <li class="grid-25">
+          <h4>BRONZE</h4>
+          <img src="{% static 'images/patrocinadores/pycursos_logo_small.png' %}" alt="">
+        </li>
+        <li class="grid-25">
+          <h4>BRONZE</h4>
+          <img src="{% static 'images/patrocinadores/pycursos_logo_small.png' %}" alt="">
+        </li>
+        <li class="grid-25">
+          <h4>BRONZE</h4>
+          <img src="{% static 'images/patrocinadores/pycursos_logo_small.png' %}" alt="">
+        </li>
+      </ul>
+      <ul class="sponsor-list staff grid-100">
+        <li class="grid-25">
+          <h4>ORGANIZAÇÃO</h4>
+          <img src="{% static 'images/patrocinadores/pycursos_logo_small.png' %}" alt="">
+        </li>
+        <li class="grid-25">
+          <h4>ORGANIZAÇÃO</h4>
+          <img src="{% static 'images/patrocinadores/pycursos_logo_small.png' %}" alt="">
+        </li>
+        <li class="grid-25">
+          <h4>ORGANIZAÇÃO</h4>
+          <img src="{% static 'images/patrocinadores/pycursos_logo_small.png' %}" alt="">
+        </li>
+        <li class="grid-25">
+          <h4>ILUSTRAÇÃO</h4>
+          <img src="{% static 'images/patrocinadores/pycursos_logo_small.png' %}" alt="">
+        </li>
+        <li class="grid-25">
+          <h4>WEB-DESIGN & FRONT-END</h4>
+          <img src="{% static 'images/patrocinadores/pycursos_logo_small.png' %}" alt="">
+        </li>
+      </ul>
+    </div>
+  </div>
 
-        {% block js_social %}
-            <script type="text/javascript" src="http://apis.google.com/js/plusone.js"></script>
-            <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-            {% compress js %}
-            <script>(function(d, id){
-                var js; if (d.getElementById(id)) {return;}
-                js = d.createElement('script'); js.id = id; js.async = true;
-                js.src = "//connect.facebook.net/en_US/all.js#appId=133043916794035&xfbml=1";
-                d.getElementsByTagName('head')[0].appendChild(js);
-                })(document, 'facebook-jssdk');
-            </script>
-            {% endcompress %}
-        {% endblock %}
-        {% compress js %}{% block js_bottom %}{% endblock %}{% endcompress %}
-
-        <script type="text/javascript">
-         var _gaq = _gaq || [];
-         _gaq.push(['_setAccount', 'UA-32336189-1']);
-         _gaq.push(['_trackPageview']);
-
-         (function() {
-           var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-           ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-           var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-         })();
-        </script>
-    </body>
+  <footer class="bottom">
+    <div class="grid-container">
+      <div class="grid-100 mobile-grid-100">
+        <img src="{% static 'images/home/python_footer.png' %}" class="floatright" />
+        <p>PythonBrasil is a non-proﬁt volunteer-driven conference for promoting the open-source Python programming language. It is supported by the Brazilian Python Association (APyB) and by the Python Software Foundation (PSF).</p>
+        
+      </div>
+    </div>
+  </footer>
+</body>
 </html>
-

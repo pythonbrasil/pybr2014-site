@@ -1,0 +1,57 @@
+
+div#caixa 
+{
+	display: inline-block; 
+	width: 800px;
+	height: 600px;
+}
+	div#caixa p#abas 
+	{
+		display: inline-block; 
+		width: 790px; 
+		height: 40px; 
+		margin: 0 10px 0 10px; 
+		padding: 0; 
+		overflow: hidden; 
+		vertical-align: bottom;
+	}
+		div#caixa p#abas a 
+		{
+			display: inline-block; 
+			font-size: 14px; 
+			font-weight: bold; 
+			color: #666; 
+			text-decoration: none; 
+			padding: 12px 26px 12px 26px; 
+			margin: 0 5px 0 0; 
+			background-color: #f0f0f0;
+		}
+			div#caixa p#abas a:hover 
+			{
+				background-color: #999; 
+				color: white;
+			}
+			div#caixa p#abas a.selected 
+			{
+				background-color: #ffcc00; 
+				color: #000;
+			}
+	div#caixa ul#conteudos 
+	{
+		display: inline-block; 
+		width: 798px; 
+		height: 558px; 
+		margin: 0; 
+		padding: 0; 
+		border: 1px solid #ccc;
+	}
+		div#caixa ul#conteudos li 
+		{
+			display: inline-block; 
+			width: 758px; 
+			height: 528px; 
+			margin: 10px 20px 10px 20px; 
+			padding: 0; 
+			overflow: auto;
+		}
+
