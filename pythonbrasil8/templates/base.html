@@ -35,15 +35,31 @@
         </a>
       </h1>
       <div class="grid-20 loginbtn">
-        <a href="" class="white">Login</a>
+        {% if request.user.is_authenticated %}
+          <a class="white {% is_active request.path 'dashboard-index' %}" href="{% url dashboard-index %}" title="dashboard">  
+            dashboard
+          </a>
+          <a class="white {% is_active request.path 'auth_logout' %}" href="{% url auth_logout %}">
+            {% trans "Logout" %}
+          </a>
+        {% else %}
+          <a class="white {% is_active request.path 'auth_login' %}" href="{% url auth_login %}">
+            {% trans "Log In" %}
+          </a>
+        {% endif %}
       </div>
     </div>
     <div class="banner">
       <div class="banner-inner">
         <div class="grid-container">
           <div class="grid-20 mobile-grid-50 flags">
-            <a href=""><img src="{% static 'images/home/en.png' %}" /></a>
-            <a href=""><img src="{% static 'images/home/br.png' %}" /></a>
+            {% for language in LANGUAGES %}
+              <form action="/i18n/setlang/" method="post">
+                {% csrf_token %}
+                <input type="hidden" name="language" value="{{ language.code }}"/>
+                <img src="{% static 'images/home/{{ language.bidi }}.png' %}" />
+              </form>
+              {% endfor %}
           </div>
           
           <h2 class="grid-80 mobile-grid-50 topdatecall">Recife<span>2014</span></h2>
@@ -53,13 +69,41 @@
     </div>
       <nav class="menu grid-container">
         <ul>
-          <li><a href="" class="">Sobre</a></li>
-          <li><a href="">Blog</a></li>
-          <li><a href="">Inscreva-se</a></li>
-          <li><a href="">Chamada de Trabalhos</a></li>
-          <li><a href="">Patrocinadores</a></li>
-          <li><a href="">Local</a></li>
-          <li><a href="">Recife</a></li>
+          <li>
+            <a class="{% is_active request.path 'about' %}" href="{% url about %}">
+              {% trans "About" %}
+            </a>
+          </li>
+          <li>
+            <a class="{% is_active request.path 'news:main' %}" href="{% url news:main %}">
+              {% trans "Blog" %}
+          </a>
+          </li>
+          <li>
+            <a class="{% is_active request.path 'register' %}" href="{% url register %}">
+              {% trans "Register" %}
+            </a>
+          </li>
+          <li>
+            <a class="{% is_active request.path 'schedule' %}" href="{% url schedule %}">
+              {% trans "Talk Subscription" %}
+          </a>
+          </li>
+          <li>
+            <a class="{% is_active request.path 'custom-sponsors' %}" href="{% url custom-sponsors %}">
+              {% trans "Sponsors" %}
+          </a>
+          </li>
+          <li>
+            <a class="{% is_active request.path 'venue' %}" href="{% url venue %}">
+              {% trans "Venue" %}
+            </a>
+          </li>
+          <li>
+            <a href="http://www2.recife.pe.gov.br" target="_blank">
+              Recife
+            </a>
+          </li>
         </ul>
       </nav>
   </header>
@@ -73,7 +117,9 @@
           {% block content %}{% endblock %}
       </section>
       <aside class="special-sponsor-aside grid-35">
-        <a href="" class="btn">seja um patrocinador</a>
+        <a class="btn" href="{% url sponsors-info %}">
+          {% trans "become a sponsor" %}
+        </a>
         <ul class="sponsor-list">
           <li>
             <h4>DIAMOND</h4>
