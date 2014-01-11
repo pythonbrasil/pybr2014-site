@@ -4,6 +4,7 @@
         "pk": 1,
         "fields": {
             "name_en": "Newbies",
+            "name_pt_br": "Iniciantes",
             "slug": "newbies",
             "description_en": "Python for newbies"
         }
@@ -13,6 +14,7 @@
         "pk": 2,
         "fields": {
             "name_en": "Just another track",
+            "name_pt_br": "Apenas uma outra faixa",
             "slug": "just-another-track",
             "description_en": "Spam eggs ham"
         }
