@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% load i18n %}
+{% load markup %}
 
 {% block css %}
 {% endblock %}
@@ -31,115 +32,27 @@
 
 {% block content %}
     <article class="main-call">
-      <h2>Bem-vindo a Recife</h2>
-      <p>You’re invited to the tenth annual conference Python Brazil august 9th - 13th at Recife getting us warmed up for the first Python Brazil us outside of the us southeast in 2014!</p>
+      <h2>{% trans 'Welcome to Recife' %}</h2>
+      <p>
+        {% blocktrans %}
+        You’re invited to the tenth annual conference Python Brazil august 9th - 13th at Recife getting us warmed up for the first Python Brazil us outside of the us southeast in 2014!
+        {% endblocktrans %}
+      </p>
 
       <a href="" class="btn floatright">saiba mais</a>
     </article>
     <div class="blog-news">
-      <h3><span>Últimas Postagens</span></h3>
+      <h3><span>{% trans 'Last Posts' %}</span></h3>
+      {% for post in posts %}
       <article class="blog-item">
-        <div class="date">
-          <p>out</p>
-          <span>21</span>
-        </div>
-        <h2>Novo Palestrante</h2>
-        <p>Tim Berners Lee é o mais novo palestrante confirmado para a Python Brasil 2014. A décima edição do evento já conta com a presença de Steve Jobs, Jakob Nielsen e Mandela...</p>
-        <a href="" class="btn floatright">saiba mais</a>
+      <div class="date">
+        <p>{{ post.published_at|date:"M"}}</p>
+        <span>{{ post.published_at.day }}</span>
+      </div>
+      <h2>{{ post.title }}</h2>
+      <p>{{ post.content|markdown|slice:"174" }}...</p>
+      <a href="{% url news:post post.slug %}" class="btn floatright">{% trans 'more' %}</a>
       </article>
-      <article class="blog-item">
-        <div class="date">
-          <p>out</p>
-          <span>21</span>
-        </div>
-        <h2>Novo Palestrante</h2>
-        <p>Tim Berners Lee é o mais novo palestrante confirmado para a Python Brasil 2014. A décima edição do evento já conta com a presença de Steve Jobs, Jakob Nielsen e Mandela...</p>
-        <a href="" class="btn floatright">saiba mais</a>
-      </article>
-      <article class="blog-item">
-        <div class="date">
-          <p>out</p>
-          <span>21</span>
-        </div>
-        <h2>Novo Palestrante</h2>
-        <p>Tim Berners Lee é o mais novo palestrante confirmado para a Python Brasil 2014. A décima edição do evento já conta com a presença de Steve Jobs, Jakob Nielsen e Mandela...</p>
-        <a href="" class="btn floatright">saiba mais</a>
-      </article>
+      {% endfor %}
     </div>
 {% endblock %}
-
-{% comment %}
-{% block content %}
-    <div id="sponsors">
-        {% for sponsors in sponsor_groups %}
-        <div class="row{% if forloop.first %} first{% endif %}">
-        {% for sponsor in sponsors %}
-            <div class="sponsor column grid_2">
-                <a href="{% url custom-sponsors %}" title="{{ sponsor.name }}"><img src="{{ sponsor.logo.url }}" alt="{{ sponsor.name }}" /></a>
-                <span>{{ sponsor.category.name }}</span>
-            </div>
-        {% endfor %}
-        </div>
-        {% endfor %}
-    </div>
-
-    <div class="row">
-        <div class="become-a-sponsor column grid_12">
-            <a href="{% url sponsors-info %}">{% trans "Learn how to become a sponsor" %}</a>
-        </div>
-        <div class="about">
-            <ul class="multicolumn">
-                <li>
-                    <h2>{% trans "ARE YOU SPEAKING OR ATTENDING?" %}</h2>
-                    <p class="subterm">{% trans "grab a badge" %}</p>
-                    <a href="{% url badges %}" class="grab_badge">
-                        <img src="{{ STATIC_URL }}images/home/grab_badge.png" alt="Grab a badge">
-                    </a>
-                </li>
-                <li class="fat">
-                <a href={% url news:main %}><h2>{% trans "FROM THE BLOG" %}</h2></a>
-                    <p class="subterm">{% trans "latest news" %}</p>
-                    <ul class="news">
-                        {% for post in posts %}
-                        <li class="fat">
-                            <a href="{% url news:post post.slug %}" class="title">{{ post.title }}</a>
-                            <p class="date">
-                              {% trans "Published on" %} {{ post.published_at }}
-                              by
-                              <a href="mailto:{{ post.author.email }}">{{ post.author.get_profile.name }}</a>
-                            </p>
-                        </li>
-                        {% endfor %}
-                    </ul>
-                </li>
-                <li class="thin">
-                    <h2>{% trans "STAY UP TO DATE" %}</h2>
-                    <p class="subterm">{% trans "follow us" %}</p>
-                    <ul class="up_to_date">
-                        <li>
-                            <a href="http://www.twitter.com/pythonbrasil" title="PythonBrasil Twitter"><img src="{{ STATIC_URL }}images/home/ico_twitter.png" alt="PythonBrasil Twitter"></a>
-                        </li>
-                        <li>
-                            <a href="http://www.facebook.com/pythonbrasil8" title="PythonBrasil[8] Facebook page"><img src="{{ STATIC_URL }}images/home/ico_facebook.png" alt="PythonBrasil Facebook"></a>
-                        </li>
-                        <li>
-                            <a href="" title="PythonBrasil[8] calendar"><img src="{{ STATIC_URL }}images/home/ico_calendar.png" alt="PythonBrasil[8] Calendar"></a>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-
-        </div>
-    </div>
-{% endblock %}
-
-{% block js_bottom %}
-<script src="/static/js/slider.js" type="text/javascript" charset="utf-8"></script>
-<script type="text/javascript">
-window.addEvent('domready', function(){
-    var slider = new Slider({slides: $$('#sponsors .row')});
-    slider.cycle();
-});
-</script>
-{% endblock %}
-{% endcomment %}
