@@ -53,13 +53,8 @@
       <div class="banner-inner">
         <div class="grid-container">
           <div class="grid-20 mobile-grid-50 flags">
-            {% for language in LANGUAGES %}
-              <form action="/i18n/setlang/" method="post">
-                {% csrf_token %}
-                <input type="hidden" name="language" value="{{ language.code }}"/>
-                <img src="{% static 'images/home/{{ language.bidi }}.png' %}" />
-              </form>
-              {% endfor %}
+            <img src="{% static 'images/home/en.png' %}" />
+            <img src="{% static 'images/home/br.png' %}" />
           </div>
           
           <h2 class="grid-80 mobile-grid-50 topdatecall">Recife<span>2014</span></h2>
