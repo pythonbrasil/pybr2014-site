@@ -92,7 +92,7 @@ class FinishedProposalsView(LoginRequiredMixin, View):
 
 def schedule(request):
     '''Show accepted talk proposals'''
-    tracks = Track.objects.all().order_by('name_en_us')
+    tracks = Track.objects.all().order_by('name_en')
     tracks_and_sessions = {}
     for track in tracks:
         sessions = Session.objects.filter(track=track, type='talk',

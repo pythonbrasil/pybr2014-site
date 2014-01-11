@@ -48,4 +48,5 @@ urlpatterns = patterns('',
 
     url(r'^news/', include('pythonbrasil8.news.urls', namespace='news')),
     url(r'^admin/', include(admin.site.urls)),
+    url(r'^i18n/', include('django.conf.urls.i18n')),
 ) + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

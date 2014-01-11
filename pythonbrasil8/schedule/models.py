@@ -46,7 +46,7 @@ class Track(models.Model):
         translate = ("name", "description")
 
     def __unicode__(self):
-        return self.name
+        return self.name_en
 
     def save(self, *args, **kwargs):
         self.slug = slugify(self.name)

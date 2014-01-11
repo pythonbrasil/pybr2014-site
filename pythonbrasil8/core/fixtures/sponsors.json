@@ -3,7 +3,7 @@
         "model": "sponsors.Category",
         "pk": 1,
         "fields": {
-            "name_en_us": "FOSS",
+            "name_en": "FOSS",
             "name_pt_br": "FOSS",
             "priority": 10
         }
@@ -12,7 +12,7 @@
         "model": "sponsors.Category",
         "pk": 2,
         "fields": {
-            "name_en_us": "Diamond",
+            "name_en": "Diamond",
             "name_pt_br": "Diamante",
             "priority": 0
         }
@@ -21,7 +21,7 @@
         "model": "sponsors.Category",
         "pk": 3,
         "fields": {
-            "name_en_us": "Gold",
+            "name_en": "Gold",
             "name_pt_br": "Ouro",
             "priority": 1
         }
@@ -31,7 +31,7 @@
         "pk": 1,
         "fields": {
             "name": "cobrateam",
-            "description_en_us": "no description left for you",
+            "description_en": "no description left for you",
             "description_pt_br": "no description left for you",
             "url": "http://cobrateam.info",
             "category": 1,
@@ -43,7 +43,7 @@
         "pk": 2,
         "fields": {
             "name": "globo.com",
-            "description_en_us": "no description left for you",
+            "description_en": "no description left for you",
             "description_pt_br": "no description left for you",
             "url": "http://globo.com",
             "category": 2,
@@ -55,7 +55,7 @@
         "pk": 3,
         "fields": {
             "name": "andrews sa",
-            "description_en_us": "no description left for you",
+            "description_en": "no description left for you",
             "description_pt_br": "no description left for you",
             "url": "http://andrewsmedina.com",
             "category": 3,
@@ -67,7 +67,7 @@
         "pk": 4,
         "fields": {
             "name": "andrews software",
-            "description_en_us": "no description left for you",
+            "description_en": "no description left for you",
             "description_pt_br": "no description left for you",
             "url": "http://andrewsmedina.com",
             "category": 3,
@@ -79,7 +79,7 @@
         "pk": 5,
         "fields": {
             "name": "andrews software sa",
-            "description_en_us": "no description left for you",
+            "description_en": "no description left for you",
             "description_pt_br": "no description left for you",
             "url": "http://andrewsmedina.com",
             "category": 2,
@@ -91,7 +91,7 @@
         "pk": 6,
         "fields": {
             "name": "andrews ltda",
-            "description_en_us": "no description left for you",
+            "description_en": "no description left for you",
             "description_pt_br": "no description left for you",
             "url": "http://andrewsmedina.com",
             "category": 2,
@@ -103,7 +103,7 @@
         "pk": 7,
         "fields": {
             "name": "andrews enterprise",
-            "description_en_us": "no description left for you",
+            "description_en": "no description left for you",
             "description_pt_br": "no description left for you",
             "url": "http://andrewsmedina.com",
             "category": 2,
@@ -115,7 +115,7 @@
         "pk": 1,
         "fields": {
             "name": "PythonBrasil[8]",
-            "description_en_us": "bla bla",
+            "description_en": "bla bla",
             "description_pt_br": "ble ble"
         }
     }
