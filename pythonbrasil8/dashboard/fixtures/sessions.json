@@ -3,18 +3,18 @@
         "model": "schedule.Track",
         "pk": 1,
         "fields": {
-            "name_en_us": "Newbies",
+            "name_en": "Newbies",
             "slug": "newbies",
-            "description_en_us": "Python for newbies"
+            "description_en": "Python for newbies"
         }
     },
     {
         "model": "schedule.Track",
         "pk": 2,
         "fields": {
-            "name_en_us": "Just another track",
+            "name_en": "Just another track",
             "slug": "just-another-track",
-            "description_en_us": "Spam eggs ham"
+            "description_en": "Spam eggs ham"
         }
     },
     {

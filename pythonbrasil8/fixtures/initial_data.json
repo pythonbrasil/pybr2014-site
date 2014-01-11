@@ -4,7 +4,7 @@
     "model": "events.event",
     "fields": {
       "description_pt_br": "",
-      "description_en_us": "PythonBrasil is the largest Brazilian gathering for the community using and developing the open-source Python programming language. It is a annual vibrant meeting ground to inspire, debate, make deals, motivate and connect face to face.\r\n\r\nThe eighth edition of the conference will be held from the 21 to 24 November 2012 at the SulAm\u00e9rica Convention Center, located in Rio de Janeiro.\r\n\r\nThe meeting will follow the format of lectures from international recognized speakers and Brazilian experts, in conjuction with sponsor's exposition, lightning talks, coding-dojo and an open-space. Check our schedule.\r\n\r\nPythonBrasil conference is organized by the Python community for the community. We try to keep registration far cheaper than most comparable technology conferences, to keep PythonBrasil accessible to the widest group possible. Join us!\r\n\r\nSome important dates:\r\n- Conference registration opens: 5 March\r\n- Call for proposals: 2 April\r\n- Program announced: 10 September\r\n- Tutorials: 21-22 November\r\n- Talks: 23-24 November",
+      "description_en": "PythonBrasil is the largest Brazilian gathering for the community using and developing the open-source Python programming language. It is a annual vibrant meeting ground to inspire, debate, make deals, motivate and connect face to face.\r\n\r\nThe eighth edition of the conference will be held from the 21 to 24 November 2012 at the SulAm\u00e9rica Convention Center, located in Rio de Janeiro.\r\n\r\nThe meeting will follow the format of lectures from international recognized speakers and Brazilian experts, in conjuction with sponsor's exposition, lightning talks, coding-dojo and an open-space. Check our schedule.\r\n\r\nPythonBrasil conference is organized by the Python community for the community. We try to keep registration far cheaper than most comparable technology conferences, to keep PythonBrasil accessible to the widest group possible. Join us!\r\n\r\nSome important dates:\r\n- Conference registration opens: 5 March\r\n- Call for proposals: 2 April\r\n- Program announced: 10 September\r\n- Tutorials: 21-22 November\r\n- Talks: 23-24 November",
       "name": "PythonBrasil[8]"
     }
   },
@@ -13,7 +13,7 @@
     "model": "sponsors.category",
     "fields": {
       "name_pt_br": "Diamante",
-      "name_en_us": "Diamond",
+      "name_en": "Diamond",
       "priority": "0"
     }
   },
@@ -22,7 +22,7 @@
     "model": "sponsors.category",
     "fields": {
       "name_pt_br": "FOSS",
-      "name_en_us": "FOSS",
+      "name_en": "FOSS",
       "priority": "5"
     }
   },
@@ -31,7 +31,7 @@
     "model": "sponsors.category",
     "fields": {
       "name_pt_br": "Parceiro",
-      "name_en_us": "Partner",
+      "name_en": "Partner",
       "priority": "4"
     }
   },
@@ -40,7 +40,7 @@
     "model": "sponsors.category",
     "fields": {
       "name_pt_br": "Ouro",
-      "name_en_us": "Gold",
+      "name_en": "Gold",
       "priority": "1"
     }
   },
@@ -49,7 +49,7 @@
     "model": "sponsors.category",
     "fields": {
       "name_pt_br": "Prata",
-      "name_en_us": "Silver",
+      "name_en": "Silver",
       "priority": "2"
     }
   },
@@ -58,7 +58,7 @@
     "model": "sponsors.category",
     "fields": {
       "name_pt_br": "Bronze",
-      "name_en_us": "Bronze",
+      "name_en": "Bronze",
       "priority": "3"
     }
   },
@@ -71,7 +71,7 @@
       "url": "http://www.globo.com/",
       "logo": "sponsors/globocom.png",
       "description_pt_br": "Globo.com",
-      "description_en_us": "Globo.com"
+      "description_en": "Globo.com"
     }
   },
   {
@@ -83,7 +83,7 @@
       "url": "http://oreilly.com/",
       "logo": "sponsors/oreilly.png",
       "description_pt_br": "O'reilly",
-      "description_en_us": "O'reilly"
+      "description_en": "O'reilly"
     }
   },
   {
@@ -95,7 +95,7 @@
       "url": "http://novatec.com.br/",
       "logo": "sponsors/novatec.png",
       "description_pt_br": "novatec",
-      "description_en_us": "novatec"
+      "description_en": "novatec"
     }
   },
   {
@@ -107,7 +107,7 @@
       "url": "http://portal.fgv.br/",
       "logo": "sponsors/fgv.png",
       "description_pt_br": "fgv",
-      "description_en_us": "fgv"
+      "description_en": "fgv"
     }
   },
   {
@@ -119,7 +119,7 @@
       "url": "http://associacao.python.org.br/",
       "logo": "sponsors/apyb.png",
       "description_pt_br": "apyb",
-      "description_en_us": "apyb"
+      "description_en": "apyb"
     }
   },
   {
@@ -131,7 +131,7 @@
       "url": "http://cobrateam.info/",
       "logo": "sponsors/cobrateam.png",
       "description_pt_br": "cobrateam",
-      "description_en_us": "cobrateam"
+      "description_en": "cobrateam"
     }
   }
 ]
