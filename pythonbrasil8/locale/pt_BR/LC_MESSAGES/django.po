@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PythonBrasil8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-10 09:56-0300\n"
+"POT-Creation-Date: 2014-01-14 22:16-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Tatiana Al-Chueyr <tatiana.alchueyr@gmail.com>\n"
 "Language-Team: Francisco Souza <f@souza.cc>\n"
@@ -15,7 +15,28 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1)\n"
 
-#: core/templates/sponsors.html:4 templates/base.html:94
+#: core/templates/home.html:35
+msgid "Welcome to Recife"
+msgstr ""
+
+#: core/templates/home.html:37
+msgid ""
+"\n"
+"        You’re invited to the tenth annual conference Python Brazil august "
+"9th - 13th at Recife getting us warmed up for the first Python Brazil us "
+"outside of the us southeast in 2014!\n"
+"        "
+msgstr ""
+
+#: core/templates/home.html:45 templates/news.html:11 templates/post.html:10
+msgid "Last Posts"
+msgstr ""
+
+#: core/templates/home.html:54 templates/news.html:20
+msgid "more"
+msgstr ""
+
+#: core/templates/sponsors.html:4 templates/base.html:100
 msgid "Sponsors"
 msgstr "Patrocinadores"
 
@@ -51,7 +72,7 @@ msgstr "Plano de captação (versão em inglês)"
 msgid "Sponsoring prospectus (Portuguese version)"
 msgstr "Plano de captação (versão em português)"
 
-#: core/templates/venue.html:4 templates/base.html:99
+#: core/templates/venue.html:4 templates/base.html:105
 msgid "Venue"
 msgstr "Local"
 
@@ -234,7 +255,7 @@ msgstr "Edite seu perfil"
 msgid "Change password"
 msgstr "Altere sua senha"
 
-#: dashboard/templates/dashboard/base.html:29 templates/base.html:43
+#: dashboard/templates/dashboard/base.html:29 templates/base.html:46
 msgid "Logout"
 msgstr "Sair"
 
@@ -574,16 +595,16 @@ msgstr "Para confirmar sua inscrição, por favor pague a taxa de inscrição (R
 msgid " using the button below:"
 msgstr " usando o botão abaixo:"
 
-#: templates/about.html:4 templates/about.html.py:5 templates/base.html:74
+#: templates/about.html:4 templates/about.html.py:5 templates/base.html:80
 #: templates/previous_editions.html:4
 msgid "About"
 msgstr "Sobre"
 
-#: templates/about.html:14
-msgid "About PythonBrasil"
-msgstr "Sobre a PythonBrasil"
+#: templates/about.html:9
+msgid "The conference"
+msgstr ""
 
-#: templates/about.html:17
+#: templates/about.html:11
 msgid ""
 "\n"
 "            PythonBrasil is the largest Brazilian gathering for the "
@@ -598,78 +619,6 @@ msgstr ""
 "anual que inspira os participantes, proporcionando debates, estimulando "
 "negócios, e estimula membros da comunidade a se reencontrarem pessoalmente.\n"
 "        "
-
-#: templates/about.html:23
-msgid ""
-"The eighth edition of the conference will be held from the 21 to 24 November "
-"2012 at the"
-msgstr ""
-"A oitava edição da conferência acontecerá entre os dias 21 e 24 de novembro "
-"de 2012 no"
-
-#: templates/about.html:24
-msgid "SulAmérica Convention Center"
-msgstr "Centro de Convenções SulAmérica"
-
-#: templates/about.html:25
-msgid "located in Rio de Janeiro."
-msgstr "localizado no Rio de Janeiro."
-
-#: templates/about.html:31
-msgid ""
-"\n"
-"            The conference is organized by the Python community for the "
-"community. We try to keep registration far cheaper than most comparable "
-"technology conferences, to keep PythonBrasil accessible to the widest group "
-"possible. "
-msgstr ""
-"\n"
-"        A conferência é organizada pela comunidade Python para a comunidade "
-"python. Tentamos manter a inscrição do evento o mais barat possível, "
-"comparada a outras conferências de tecnologia, para manter a PythonBrasil "
-"acessível aomaior grupo possível."
-
-#: templates/about.html:32
-msgid "Join us!"
-msgstr "Junte-se a nós!"
-
-#: templates/about.html:36
-msgid "Contact"
-msgstr "Contato"
-
-#: templates/about.html:57
-msgid "Previous editions"
-msgstr "Versões anteriores"
-
-#: templates/about.html:60
-msgid ""
-"\n"
-"                This is the eighth edition of PythonBrasil.\n"
-"                Find out more about the previous editions of the conference, "
-"clicking on the edition numbers below:\n"
-"                "
-msgstr ""
-"\n"
-"                Esta é a oitava edição da PythonBrasil.\n"
-"                Conheça mais sobre as edições anteriores da conferência, "
-"clicando sobre o número da edição abaixo:\n"
-"                "
-
-#: templates/about.html:75
-msgid ""
-"\n"
-"                You can also see a complete list containing the dates and "
-"locations of the previous editions of PythonBrasil\n"
-"                "
-msgstr ""
-"\n"
-"                Você também pode ver a lista completa com datas e locais das "
-"edições anteriores da PythonBrasil\n"
-"                "
-
-#: templates/about.html:78
-msgid "clicking here"
-msgstr "clicando aqui"
 
 #: templates/badges.html:4 templates/badges.html.py:5
 msgid "Badges"
@@ -695,44 +644,31 @@ msgstr "I_speak_aside_pt.png"
 msgid "I'm speaking at PythonBrasil[8]"
 msgstr "Eu vou palestrar na PythonBrasil[8]"
 
-#: templates/base.html:47 templates/registration/login.html:15
+#: templates/base.html:50 templates/registration/login.html:15
 #: templates/registration/login.html:20
 msgid "Log In"
 msgstr "Acessar"
 
-#: templates/base.html:79
+#: templates/base.html:85
 msgid "Blog"
 msgstr "Blog"
 
-#: templates/base.html:84
+#: templates/base.html:90
 msgid "Register"
 msgstr "Inscreva-se"
 
-#: templates/base.html:89
+#: templates/base.html:95
 msgid "Talk Subscription"
 msgstr "Descrição das trilhas"
 
-#: templates/base.html:121
+#: templates/base.html:127
 msgid "become a sponsor"
 msgstr "seja um patrocinador"
 
-#: templates/news.html:4 templates/news.html.py:5 templates/post.html:4
-#: templates/post.html.py:5
+#: templates/news.html:5 templates/news.html.py:6 templates/post.html:5
+#: templates/post.html.py:6
 msgid "News"
 msgstr "Notícias"
-
-#: templates/news.html:13 templates/post.html:13
-msgid "PythonBrasil News"
-msgstr "Novidades da PythonBrasil"
-
-#: templates/news.html:18 templates/post.html:17
-#, fuzzy
-msgid "Published on"
-msgstr "Publicada em"
-
-#: templates/news.html:18 templates/post.html:17
-msgid "by"
-msgstr "por"
 
 #: templates/password_reset.html:4 templates/password_reset.html.py:5
 #: templates/password_reset.html:14
@@ -791,6 +727,10 @@ msgid ""
 msgstr ""
 "Nós enviamos um email com as instruções para configurar sua senha. Você deev "
 "recebê-lo em breve."
+
+#: templates/post.html:18
+msgid "Back"
+msgstr ""
 
 #: templates/previous_editions.html:13
 msgid "PythonBrasil[1:8]"
@@ -1199,391 +1139,3 @@ msgid "Please fill the form below to registrate yourself for PythonBrasil[8]:"
 msgstr ""
 "Favor preencher o formulário para pré-inscrição na PythonBrasil[8]. Todos "
 "campos são obrigatórios."
-
-#~ msgid "logout"
-#~ msgstr "sair"
-
-#~ msgid "about"
-#~ msgstr "sobre"
-
-#~ msgid "ARE YOU SPEAKING OR ATTENDING?"
-#~ msgstr "VOCÊ VAI PARTICIPAR OU PALESTRAR?"
-
-#~ msgid "grab a badge"
-#~ msgstr "baixe o banner"
-
-#~ msgid "FROM THE BLOG"
-#~ msgstr "NOVIDADES"
-
-#~ msgid "latest news"
-#~ msgstr "últimas notícias"
-
-#~ msgid "STAY UP TO DATE"
-#~ msgstr "REDES SOCIAIS"
-
-#~ msgid "follow us"
-#~ msgstr "acompanhe"
-
-#~ msgid "logo"
-#~ msgstr "logo-pt"
-
-#~ msgid "schedule"
-#~ msgstr "programação"
-
-#~ msgid "venue"
-#~ msgstr "local"
-
-#~ msgid "sponsor"
-#~ msgstr "patrocínio"
-
-#~ msgid "buy your ticket now"
-#~ msgstr "pague sua inscrição"
-
-#~ msgid "Call for proposals"
-#~ msgstr "Chamada de trabalhos"
-
-#~ msgid "Until October 1st"
-#~ msgstr "até 1 de Outubro de 2012"
-
-#~ msgid "Sprints"
-#~ msgstr "Sprints"
-
-#~ msgid "November 20th"
-#~ msgstr "20 de novembro"
-
-#~ msgid "November 21th - 22th"
-#~ msgstr "21 e 22 de novembro"
-
-#~ msgid "Talks & Exposition Hall"
-#~ msgstr "Palestras & Exposições"
-
-#~ msgid "November 23th - 24th"
-#~ msgstr "23 e 24 de novembro"
-
-#~ msgid ""
-#~ "PythonBrasil is a non-proﬁt volunteer-driven conference for promoting the "
-#~ "open-source Python programming language."
-#~ msgstr ""
-#~ "A PythonBrasil é uma conferência sem fins lucrativos organizada por "
-#~ "voluntários para promoção da linguagem de programação de código aberto "
-#~ "Python."
-
-#~ msgid ""
-#~ "It is supported by the Brazilian Python Association (APyB) and by the "
-#~ "Python Software Foundation (PSF)."
-#~ msgstr ""
-#~ "É apoiado pela Associação Python Brasil (APyB) e pela Python Software "
-#~ "Foundation (PSF)."
-
-#, fuzzy
-#~ msgid "Proposal"
-#~ msgstr "Propostas"
-
-#~ msgid "Early Bird Rate"
-#~ msgstr "Antecipada"
-
-#~ msgid "Early Bird Rate:"
-#~ msgstr "Valor antecipado:"
-
-#, fuzzy
-#~ msgid "until October 15, 2012"
-#~ msgstr "até 15 de novembro de 2012"
-
-#, fuzzy
-#~ msgid "from October 16, 2012"
-#~ msgstr "de 1º de setembro de 2012"
-
-#~ msgid "each"
-#~ msgstr "cada"
-
-#~ msgid "Soon the tickets for the tutorials will be available!"
-#~ msgstr "Logo as inscrições para os tutoriais estarão disponíveis!"
-
-#~ msgid "Be a speaker at PythonBrasil[8]!"
-#~ msgstr "Seja palestrante da PythonBrasil[8]!"
-
-#~ msgid "Published on September 19 2012"
-#~ msgstr "Publicada em 19 de Setembro de 2012"
-
-#~ msgid ""
-#~ "Buy your tickets for PythonBrasil[8] - registration is now available!"
-#~ msgstr "Compre seus ingressos para PythonBrasil[8] - inscrições abertas!"
-
-#~ msgid "Published on June 4 2012"
-#~ msgstr "Publicada em 4 de Junho de 2012"
-
-#~ msgid "Keynotes of PythonBrasil[8] - who would you like to see?"
-#~ msgstr "Keynotes da PythonBrasil[8] - quem você gostaria de ver?"
-
-#~ msgid "Published on May 15 2012"
-#~ msgstr "Publicada em 15 de Maio de 2012"
-
-#~ msgid "Choose the books that will be raffled during PythonBrasil[8]"
-#~ msgstr "Escolha os livros que serão sorteados durante a PythonBrasil[8]"
-
-#~ msgid "Published on May 10 2012"
-#~ msgstr "Publicada em 10 de Maio de 2012"
-
-#~ msgid "PythonBrasil[8] venue is set: SulAmérica Convention Center"
-#~ msgstr "Local da PythonBrasil[8] definido: Centro de Convenções SulAmérica"
-
-#~ msgid "Published on April 23 2012"
-#~ msgstr "Publicada em 23 de Abril de 2012"
-
-#~ msgid ""
-#~ "\n"
-#~ "              Published on September 19 2012, by <a href=\"mailto:"
-#~ "tati_alchueyr@python.org.br\">Tati Al-Chueyr</a>\n"
-#~ "            "
-#~ msgstr ""
-#~ "\n"
-#~ "              Publicada em 19 de Setembro de 2012, por <a href=\"mailto:"
-#~ "tati_alchueyr@python.org.br\">Tati Al-Chueyr</a>\n"
-#~ "            "
-
-#, fuzzy
-#~ msgid ""
-#~ "\n"
-#~ "                The call for papers of the 8th edition of the Brazilian "
-#~ "Python\n"
-#~ "                conference will be open until the 1st October. As with "
-#~ "years\n"
-#~ "                past, we're looking forward to receiving your best "
-#~ "proposals\n"
-#~ "                for tutorials and talks!"
-#~ msgstr ""
-#~ "\n"
-#~ "                A chamada de trabalhos da 8a edição da conferência "
-#~ "Brasileira de Python\n"
-#~ "                acontecerá até o dia 01 de outubro. Assim como nas anos "
-#~ "anteriores, estamos\n"
-#~ "                aguardando as suas melhores propostas de palestras e\n"
-#~ "                tutoriais!"
-
-#~ msgid "Submit your proposal now!"
-#~ msgstr "Proponha uma palestra agora!"
-
-#~ msgid ""
-#~ "\n"
-#~ "                Selected talks and tutorials will be announced until the "
-#~ "9th October.<br><br>\n"
-#~ "\n"
-#~ "                PythonBrasil[8] will run from 21th to the 24th November, "
-#~ "2012,\n"
-#~ "                at the SulAmérica Convention Center in Rio de Janeiro."
-#~ "<br><br>\n"
-#~ "\n"
-#~ "                Talk sessions will happen from Friday to Saturday (23 and "
-#~ "24th\n"
-#~ "                November). They're mostly 30 minutes long, targeting "
-#~ "from\n"
-#~ "                beginners to advanced audiences.  Among the tracks there "
-#~ "are\n"
-#~ "                web development, cloud computing, scientific computing, "
-#~ "DevOps\n"
-#~ "                and games.<br><br>\n"
-#~ "\n"
-#~ "                The conference attendees can also propose hands'on "
-#~ "tutorials, 4\n"
-#~ "                hours long, that will happen from Wednesday to Thursday "
-#~ "(21 to\n"
-#~ "                22th November).<br><br>\n"
-#~ "                "
-#~ msgstr ""
-#~ "\n"
-#~ "                As palestras e tutoriais selecionados serão divulgados no "
-#~ "dia 9 de outubro.<br><br>\n"
-#~ "\n"
-#~ "                A PythonBrasil[8] acontecerá entre os dias 21 e 24 de "
-#~ "novembro de 2012,\n"
-#~ "                no Centro de Convenções SulAmérica do Rio de Janeiro."
-#~ "<br><br>\n"
-#~ "\n"
-#~ "                As palestras e keynotes acontecerão entre sexta e sábado "
-#~ "(23 e 24\n"
-#~ "                de novembro). Elas terão duração de 30 min, visando "
-#~ "públicos que vão\n"
-#~ "                do intermediário ao avançado. Dentre as trilhasconstam\n"
-#~ "                desenvolvimento web, cloud computing, computação "
-#~ "científica, DevOps\n"
-#~ "                e jogos.<br><br>\n"
-#~ "\n"
-#~ "                Os participantes da conferência também podem propor "
-#~ "tutoriais hands'on de n                4 horas de duração, que "
-#~ "acontecerão de quarta até quinta-feira (21 a\n"
-#~ "                22 de novembro).<br><br>\n"
-#~ "                "
-
-#~ msgid "How to propose a talk?"
-#~ msgstr "Como propor uma palestra?"
-
-#~ msgid "(1) Register to the conference website, accessing the link:"
-#~ msgstr "(1) Inscreva-se no site da conferência, acessando o link:"
-
-#~ msgid ""
-#~ "Obs: don't forget to confirm your registration, clicking on a link\n"
-#~ "                        sent to your email"
-#~ msgstr ""
-#~ "Obs: não esqueça de confirmar seu cadastro, clicando no link enviado\n"
-#~ "                        para o seu email"
-
-#~ msgid "(2) Log in the website to propose a talk or tutorial, through:<br>"
-#~ msgstr ""
-#~ "(2) Faça login no site para propor uma palestra ou tutorial, através:<br>"
-
-#~ msgid ""
-#~ "Obs: click on Proposals and add the information. You can propose\n"
-#~ "                    multiple activities!"
-#~ msgstr ""
-#~ "Obs: selecione Propostas e adicione os dados de sua palestra. Você pode "
-#~ "propor\n"
-#~ "                    múltiplas atividades!"
-
-#~ msgid "Do speakers pay?"
-#~ msgstr "Palestrantes pagam?"
-
-#~ msgid ""
-#~ "\n"
-#~ "                Yes. However, attendees that had activities approved "
-#~ "have\n"
-#~ "                discount until the 15th October (R$ 150,00):"
-#~ msgstr ""
-#~ "\n"
-#~ "                Sim. Entretanto, pessoas que tiveram palestras aprovadas\n"
-#~ "                terão desconto até dia 15 de outubro (R$ 150,00):"
-
-#~ msgid "More information?"
-#~ msgstr "Mais informações?"
-
-#~ msgid "Questions?"
-#~ msgstr "Perguntas?"
-
-#~ msgid ""
-#~ "\n"
-#~ "                Contact the organizers: <a href=\"organizers@pythonbrasil."
-#~ "org.br\">organizers@pythonbrasil.org.br</a>\n"
-#~ "                "
-#~ msgstr ""
-#~ "\n"
-#~ "                Entre em contato com os organizadores: <a href="
-#~ "\"organizers@pythonbrasil.org.br\">organizers@pythonbrasil.org.br</a>\n"
-#~ "                "
-
-#~ msgid ""
-#~ "\n"
-#~ "              Published on June 4 2012, by <a href=\"mailto:"
-#~ "tati_alchueyr@python.org.br\">Tati Al-Chueyr</a>\n"
-#~ "            "
-#~ msgstr ""
-#~ "\n"
-#~ "              Publicado no dia 4 de junho de 2012, por <a href=\"mailto:"
-#~ "tati_alchueyr@python.org.br\">Tati Al-Chueyr</a>\n"
-#~ "            "
-
-#~ msgid ""
-#~ "\n"
-#~ "              Published on May 15 2012, by <a href=\"mailto:"
-#~ "tati_alchueyr@python.org.br\">Tati Al-Chueyr</a>\n"
-#~ "            "
-#~ msgstr ""
-#~ "\n"
-#~ "              Publicado no dia 15 de maio de 2012, por <a href=\"mailto:"
-#~ "tati_alchueyr@python.org.br\">Tati Al-Chueyr</a>\n"
-#~ "            "
-
-#~ msgid ""
-#~ "\n"
-#~ "              Published on May 10 2012, by <a href=\"mailto:"
-#~ "tati_alchueyr@python.org.br\">Tati Al-Chueyr</a>\n"
-#~ "            "
-#~ msgstr ""
-#~ "\n"
-#~ "              Publicado no dia 10 de maio de 2012, por <a href=\"mailto:"
-#~ "tati_alchueyr@python.org.br\">Tati Al-Chueyr</a>\n"
-#~ "            "
-
-#~ msgid ""
-#~ "\n"
-#~ "              Published on April 13 2012, by <a href=\"mailto:"
-#~ "tati_alchueyr@python.org.br\">Tati Al-Chueyr</a>\n"
-#~ "            "
-#~ msgstr ""
-#~ "\n"
-#~ "              Publicado no dia 13 de Abril de 2012, por <a href=\"mailto:"
-#~ "tati_alchueyr@python.org.br\">Tati Al-Chueyr</a>\n"
-#~ "            "
-
-#~ msgid "Accepted talks"
-#~ msgstr "Palestras aceitas"
-
-#, fuzzy
-#~ msgid "PythonBrasil[8] Accepted Talks"
-#~ msgstr "PythonBrasil[8] - Palestras Aceitas"
-
-#~ msgid ""
-#~ "\n"
-#~ "  We listed below the talks that were accepted for the conference.\n"
-#~ "  We are working in the final schedule (with days/hours) and tutorials "
-#~ "and will\n"
-#~ "  release it as soon as possible.\n"
-#~ "  "
-#~ msgstr ""
-#~ "\n"
-#~ "  Você encontrará abaixo as palestras que foram aceitas na PythonBrasil"
-#~ "[8].\n"
-#~ "  Estamos finalizando a grade final de palestras e tutoriais (com dias e "
-#~ "horários) e vamos divulgá-la assim que finalizarmos.\n"
-#~ "   release it as soon as possible.\n"
-#~ "  "
-
-#~ msgid "= confirmed by speaker(s)"
-#~ msgstr "= palestrante(s) que confirmou(aram)"
-
-#~ msgid "Talk title"
-#~ msgstr "Título"
-
-#, fuzzy
-#~ msgid "Speaker(s)"
-#~ msgstr "Palestrante(s)"
-
-#~ msgid ""
-#~ "Come and enjoy all the amazing talks we are gathering for you. listen to "
-#~ "the wisdom of the experts and the darings of the initiated."
-#~ msgstr ""
-#~ "Participe e aproveite as excelentes palestras quer reunimos para você. "
-#~ "Aprenda lições com os especialistas e a ousadia dos iniciantes."
-
-#~ msgid ""
-#~ "You will have the chance to learn from some of the hottest Python topics "
-#~ "as well as some other surprises."
-#~ msgstr ""
-#~ "Você terá a oportunidade de aprender alguns dos assuntos mais quentes de "
-#~ "Python e algumas outras surpresas."
-
-#~ msgid ""
-#~ "Soon more information about PythonBrasil[8] keynotes, speakers and the "
-#~ "schedule!"
-#~ msgstr ""
-#~ "Em breve mais informações sobre os keynotes da PythonBrasil[8], sobre os "
-#~ "palestrantes e sobre a programação."
-
-#~ msgid "Until September 30th"
-#~ msgstr "Até 30 de Setembro"
-
-#~ msgid "until August 31, 2012"
-#~ msgstr "até 31 de agosto de 2012"
-
-#~ msgid "June 20th"
-#~ msgstr "20 de junho"
-
-#~ msgid "Published on June 4 2012, by Tati Al-Chueyr"
-#~ msgstr "Publicada em 4 de Junho de 2012, por Tati Al-Chueyr"
-
-#~ msgid "Published on May 15 2012, by Tati Al-Chueyr"
-#~ msgstr "Publicada em 15 de Maio de 2012, por Tati Al-Chueyr"
-
-#~ msgid "Published on May 10 2012, by Tati Al-Chueyr"
-#~ msgstr "Publicada em 10 de Maio de 2012, por Tati Al-Chueyr"
-
-#~ msgid "Published on April 13 2012, by Tati Al-Chueyr"
-#~ msgstr "Publicada em 15 de Abril de 2012, por Tati Al-Chueyr"
