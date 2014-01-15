@@ -17,7 +17,7 @@ msgstr ""
 
 #: core/templates/home.html:35
 msgid "Welcome to Recife"
-msgstr ""
+msgstr "Seja Bem Vindo ao Recife"
 
 #: core/templates/home.html:37
 msgid ""
@@ -26,15 +26,18 @@ msgid ""
 "9th - 13th at Recife getting us warmed up for the first Python Brazil us "
 "outside of the us southeast in 2014!\n"
 "        "
-msgstr ""
+msgstr "Você está convidado para a nossa Décima edição da nossa conferência "
+"brasileira de Python durante os dias 9 a 13 de Novembro em Recife, então "
+"venha aproveitar para conhecer as nossas praias e nossos "
+caranguejos, em nossa primeira Python Brazil no Nordeste em 2014\n"
 
 #: core/templates/home.html:45 templates/news.html:11 templates/post.html:10
 msgid "Last Posts"
-msgstr ""
+msgstr "Últimos Posts"
 
 #: core/templates/home.html:54 templates/news.html:20
 msgid "more"
-msgstr ""
+msgstr "mais"
 
 #: core/templates/sponsors.html:4 templates/base.html:100
 msgid "Sponsors"
@@ -83,11 +86,11 @@ msgstr "Local da PythonBrasil"
 #: core/templates/venue.html:18
 msgid ""
 "Don't forget to bring your notebook for the tutorials! Also, you should be "
-"wearing trousers, shorts and skirts are not allowed in FGV, where the "
+"wearing trousers, shorts and skirts are not allowed in PortoMidia, where the "
 "tutorials are taking place!'"
 msgstr ""
 "Para os tutoriais, traga seu notebook e venha de calça - bermudas e saias "
-"não são permitidos na FGV, onde estão ocorrendo os tutoriais!"
+"não são permitidos na PortoMidia, onde estão ocorrendo os tutoriais!"
 
 #: dashboard/choices.py:6 templates/register.html:27
 #: templates/register.html.py:113
@@ -906,14 +909,14 @@ msgstr ""
 msgid ""
 "\n"
 "                The selected speakers will be announced <span class=\"strong"
-"\">August 25, 2012</span>.\n"
+"\">August 30, 2014</span>.\n"
 "                Therefore, if you are not an APyB member nor a student, we "
 "suggest you wait until this date, in order to buy your ticket.\n"
 "                "
 msgstr ""
 "\n"
 "                Os palestrantes selecionados serão anunciados no dia <span "
-"class=\"strong\">25 de agosto de 2012</span>.\n"
+"class=\"strong\">30 de agosto de 2014</span>.\n"
 "                Portanto, se você não for membro APyB ou estudante e "
 "submeter palestra, sugerimos que aguarde até esta data para pagar a sua "
 "inscrição.\n"
@@ -986,7 +989,7 @@ msgstr "Em novembro, conferência nacional de #Python - Participe!"
 #: templates/track.html:14
 #, fuzzy
 msgid "PythonBrasil[8] Track"
-msgstr "PythonBrasil[1:8]"
+msgstr "PythonBrasil[10] Trilha"
 
 #: templates/tracks.html:4 templates/tracks.html.py:5
 #, fuzzy
@@ -995,8 +998,8 @@ msgstr "Trilha"
 
 #: templates/tracks.html:14
 #, fuzzy
-msgid "PythonBrasil[8] Tracks"
-msgstr "PythonBrasil[1:8]"
+msgid "PythonBrasil[10] Tracks"
+msgstr "Trilhas PythonBrasil[10]"
 
 #: templates/vote.html:4 templates/vote.html.py:5
 msgid "Vote"
@@ -1005,20 +1008,20 @@ msgstr "Voto"
 #: templates/vote.html:38
 #, fuzzy
 msgid "Vote for PythonBrasil[8] talks"
-msgstr "Escolha as palestras da PythonBrasil[8]"
+msgstr "Escolha as palestras da PythonBrasil[10]"
 
 #: templates/vote.html:40
 msgid ""
 "\n"
 "  Please, give us your opinion: prioritize the proposals with up, down or\n"
-"  neutral votes. The best ones will be presented at the 8th Brazilian "
+"  neutral votes. The best ones will be presented at the 10th Brazilian "
 "Python\n"
 "  Conference!\n"
 "  "
 msgstr ""
 "\n"
 "  Por favor, diga-nos a sua opinião: utilize as setas (ou voto neutro) para\n"
-"  priorizar as palestras. As melhores serão apresentadas na oitava edição "
+"  priorizar as palestras. As melhores serão apresentadas na décima edição "
 "da\n"
 "PythonBrasil!\n"
 "  "
@@ -1030,7 +1033,7 @@ msgstr ""
 #: templates/registration/activate.html:8
 #: templates/registration/registration_form.html:11
 msgid "pythonbrasil[8] registration"
-msgstr "inscrição na pythonbrasil[8]"
+msgstr "inscrição na pythonbrasil[10]"
 
 #: templates/registration/activate.html:11
 #, python-format
@@ -1071,11 +1074,11 @@ msgstr " para pagar a sua inscrição"
 
 #: templates/registration/login.html:12
 msgid ""
-"In order to pay your registration for attending to PythonBrasil[8] or to "
+"In order to pay your registration for attending to PythonBrasil[10] or to "
 "propose a talk, an account is required. Please, log in or sign up, if you "
 "don't have an account yet."
 msgstr ""
-"Para pagar sua inscrição para participar da PythonBrasil[8] ou propor uma "
+"Para pagar sua inscrição para participar da PythonBrasil[10] ou propor uma "
 "palestra é necessário criar uma conta. Por favor, faça login ou crie uma "
 "conta,  caso você não tenha ainda."
 
