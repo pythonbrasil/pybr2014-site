@@ -85,6 +85,7 @@
               {% trans "Blog" %}
           </a>
           </li>
+          {% comment %}
           <li>
             <a class="{% is_active request.path 'register' %}" href="{% url register %}">
               {% trans "Register" %}
@@ -105,6 +106,7 @@
               {% trans "Venue" %}
             </a>
           </li>
+          {% endcomment %}
           <li>
             <a href="http://www2.recife.pe.gov.br" target="_blank">
               Recife
