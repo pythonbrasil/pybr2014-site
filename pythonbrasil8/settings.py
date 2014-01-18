@@ -63,6 +63,8 @@ TEMPLATE_CONTEXT_PROCESSORS = (
     'django.core.context_processors.media',
     'django.core.context_processors.static',
     'django.contrib.messages.context_processors.messages',
+    'pythonbrasil8.core.context_processors.diamond_sponsors',
+    'pythonbrasil8.core.context_processors.sponsors',
 )
 
 PAGE_CACHE_MAXAGE = 120

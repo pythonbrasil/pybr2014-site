@@ -9,6 +9,7 @@ from django.views.generic import TemplateView, list as lview
 from mittun.sponsors import models
 
 from pythonbrasil8.core import mail, middleware, views
+from pythonbrasil8.core.context_processors import diamond_sponsors, sponsors
 from pythonbrasil8.core.tests import mocks
 from pythonbrasil8.news.models import Post
 
@@ -229,3 +230,26 @@ class CacheMiddlewareTestCase(TestCase):
         m.status_code = 301
         response = middleware.CacheMiddleware().process_response(request, m)
         self.assertEqual("no-cache", response["Cache-Control"])
+
+
+class SponsorsContextProcessorsTestCase(TestCase):
+    @classmethod
+    def setUpClass(cls):
+        management.call_command("loaddata", "sponsors.json", verbosity=0)
+
+    @classmethod
+    def tearDownClass(cls):
+        management.call_command("flush", verbosity=0, interactive=False)
+
+    def setUp(self):
+        self.request = RequestFactory().get("/")
+
+    def test_diamond_sponsors_should_only_contain_diamond_sponsors(self):
+        sponsors = diamond_sponsors(self.request)['diamond_sponsors']
+        categories = set(sponsors.values_list('category__priority', flat=True))
+        self.assertEqual(len(categories), 1)
+        self.assertEqual(list(categories)[0], 0)
+
+    def test_sponsors_should_be_ordered_correctly(self):
+        sps = sponsors(self.request)['sponsors']
+        self.assertEqual(sps[0].category.priority, 0)

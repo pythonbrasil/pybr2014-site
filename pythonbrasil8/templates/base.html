@@ -127,23 +127,17 @@
           {% trans "become a sponsor" %}
         </a>
         <ul class="sponsor-list">
+          {% for sponsor in diamond_sponsors %}
           <li>
             <h4>DIAMOND</h4>
-            <img src="{% static 'images/patrocinadores/pycursos_logo.png' %}" alt="">
+            <img src="{{ sponsor.logo.url }}" alt="{{ sponsor.name }}">
           </li>
-          <li>
-            <h4>DIAMOND</h4>
-            <img src="{% static 'images/patrocinadores/pycursos_logo.png' %}" alt="">
-          </li>
-          <li>
-            <h4>DIAMOND</h4>
-            <img src="{% static 'images/patrocinadores/pycursos_logo.png' %}" alt="">
-          </li>
+          {% endfor %}
         </ul>
         <div class="how-sponsor-call">
-          <p>Learn how to become a sponsor <br />
-          <span>ARE YOU SPEAKING OR ATTENDING?</span></p>
-          <a href="" class="btn">grab a badge</a>
+          <p>{% trans 'Learn how to become a sponsor' %}<br />
+          <span>{% trans 'ARE YOU SPEAKING OR ATTENDING?' %}</span></p>
+          <a href="" class="btn">{% trans 'grab a badge' %}</a>
         </div>
 
         <div class="socialmedia">
@@ -159,54 +153,12 @@
   <div class="sponsors-list-bottom">
     <div class="grid-container">
       <ul class="sponsor-list">
+        {% for sponsor in sponsors %}
         <li class="grid-25">
-          <h4>DIAMOND</h4>
-          <img src="{% static 'images/patrocinadores/pycursos_logo_small.png' %}" alt="">
+          <h4>{{ sponsor.category.name }}</h4>
+          <img src="{{ sponsor.logo.url }}" alt="{{ sponsor.name  }}">
         </li>
-        <li class="grid-25">
-          <h4>DIAMOND</h4>
-          <img src="{% static 'images/patrocinadores/pycursos_logo_small.png' %}" alt="">
-        </li>
-        <li class="grid-25">
-          <h4>DIAMOND</h4>
-          <img src="{% static 'images/patrocinadores/pycursos_logo_small.png' %}" alt="">
-        </li>
-        <li class="grid-25">
-          <h4>GOLD</h4>
-          <img src="{% static 'images/patrocinadores/pycursos_logo_small.png' %}" alt="">
-        </li>
-        <li class="grid-25">
-          <h4>GOLD</h4>
-          <img src="{% static 'images/patrocinadores/pycursos_logo_small.png' %}" alt="">
-        </li>
-        <li class="grid-25">
-          <h4>GOLD</h4>
-          <img src="{% static 'images/patrocinadores/pycursos_logo_small.png' %}" alt="">
-        </li>
-        <li class="grid-25">
-          <h4>SILVER</h4>
-          <img src="{% static 'images/patrocinadores/pycursos_logo_small.png' %}" alt="">
-        </li>
-        <li class="grid-25">
-          <h4>SILVER</h4>
-          <img src="{% static 'images/patrocinadores/pycursos_logo_small.png' %}" alt="">
-        </li>
-        <li class="grid-25">
-          <h4>SILVER</h4>
-          <img src="{% static 'images/patrocinadores/pycursos_logo_small.png' %}" alt="">
-        </li>
-        <li class="grid-25">
-          <h4>BRONZE</h4>
-          <img src="{% static 'images/patrocinadores/pycursos_logo_small.png' %}" alt="">
-        </li>
-        <li class="grid-25">
-          <h4>BRONZE</h4>
-          <img src="{% static 'images/patrocinadores/pycursos_logo_small.png' %}" alt="">
-        </li>
-        <li class="grid-25">
-          <h4>BRONZE</h4>
-          <img src="{% static 'images/patrocinadores/pycursos_logo_small.png' %}" alt="">
-        </li>
+        {% endfor %}
       </ul>
       <ul class="sponsor-list staff grid-100">
         <li class="grid-25">
