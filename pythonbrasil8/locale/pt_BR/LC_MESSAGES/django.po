@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PythonBrasil8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-14 22:16-0300\n"
+"POT-Creation-Date: 2014-01-18 15:34-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Tatiana Al-Chueyr <tatiana.alchueyr@gmail.com>\n"
 "Language-Team: Francisco Souza <f@souza.cc>\n"
@@ -26,10 +26,13 @@ msgid ""
 "9th - 13th at Recife getting us warmed up for the first Python Brazil us "
 "outside of the us southeast in 2014!\n"
 "        "
-msgstr "Você está convidado para a nossa Décima edição da nossa conferência "
+msgstr ""
+"\n"
+"Você está convidado para a nossa Décima edição da nossa conferência "
 "brasileira de Python durante os dias 9 a 13 de Novembro em Recife, então "
-"venha aproveitar para conhecer as nossas praias e nossos "
-caranguejos, em nossa primeira Python Brazil no Nordeste em 2014\n"
+"venha aproveitar para conhecer as nossas praias e nossos caranguejos, em "
+"nossa primeira Python Brazil no Nordeste em 2014!\n"
+"        "
 
 #: core/templates/home.html:45 templates/news.html:11 templates/post.html:10
 msgid "Last Posts"
@@ -39,7 +42,7 @@ msgstr "Últimos Posts"
 msgid "more"
 msgstr "mais"
 
-#: core/templates/sponsors.html:4 templates/base.html:100
+#: core/templates/sponsors.html:4
 msgid "Sponsors"
 msgstr "Patrocinadores"
 
@@ -47,11 +50,11 @@ msgstr "Patrocinadores"
 msgid "PYTHONBRASIL SPONSORS"
 msgstr "PATROCINADORES DA PYTHONBRASIL"
 
-#: core/templates/sponsors.html:40
+#: core/templates/sponsors.html:40 templates/base.html:141
 msgid "Learn how to become a sponsor"
 msgstr "Veja como se tornar um patrocinador"
 
-#: core/templates/sponsors_info.html:4
+#: core/templates/sponsors_info.html:5
 msgid "Sponsors Info"
 msgstr "Patrocinadores"
 
@@ -68,14 +71,11 @@ msgstr ""
 "conferência e aumente a visibilidade da sua empresa."
 
 #: core/templates/sponsors_info.html:12
-msgid "Sponsoring prospectus (English version)"
+#, fuzzy
+msgid "Sponsoring prospectus"
 msgstr "Plano de captação (versão em inglês)"
 
-#: core/templates/sponsors_info.html:13
-msgid "Sponsoring prospectus (Portuguese version)"
-msgstr "Plano de captação (versão em português)"
-
-#: core/templates/venue.html:4 templates/base.html:105
+#: core/templates/venue.html:4
 msgid "Venue"
 msgstr "Local"
 
@@ -84,9 +84,10 @@ msgid "PythonBrasil Venue"
 msgstr "Local da PythonBrasil"
 
 #: core/templates/venue.html:18
+#, fuzzy
 msgid ""
 "Don't forget to bring your notebook for the tutorials! Also, you should be "
-"wearing trousers, shorts and skirts are not allowed in PortoMidia, where the "
+"wearing trousers, shorts and skirts are not allowed in FGV, where the "
 "tutorials are taking place!'"
 msgstr ""
 "Para os tutoriais, traga seu notebook e venha de calça - bermudas e saias "
@@ -656,17 +657,18 @@ msgstr "Acessar"
 msgid "Blog"
 msgstr "Blog"
 
-#: templates/base.html:90
-msgid "Register"
-msgstr "Inscreva-se"
-
-#: templates/base.html:95
-msgid "Talk Subscription"
-msgstr "Descrição das trilhas"
-
-#: templates/base.html:127
+#: templates/base.html:130
 msgid "become a sponsor"
 msgstr "seja um patrocinador"
+
+#: templates/base.html:142
+msgid "ARE YOU SPEAKING OR ATTENDING?"
+msgstr ""
+
+#: templates/base.html:143
+#, fuzzy
+msgid "grab a badge"
+msgstr "Baixe o banner!"
 
 #: templates/news.html:5 templates/news.html.py:6 templates/post.html:5
 #: templates/post.html.py:6
@@ -906,10 +908,11 @@ msgstr ""
 "                "
 
 #: templates/register.html:141
+#, fuzzy
 msgid ""
 "\n"
 "                The selected speakers will be announced <span class=\"strong"
-"\">August 30, 2014</span>.\n"
+"\">August 25, 2012</span>.\n"
 "                Therefore, if you are not an APyB member nor a student, we "
 "suggest you wait until this date, in order to buy your ticket.\n"
 "                "
@@ -998,8 +1001,8 @@ msgstr "Trilha"
 
 #: templates/tracks.html:14
 #, fuzzy
-msgid "PythonBrasil[10] Tracks"
-msgstr "Trilhas PythonBrasil[10]"
+msgid "PythonBrasil[8] Tracks"
+msgstr "PythonBrasil[10] Trilha"
 
 #: templates/vote.html:4 templates/vote.html.py:5
 msgid "Vote"
@@ -1011,10 +1014,11 @@ msgid "Vote for PythonBrasil[8] talks"
 msgstr "Escolha as palestras da PythonBrasil[10]"
 
 #: templates/vote.html:40
+#, fuzzy
 msgid ""
 "\n"
 "  Please, give us your opinion: prioritize the proposals with up, down or\n"
-"  neutral votes. The best ones will be presented at the 10th Brazilian "
+"  neutral votes. The best ones will be presented at the 8th Brazilian "
 "Python\n"
 "  Conference!\n"
 "  "
@@ -1073,8 +1077,9 @@ msgid " in order to buy your ticket!"
 msgstr " para pagar a sua inscrição"
 
 #: templates/registration/login.html:12
+#, fuzzy
 msgid ""
-"In order to pay your registration for attending to PythonBrasil[10] or to "
+"In order to pay your registration for attending to PythonBrasil[8] or to "
 "propose a talk, an account is required. Please, log in or sign up, if you "
 "don't have an account yet."
 msgstr ""
@@ -1142,3 +1147,16 @@ msgid "Please fill the form below to registrate yourself for PythonBrasil[8]:"
 msgstr ""
 "Favor preencher o formulário para pré-inscrição na PythonBrasil[8]. Todos "
 "campos são obrigatórios."
+
+#~ msgid "Sponsoring prospectus (Portuguese version)"
+#~ msgstr "Plano de captação (versão em português)"
+
+#~ msgid "Register"
+#~ msgstr "Inscreva-se"
+
+#~ msgid "Talk Subscription"
+#~ msgstr "Descrição das trilhas"
+
+#, fuzzy
+#~ msgid "PythonBrasil[10] Tracks"
+#~ msgstr "Trilhas PythonBrasil[10]"
