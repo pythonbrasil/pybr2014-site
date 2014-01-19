@@ -14,3 +14,5 @@ Markdown==2.2.0
 xmltodict
 dj-database-url==0.2.2
 psycopg2==2.5.1
+boto==2.23.0
+django-storages==1.1.8
