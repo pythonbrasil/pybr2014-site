@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PythonBrasil8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-18 15:34-0300\n"
+"POT-Creation-Date: 2014-01-22 20:39-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Tatiana Al-Chueyr <tatiana.alchueyr@gmail.com>\n"
 "Language-Team: Francisco Souza <f@souza.cc>\n"
@@ -15,30 +15,64 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1)\n"
 
+#: core/templates/home.html:16
+msgid "TUTORIALS"
+msgstr "TUTORIAIS"
+
+#: core/templates/home.html:17 core/templates/home.html.py:22
+#: core/templates/home.html:27
+msgid "November"
+msgstr "NOVEMBRO"
+
+#: core/templates/home.html:21
+msgid "TALKS"
+msgstr "PALESTRAS"
+
+#: core/templates/home.html:26
+msgid "SPRINTS"
+msgstr "SPRINTS"
+
 #: core/templates/home.html:35
-msgid "Welcome to Recife"
-msgstr "Seja Bem Vindo ao Recife"
+msgid "The Conference"
+msgstr "A Conferência"
 
 #: core/templates/home.html:37
 msgid ""
 "\n"
-"        You’re invited to the tenth annual conference Python Brazil august "
-"9th - 13th at Recife getting us warmed up for the first Python Brazil us "
-"outside of the us southeast in 2014!\n"
+"            The PythonBrazil is currently considered one of the main tech "
+"events at Latin America. It gathers several developers, managers, "
+"researchers and anyone interested during 5 days to discuss about open-"
+"source, development techniques and of course, Python!  We are celebrating "
+"our 10th edition, where for the first time, hosted at Northeast of Brazil, "
+"in the capital of Recife, Pernambuco, the land of frevo songs and crabs. It "
+"will be an unique event with a enjoyable experience to everyone.\n"
 "        "
 msgstr ""
 "\n"
-"Você está convidado para a nossa Décima edição da nossa conferência "
-"brasileira de Python durante os dias 9 a 13 de Novembro em Recife, então "
-"venha aproveitar para conhecer as nossas praias e nossos caranguejos, em "
-"nossa primeira Python Brazil no Nordeste em 2014!\n"
-"        "
+"A PythonBrasil é considerada um dos principais eventos de tecnologia na "
+"atualidade da América Latina.  Ela reúne vários desenvolvedores, gestores, "
+"entusiastas, pesquisadores e interessados durante 5 dias para discutir sobre "
+"software livre, práticas de desenvolvimento e claro, sobre Python! Estamos "
+"celebrando nossa décima edição do encontro, com a primeira realização no "
+"Nordeste, na capital Recife, Pernambuco, a terra do frevo e do siris, e será "
+"um evento único com experiência agradável a todos presentes.        "
 
-#: core/templates/home.html:45 templates/news.html:11 templates/post.html:10
+#: core/templates/home.html:45
+msgid ""
+"\n"
+"            PythonBrazil 2014 is organized by the Pernambuco Python User "
+"Group (PUG-PE) with help of Apyb( PythonBrazil Association).\n"
+"        "
+msgstr ""
+"\n"
+"A PythonBrasil 2014 é organizada pelo Grupo de Usuários de Python de "
+"Pernambuco (PUG-PE) com ajuda da Apyb (Associação PythonBrasil)."
+
+#: core/templates/home.html:52 templates/news.html:11 templates/post.html:10
 msgid "Last Posts"
 msgstr "Últimos Posts"
 
-#: core/templates/home.html:54 templates/news.html:20
+#: core/templates/home.html:61 templates/news.html:20
 msgid "more"
 msgstr "mais"
 
@@ -606,7 +640,7 @@ msgstr "Sobre"
 
 #: templates/about.html:9
 msgid "The conference"
-msgstr ""
+msgstr "A conferência"
 
 #: templates/about.html:11
 msgid ""
@@ -1077,7 +1111,6 @@ msgid " in order to buy your ticket!"
 msgstr " para pagar a sua inscrição"
 
 #: templates/registration/login.html:12
-#, fuzzy
 msgid ""
 "In order to pay your registration for attending to PythonBrasil[8] or to "
 "propose a talk, an account is required. Please, log in or sign up, if you "
@@ -1147,6 +1180,23 @@ msgid "Please fill the form below to registrate yourself for PythonBrasil[8]:"
 msgstr ""
 "Favor preencher o formulário para pré-inscrição na PythonBrasil[8]. Todos "
 "campos são obrigatórios."
+
+#~ msgid "Welcome to Recife"
+#~ msgstr "Seja Bem Vindo ao Recife"
+
+#~ msgid ""
+#~ "\n"
+#~ "        You’re invited to the tenth annual conference Python Brazil "
+#~ "august 9th - 13th at Recife getting us warmed up for the first Python "
+#~ "Brazil us outside of the us southeast in 2014!\n"
+#~ "        "
+#~ msgstr ""
+#~ "\n"
+#~ "Você está convidado para a nossa Décima edição da nossa conferência "
+#~ "brasileira de Python durante os dias 9 a 13 de Novembro em Recife, então "
+#~ "venha aproveitar para conhecer as nossas praias e nossos caranguejos, em "
+#~ "nossa primeira Python Brazil no Nordeste em 2014!\n"
+#~ "        "
 
 #~ msgid "Sponsoring prospectus (Portuguese version)"
 #~ msgstr "Plano de captação (versão em português)"

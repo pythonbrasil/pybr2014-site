@@ -13,18 +13,18 @@
         <p>Recife, Brasil</p>
       </div>
       <div class="call-subnav grid-20">
-        <h3>TUTORIALS</h3>
-        <h2>4-5 Novembro, 2014</h2>
+        <h3>{% trans 'TUTORIALS' %}</h3>
+        <h2>4-5 {% trans 'November' %}, 2014</h2>
         <p>Local a definir</p>
       </div>
       <div class="call-subnav grid-20">
-        <h3>TALSK</h3>
-        <h2>6-7 Novembro, 2014</h2>
+        <h3>{% trans 'TALKS' %}</h3>
+        <h2>6-7 {% trans 'November' %}, 2014</h2>
         <p>Local a definir</p>
       </div>
       <div class="call-subnav grid-20">
-        <h3>SPRINTS</h3>
-        <h2>8 Novembro, 2014</h2>
+        <h3>{% trans 'SPRINTS' %}</h3>
+        <h2>8 {% trans 'November' %}, 2014</h2>
         <p>Local a definir</p>
       </div>
     </div>
@@ -32,14 +32,21 @@
 
 {% block content %}
     <article class="main-call">
-      <h2>{% trans 'Welcome to Recife' %}</h2>
+      <h2>{% trans 'The Conference' %}</h2>
       <p>
         {% blocktrans %}
-        You’re invited to the tenth annual conference Python Brazil august 9th - 13th at Recife getting us warmed up for the first Python Brazil us outside of the us southeast in 2014!
+            The PythonBrazil is currently considered one of the main tech events at Latin America. It gathers several developers, managers, researchers and anyone interested during 5 days to discuss about open-source, development techniques and of course, Python!  We are celebrating our 10th edition, where for the first time, hosted at Northeast of Brazil, in the capital of Recife, Pernambuco, the land of frevo songs and crabs. It will be an unique event with a enjoyable experience to everyone.
         {% endblocktrans %}
       </p>
 
-      <a href="" class="btn floatright">saiba mais</a>
+      <h2>Organizer</h2>
+
+      <p>
+        {% blocktrans %}
+            PythonBrazil 2014 is organized by the Pernambuco Python User Group (PUG-PE) with help of Apyb( PythonBrazil Association).
+        {% endblocktrans %}
+      </p>
+
     </article>
     <div class="blog-news">
       <h3><span>{% trans 'Last Posts' %}</span></h3>
