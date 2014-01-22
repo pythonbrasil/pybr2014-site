@@ -1,7 +1,6 @@
 *.sw[a-z]
 *.pyc
 *.DS_Store
-*.mo
 *.sqlite3
 .ropeproject
 settings_local.py
