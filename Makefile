@@ -27,5 +27,17 @@ run:
 translate:
 	@cd pythonbrasil8 && django-admin.py makemessages -a && django-admin.py compilemessages
 
+remote_migrate:
+	@heroku run python manage.py syncdb --noinput
+	@heroku run python manage.py migrate
+
+collectstatic:
+	@heroku run python manage.py collectstatic --noinput
+
+heroku:
+	@git push heroku master
+
+deploy: heroku remote_migrate collectstatic
+
 help:
 	@grep '^[^#[:space:]].*:' Makefile | awk -F ":" '{print $$1}'

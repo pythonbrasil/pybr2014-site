@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load markup %}
+
+{% block title %}{% trans "Recife" %} | {{ post.title}} | PythonBrasil[10]{% endblock %}
+{% block og_title %}{% trans "Recife" %} | {{ post.title }} | PythonBrasil[10]{% endblock %}
+
+{% block content %}
+<div class="blog-news">
+  <h3><span>{% trans 'Recife' %}</span></h3>
+  <article class="blog-item">
+    <h2>{% trans 'How to get to Recife By air' %}</h2>
+    <p>The primary airport for Recife is Gilberto Freyre International Aiport  (Guararapes Airport). Flights from everywhere to Recife can be found on … .   All locations, including the conference, tutorials and sprint locations and the hotels, are easily accessible by public transport.</p>
+
+    <p>From Recife you should get into the city using any metro or public bus going to xxx main terminal. Make sure you buy a valid ticket before boarding the metro. The metro ride to the main station takes xx minutes and costs R$ …  For more details see get around.</p>
+
+    <p>If you prefer, you could also get a taxi,  please check the main telephones to pick a cab and check the local fares.</p>
+
+  </article>
+</div>
+{% endblock %}
