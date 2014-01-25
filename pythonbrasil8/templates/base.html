@@ -34,7 +34,6 @@
     <div class="grid-container">
       <h1 class="grid-80">
           <a href="{% url home %}">
-            {% get_current_language as LANGUAGE_CODE %}
             <img src="{% static 'images/header/pybr_logo_'|add:request.LANGUAGE_CODE|add:'.png' %}" alt="Python Brasil [10]"/>
         </a>
       </h1>
@@ -140,7 +139,7 @@
         <div class="how-sponsor-call">
           <p>{% trans 'Learn how to become a sponsor' %}<br />
           <span>{% trans 'ARE YOU SPEAKING OR ATTENDING?' %}</span></p>
-          <a href="" class="btn">{% trans 'grab a badge' %}</a>
+          <a href="{% url badges %}" class="btn">{% trans 'grab a badge' %}</a>
         </div>
 
         <div class="socialmedia">
