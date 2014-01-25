@@ -34,7 +34,8 @@
     <div class="grid-container">
       <h1 class="grid-80">
           <a href="{% url home %}">
-            <img src="{% static 'images/header/pybr_logo.png' %}" alt="Python Brasil [10]"/>
+            {% get_current_language as LANGUAGE_CODE %}
+            <img src="{% static 'images/header/pybr_logo_'|add:request.LANGUAGE_CODE|add:'.png' %}" alt="Python Brasil [10]"/>
         </a>
       </h1>
       <div class="grid-20 loginbtn">
