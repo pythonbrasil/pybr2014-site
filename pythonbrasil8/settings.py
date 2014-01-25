@@ -3,7 +3,7 @@ import os
 # Django settings for pythonbrasil8 project.
 import dj_database_url
 
-DEBUG = True
+DEBUG = bool(int(os.environ.get('DJANGO_DEBUG', 1)))
 TEMPLATE_DEBUG = DEBUG
 
 PROJECT_DIR = os.path.dirname(__file__)
@@ -180,3 +180,13 @@ if os.environ.get('S3'):
 
     MEDIA_URL = 'https://%s.s3.amazonaws.com/media/' % AWS_STORAGE_BUCKET_NAME
     STATIC_URL = 'https://%s.s3.amazonaws.com/static/' % AWS_STORAGE_BUCKET_NAME
+
+CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',
+    },
+    'staticfiles': {
+        'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',
+        'LOCATION': 'staticfiles-filehashes'
+    }
+}
