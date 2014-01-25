@@ -515,13 +515,17 @@ aside.special-sponsor-aside{
   text-align: left;
   margin-top: 1em; 
 }
+.banner .flags a.active {
+  border-bottom: 1px solid #132C3B;
+  padding-bottom: .6em;
+}
 .socialmedia a, .banner .flags a img{
   margin-right: .5em
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=75);
-  opacity: .75;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=35)";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=35);
+  opacity: .35;
 }
-.socialmedia a:hover, .banner .flags a:hover img{
+.socialmedia a:hover, .banner .flags a:hover img, .banner .flags a.active img{
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
