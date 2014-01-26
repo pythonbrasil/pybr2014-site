@@ -37,6 +37,7 @@
             <img src="{% static 'images/header/pybr_logo_'|add:request.LANGUAGE_CODE|add:'.png' %}" alt="Python Brasil [10]"/>
         </a>
       </h1>
+      {% comment %}
       <div class="grid-20 loginbtn">
         {% if request.user.is_authenticated %}
           <a class="white {% is_active request.path 'dashboard-index' %}" href="{% url dashboard-index %}" title="dashboard">  
@@ -51,6 +52,7 @@
           </a>
         {% endif %}
       </div>
+      {% endcomment %}
     </div>
     <div class="banner">
       <div class="banner-inner">
@@ -188,11 +190,11 @@
       </ul>
       <ul class="sponsor-list staff grid-100">
         <li class="grid-25">
-          <h4>{% trans 'Organização' %}</h4>
+          <h4>{% trans 'Organization' %}</h4>
           <img src="{% static 'images/patrocinadores/pug-pe.png' %}" alt="">
         </li>
         <li class="grid-25">
-          <h4>{% trans 'Organização' %}</h4>
+          <h4>{% trans 'Organization' %}</h4>
           <img src="{% static 'images/patrocinadores/logo-python-brasil.png' %}" alt="">
         </li>
         <li class="grid-25">

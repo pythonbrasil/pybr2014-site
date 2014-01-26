@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PythonBrasil8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-26 19:18-0300\n"
+"POT-Creation-Date: 2014-01-26 19:27-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Tatiana Al-Chueyr <tatiana.alchueyr@gmail.com>\n"
 "Language-Team: Francisco Souza <f@souza.cc>\n"
@@ -39,6 +39,10 @@ msgstr ""
 "celebrando nossa décima edição do encontro, com a primeira realização no "
 "Nordeste, na capital Recife, Pernambuco, a terra do frevo e do siris, e será "
 "um evento único com experiência agradável a todos presentes.        "
+
+#: core/templates/home.html:17
+msgid "Organizer"
+msgstr "Organização"
 
 #: core/templates/home.html:20
 msgid ""
@@ -693,8 +697,8 @@ msgid "grab a badge"
 msgstr "baixe o banner!"
 
 #: templates/base.html:192 templates/base.html.py:196
-msgid "Organização"
-msgstr "Organization"
+msgid "Organization"
+msgstr "Organização"
 
 #: templates/base.html:200
 msgid "Illustration"
