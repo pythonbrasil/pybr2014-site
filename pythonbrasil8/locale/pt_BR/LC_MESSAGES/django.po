@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PythonBrasil8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-26 19:27-0300\n"
+"POT-Creation-Date: 2014-01-26 19:40-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Tatiana Al-Chueyr <tatiana.alchueyr@gmail.com>\n"
 "Language-Team: Francisco Souza <f@souza.cc>\n"
@@ -23,28 +23,48 @@ msgstr "A Conferência"
 msgid ""
 "\n"
 "            The PythonBrazil is currently considered one of the main tech "
-"events at Latin America. It gathers several developers, managers, "
-"researchers and anyone interested during 5 days to discuss about open-"
-"source, development techniques and of course, Python!  We are celebrating "
-"our 10th edition, where for the first time, hosted at Northeast of Brazil, "
-"in the capital of Recife, Pernambuco, the land of frevo songs and crabs. It "
-"will be an unique event with a enjoyable experience to everyone.\n"
+"events at Latin America.\n"
 "        "
 msgstr ""
 "\n"
 "A PythonBrasil é considerada um dos principais eventos de tecnologia na "
-"atualidade da América Latina.  Ela reúne vários desenvolvedores, gestores, "
-"entusiastas, pesquisadores e interessados durante 5 dias para discutir sobre "
-"software livre, práticas de desenvolvimento e claro, sobre Python! Estamos "
-"celebrando nossa décima edição do encontro, com a primeira realização no "
-"Nordeste, na capital Recife, Pernambuco, a terra do frevo e do siris, e será "
-"um evento único com experiência agradável a todos presentes.        "
+"atualidade da América Latina. "
 
 #: core/templates/home.html:17
+msgid ""
+"\n"
+"\n"
+"            It gathers several developers, managers, researchers and anyone "
+"interested during 5 days to discuss about open-source, development "
+"techniques and of course, Python! \n"
+"        "
+msgstr ""
+"\n"
+"\n"
+"Ela reúne vários desenvolvedores, gestores, entusiastas, pesquisadores e "
+"interessados durante 5 dias para discutir sobre software livre, práticas de "
+"desenvolvimento e claro, sobre Python!         "
+
+#: core/templates/home.html:23
+msgid ""
+"\n"
+"            We are celebrating our 10th edition, where for the first time, "
+"hosted at Northeast of Brazil, in the capital of Recife, Pernambuco, the "
+"land of frevo songs and crabs. It will be an unique event with a enjoyable "
+"experience to everyone.\n"
+"        "
+msgstr ""
+"\n"
+" Estamos celebrando nossa décima edição do encontro, com a primeira "
+"realização no Nordeste, na capital Recife, Pernambuco, a terra do frevo e do "
+"siris, e será um evento único com experiência agradável a todos "
+"presentes.        "
+
+#: core/templates/home.html:28
 msgid "Organizer"
 msgstr "Organização"
 
-#: core/templates/home.html:20
+#: core/templates/home.html:31
 msgid ""
 "\n"
 "            PythonBrazil 2014 is organized by the Pernambuco Python User "
@@ -55,11 +75,11 @@ msgstr ""
 "A PythonBrasil 2014 é organizada pelo Grupo de Usuários de Python de "
 "Pernambuco (PUG-PE) com ajuda da Apyb (Associação PythonBrasil)."
 
-#: core/templates/home.html:27 templates/news.html:11 templates/post.html:10
+#: core/templates/home.html:38 templates/news.html:11 templates/post.html:10
 msgid "Last Posts"
 msgstr "Últimos Posts"
 
-#: core/templates/home.html:36 templates/news.html:20
+#: core/templates/home.html:47 templates/news.html:20
 msgid "more"
 msgstr "mais"
 
@@ -71,7 +91,7 @@ msgstr "Patrocinadores"
 msgid "PYTHONBRASIL SPONSORS"
 msgstr "PATROCINADORES DA PYTHONBRASIL"
 
-#: core/templates/sponsors.html:40 templates/base.html:165
+#: core/templates/sponsors.html:40 templates/base.html:168
 msgid "Learn how to become a sponsor"
 msgstr "Veja como se tornar um patrocinador"
 
@@ -280,7 +300,7 @@ msgstr "Edite seu perfil"
 msgid "Change password"
 msgstr "Altere sua senha"
 
-#: dashboard/templates/dashboard/base.html:29 templates/base.html:46
+#: dashboard/templates/dashboard/base.html:29
 msgid "Logout"
 msgstr "Sair"
 
@@ -618,7 +638,7 @@ msgstr "Para confirmar sua inscrição, por favor pague a taxa de inscrição (R
 msgid " using the button below:"
 msgstr " usando o botão abaixo:"
 
-#: templates/about.html:4 templates/about.html.py:5 templates/base.html:80
+#: templates/about.html:4 templates/about.html.py:5 templates/base.html:83
 #: templates/previous_editions.html:4
 msgid "About"
 msgstr "Sobre"
@@ -659,52 +679,47 @@ msgstr "Baixe o banner!"
 msgid "I'm Attending to PythonBrasil[10]"
 msgstr "Eu vou na PythonBrasil[10]"
 
-#: templates/base.html:50 templates/registration/login.html:15
-#: templates/registration/login.html:20
-msgid "Log In"
-msgstr "Acessar"
-
-#: templates/base.html:85
+#: templates/base.html:88
 msgid "Blog"
 msgstr "Blog"
 
-#: templates/base.html:128
+#: templates/base.html:131
 msgid "TUTORIALS"
 msgstr "TUTORIAIS"
 
-#: templates/base.html:129 templates/base.html.py:134 templates/base.html:139
+#: templates/base.html:132 templates/base.html.py:137 templates/base.html:142
 msgid "November"
 msgstr "NOVEMBRO"
 
-#: templates/base.html:133
+#: templates/base.html:136
 msgid "TALKS"
 msgstr "PALESTRAS"
 
-#: templates/base.html:138
+#: templates/base.html:141
 msgid "SPRINTS"
 msgstr "SPRINTS"
 
-#: templates/base.html:154
+#: templates/base.html:157
 msgid "become a sponsor"
 msgstr "seja um patrocinador"
 
-#: templates/base.html:166
+#: templates/base.html:169
 msgid "ARE YOU SPEAKING OR ATTENDING?"
 msgstr ""
 
-#: templates/base.html:167
+#: templates/base.html:170
 msgid "grab a badge"
 msgstr "baixe o banner!"
 
-#: templates/base.html:192 templates/base.html.py:196
+#: templates/base.html:195 templates/base.html.py:199
 msgid "Organization"
 msgstr "Organização"
 
-#: templates/base.html:200
+#: templates/base.html:203
 msgid "Illustration"
 msgstr "Ilutração"
 
-#: templates/base.html:204
+#: templates/base.html:207
 msgid "WebDesign & Front-End"
 msgstr "WebDesign & Front-End"
 
@@ -1130,6 +1145,10 @@ msgstr ""
 "Para pagar sua inscrição para participar da PythonBrasil[10] ou propor uma "
 "palestra é necessário criar uma conta. Por favor, faça login ou crie uma "
 "conta,  caso você não tenha ainda."
+
+#: templates/registration/login.html:15 templates/registration/login.html:20
+msgid "Log In"
+msgstr "Acessar"
 
 #: templates/registration/login.html:19
 msgid "Forgot your password?"
