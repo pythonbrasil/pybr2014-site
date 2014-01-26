@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PythonBrasil8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-22 20:39-0300\n"
+"POT-Creation-Date: 2014-01-26 19:12-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Tatiana Al-Chueyr <tatiana.alchueyr@gmail.com>\n"
 "Language-Team: Francisco Souza <f@souza.cc>\n"
@@ -658,29 +658,17 @@ msgstr ""
 "negócios, e estimula membros da comunidade a se reencontrarem pessoalmente.\n"
 "        "
 
-#: templates/badges.html:4 templates/badges.html.py:5
+#: templates/badges.html:5 templates/badges.html.py:6
 msgid "Badges"
 msgstr "Banners"
 
-#: templates/badges.html:13
+#: templates/badges.html:19
 msgid "Get a badge!"
 msgstr "Baixe o banner!"
 
-#: templates/badges.html:21 templates/badges.html.py:26
-msgid "im_attending_aside.png"
-msgstr "im_attending_aside_pt.png"
-
-#: templates/badges.html:21 templates/badges.html.py:27
-msgid "I'm Attending to PythonBrasil[8]"
-msgstr "Eu vou na PythonBrasil[8]"
-
-#: templates/badges.html:34 templates/badges.html.py:39
-msgid "I_speak_aside.png"
-msgstr "I_speak_aside_pt.png"
-
-#: templates/badges.html:34 templates/badges.html.py:40
-msgid "I'm speaking at PythonBrasil[8]"
-msgstr "Eu vou palestrar na PythonBrasil[8]"
+#: templates/badges.html:22
+msgid "I'm Attending to PythonBrasil[10]"
+msgstr "Eu vou na PythonBrasil[10]"
 
 #: templates/base.html:50 templates/registration/login.html:15
 #: templates/registration/login.html:20
@@ -700,9 +688,20 @@ msgid "ARE YOU SPEAKING OR ATTENDING?"
 msgstr ""
 
 #: templates/base.html:143
-#, fuzzy
 msgid "grab a badge"
-msgstr "Baixe o banner!"
+msgstr "baixe o banner!"
+
+#: templates/base.html:168 templates/base.html.py:172
+msgid "Organização"
+msgstr "Organization"
+
+#: templates/base.html:176
+msgid "Illustration"
+msgstr "Ilutração"
+
+#: templates/base.html:180
+msgid "WebDesign & Front-End"
+msgstr "WebDesign & Front-End"
 
 #: templates/news.html:5 templates/news.html.py:6 templates/post.html:5
 #: templates/post.html.py:6
@@ -823,6 +822,14 @@ msgstr "Não aceita"
 #: templates/proposal.html:55
 msgid "Not supplied"
 msgstr "Não informada"
+
+#: templates/recife.html:5 templates/recife.html.py:6 templates/recife.html:10
+msgid "Recife"
+msgstr ""
+
+#: templates/recife.html:12
+msgid "How to get to Recife By air"
+msgstr ""
 
 #: templates/register.html:4 templates/register.html.py:5
 msgid "Registration"
@@ -1180,6 +1187,15 @@ msgid "Please fill the form below to registrate yourself for PythonBrasil[8]:"
 msgstr ""
 "Favor preencher o formulário para pré-inscrição na PythonBrasil[8]. Todos "
 "campos são obrigatórios."
+
+#~ msgid "im_attending_aside.png"
+#~ msgstr "im_attending_aside_pt.png"
+
+#~ msgid "I_speak_aside.png"
+#~ msgstr "I_speak_aside_pt.png"
+
+#~ msgid "I'm speaking at PythonBrasil[8]"
+#~ msgstr "Eu vou palestrar na PythonBrasil[8]"
 
 #~ msgid "Welcome to Recife"
 #~ msgstr "Seja Bem Vindo ao Recife"
