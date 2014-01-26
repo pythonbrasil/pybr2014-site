@@ -517,11 +517,11 @@ aside.special-sponsor-aside{
 }
 .socialmedia a, .banner .flags a img{
   margin-right: .5em
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=75);
-  opacity: .75;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=35)";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=35);
+  opacity: .35;
 }
-.socialmedia a:hover, .banner .flags a:hover img{
+.socialmedia a:hover, .banner .flags a:hover img, .banner .flags a.active img{
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;

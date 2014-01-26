@@ -61,7 +61,7 @@
               <input type="hidden" name="language" />
               {% get_language_info_list for LANGUAGES as languages %}
               {% for language in languages %}
-                <a href="javascript:;" class="btn-setlang" data-language="{{ language.code }}">
+                <a href="javascript:;" class="{% if request.LANGUAGE_CODE == language.code %}active {% endif %}btn-setlang" data-language="{{ language.code }}">
                   <img src="{{ STATIC_URL }}images/home/{{ language.code }}.png" alt="{{ language.name_local }}" />
                 </a>
               {% endfor %}
