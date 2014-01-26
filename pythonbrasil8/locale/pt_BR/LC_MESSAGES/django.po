@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PythonBrasil8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-26 19:12-0300\n"
+"POT-Creation-Date: 2014-01-26 19:18-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Tatiana Al-Chueyr <tatiana.alchueyr@gmail.com>\n"
 "Language-Team: Francisco Souza <f@souza.cc>\n"
@@ -15,28 +15,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1)\n"
 
-#: core/templates/home.html:16
-msgid "TUTORIALS"
-msgstr "TUTORIAIS"
-
-#: core/templates/home.html:17 core/templates/home.html.py:22
-#: core/templates/home.html:27
-msgid "November"
-msgstr "NOVEMBRO"
-
-#: core/templates/home.html:21
-msgid "TALKS"
-msgstr "PALESTRAS"
-
-#: core/templates/home.html:26
-msgid "SPRINTS"
-msgstr "SPRINTS"
-
-#: core/templates/home.html:35
+#: core/templates/home.html:10
 msgid "The Conference"
 msgstr "A Conferência"
 
-#: core/templates/home.html:37
+#: core/templates/home.html:12
 msgid ""
 "\n"
 "            The PythonBrazil is currently considered one of the main tech "
@@ -57,7 +40,7 @@ msgstr ""
 "Nordeste, na capital Recife, Pernambuco, a terra do frevo e do siris, e será "
 "um evento único com experiência agradável a todos presentes.        "
 
-#: core/templates/home.html:45
+#: core/templates/home.html:20
 msgid ""
 "\n"
 "            PythonBrazil 2014 is organized by the Pernambuco Python User "
@@ -68,11 +51,11 @@ msgstr ""
 "A PythonBrasil 2014 é organizada pelo Grupo de Usuários de Python de "
 "Pernambuco (PUG-PE) com ajuda da Apyb (Associação PythonBrasil)."
 
-#: core/templates/home.html:52 templates/news.html:11 templates/post.html:10
+#: core/templates/home.html:27 templates/news.html:11 templates/post.html:10
 msgid "Last Posts"
 msgstr "Últimos Posts"
 
-#: core/templates/home.html:61 templates/news.html:20
+#: core/templates/home.html:36 templates/news.html:20
 msgid "more"
 msgstr "mais"
 
@@ -84,7 +67,7 @@ msgstr "Patrocinadores"
 msgid "PYTHONBRASIL SPONSORS"
 msgstr "PATROCINADORES DA PYTHONBRASIL"
 
-#: core/templates/sponsors.html:40 templates/base.html:141
+#: core/templates/sponsors.html:40 templates/base.html:165
 msgid "Learn how to become a sponsor"
 msgstr "Veja como se tornar um patrocinador"
 
@@ -397,14 +380,12 @@ msgid "Title"
 msgstr "Título"
 
 #: news/models.py:13
-#, fuzzy
 msgid "Published at"
-msgstr "Publicada em 15 de Maio de 2012"
+msgstr "Publicada em"
 
 #: news/models.py:14
-#, fuzzy
 msgid "Content"
-msgstr "Contato"
+msgstr "Conteúdo"
 
 #: news/models.py:14
 msgid "Use markdown language"
@@ -658,6 +639,10 @@ msgstr ""
 "negócios, e estimula membros da comunidade a se reencontrarem pessoalmente.\n"
 "        "
 
+#: templates/about.html:20
+msgid "Contact"
+msgstr "Contato"
+
 #: templates/badges.html:5 templates/badges.html.py:6
 msgid "Badges"
 msgstr "Banners"
@@ -679,27 +664,43 @@ msgstr "Acessar"
 msgid "Blog"
 msgstr "Blog"
 
-#: templates/base.html:130
+#: templates/base.html:128
+msgid "TUTORIALS"
+msgstr "TUTORIAIS"
+
+#: templates/base.html:129 templates/base.html.py:134 templates/base.html:139
+msgid "November"
+msgstr "NOVEMBRO"
+
+#: templates/base.html:133
+msgid "TALKS"
+msgstr "PALESTRAS"
+
+#: templates/base.html:138
+msgid "SPRINTS"
+msgstr "SPRINTS"
+
+#: templates/base.html:154
 msgid "become a sponsor"
 msgstr "seja um patrocinador"
 
-#: templates/base.html:142
+#: templates/base.html:166
 msgid "ARE YOU SPEAKING OR ATTENDING?"
 msgstr ""
 
-#: templates/base.html:143
+#: templates/base.html:167
 msgid "grab a badge"
 msgstr "baixe o banner!"
 
-#: templates/base.html:168 templates/base.html.py:172
+#: templates/base.html:192 templates/base.html.py:196
 msgid "Organização"
 msgstr "Organization"
 
-#: templates/base.html:176
+#: templates/base.html:200
 msgid "Illustration"
 msgstr "Ilutração"
 
-#: templates/base.html:180
+#: templates/base.html:204
 msgid "WebDesign & Front-End"
 msgstr "WebDesign & Front-End"
 
@@ -803,7 +804,6 @@ msgid "28th September - 1st October 2011"
 msgstr "28 de setembro a 1º de outubro de 2011"
 
 #: templates/proposal.html:34
-#, fuzzy
 msgid "Status"
 msgstr "Estado"
 
