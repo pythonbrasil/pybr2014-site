@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PythonBrasil8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-26 19:40-0300\n"
+"POT-Creation-Date: 2014-01-26 20:17-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Tatiana Al-Chueyr <tatiana.alchueyr@gmail.com>\n"
 "Language-Team: Francisco Souza <f@souza.cc>\n"
@@ -15,11 +15,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1)\n"
 
-#: core/templates/home.html:10
+#: core/templates/home.html:10 templates/about.html:9
 msgid "The Conference"
 msgstr "A Conferência"
 
-#: core/templates/home.html:12
+#: core/templates/home.html:12 templates/about.html:11
 msgid ""
 "\n"
 "            The PythonBrazil is currently considered one of the main tech "
@@ -30,7 +30,7 @@ msgstr ""
 "A PythonBrasil é considerada um dos principais eventos de tecnologia na "
 "atualidade da América Latina. "
 
-#: core/templates/home.html:17
+#: core/templates/home.html:17 templates/about.html:16
 msgid ""
 "\n"
 "\n"
@@ -45,7 +45,7 @@ msgstr ""
 "interessados durante 5 dias para discutir sobre software livre, práticas de "
 "desenvolvimento e claro, sobre Python!         "
 
-#: core/templates/home.html:23
+#: core/templates/home.html:23 templates/about.html:22
 msgid ""
 "\n"
 "            We are celebrating our 10th edition, where for the first time, "
@@ -60,11 +60,11 @@ msgstr ""
 "siris, e será um evento único com experiência agradável a todos "
 "presentes.        "
 
-#: core/templates/home.html:28
+#: core/templates/home.html:28 templates/about.html:27
 msgid "Organizer"
 msgstr "Organização"
 
-#: core/templates/home.html:31
+#: core/templates/home.html:31 templates/about.html:30
 msgid ""
 "\n"
 "            PythonBrazil 2014 is organized by the Pernambuco Python User "
@@ -643,27 +643,7 @@ msgstr " usando o botão abaixo:"
 msgid "About"
 msgstr "Sobre"
 
-#: templates/about.html:9
-msgid "The conference"
-msgstr "A conferência"
-
-#: templates/about.html:11
-msgid ""
-"\n"
-"            PythonBrasil is the largest Brazilian gathering for the "
-"community using and developing the open-source Python programming language. "
-"It is a annual vibrant meeting ground to inspire, debate, make deals, "
-"motivate and connect face to face.\n"
-"            "
-msgstr ""
-"\n"
-"        PythonBrasil é o maior encontro da comunidade comunidade brasileira "
-"que utiliza e desenvolve a linguagem de programação Python. É um encontro "
-"anual que inspira os participantes, proporcionando debates, estimulando "
-"negócios, e estimula membros da comunidade a se reencontrarem pessoalmente.\n"
-"        "
-
-#: templates/about.html:20
+#: templates/about.html:38
 msgid "Contact"
 msgstr "Contato"
 
@@ -682,6 +662,10 @@ msgstr "Eu vou na PythonBrasil[10]"
 #: templates/base.html:88
 msgid "Blog"
 msgstr "Blog"
+
+#: templates/base.html:127
+msgid "The Python Comunity Event"
+msgstr "O evento da Comunidade Python"
 
 #: templates/base.html:131
 msgid "TUTORIALS"
@@ -1210,6 +1194,25 @@ msgid "Please fill the form below to registrate yourself for PythonBrasil[8]:"
 msgstr ""
 "Favor preencher o formulário para pré-inscrição na PythonBrasil[8]. Todos "
 "campos são obrigatórios."
+
+#~ msgid "The conference"
+#~ msgstr "A conferência"
+
+#~ msgid ""
+#~ "\n"
+#~ "            PythonBrasil is the largest Brazilian gathering for the "
+#~ "community using and developing the open-source Python programming "
+#~ "language. It is a annual vibrant meeting ground to inspire, debate, make "
+#~ "deals, motivate and connect face to face.\n"
+#~ "            "
+#~ msgstr ""
+#~ "\n"
+#~ "        PythonBrasil é o maior encontro da comunidade comunidade "
+#~ "brasileira que utiliza e desenvolve a linguagem de programação Python. É "
+#~ "um encontro anual que inspira os participantes, proporcionando debates, "
+#~ "estimulando negócios, e estimula membros da comunidade a se reencontrarem "
+#~ "pessoalmente.\n"
+#~ "        "
 
 #~ msgid "im_attending_aside.png"
 #~ msgstr "im_attending_aside_pt.png"
