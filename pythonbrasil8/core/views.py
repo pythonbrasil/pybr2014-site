@@ -61,6 +61,10 @@ class SponsorsInfoView(TemplateView):
     template_name = 'sponsors_info.html'
 
 
+class CodeOfConductView(TemplateView):
+    template_name = 'code_of_conduct.html'
+
+
 class SponsorsJobsView(ListView):
     template_name = 'sponsors_jobs.html'
     model = Job

@@ -10,7 +10,8 @@ from registration.forms import RegistrationForm
 from pythonbrasil8.subscription.views import NotificationView
 
 from core.views import (Home, AboutView, SponsorsInfoView, VenueView,
-                        CustomSponsorsView, SponsorsJobsView)
+                        CustomSponsorsView, SponsorsJobsView,
+                        CodeOfConductView)
 
 admin.autodiscover()
 
@@ -32,6 +33,7 @@ urlpatterns = patterns('',
         'pythonbrasil8.schedule.views.proposal_page', name='proposal-page'),
 
     url(r'about/$', AboutView.as_view(), name='about'),
+    url(r'code-of-conduct/$', CodeOfConductView.as_view(), name='code-of-conduct'),
     url(r'^venue/$', VenueView.as_view(), name='venue'),
     url(r'^media/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.MEDIA_ROOT}),
 

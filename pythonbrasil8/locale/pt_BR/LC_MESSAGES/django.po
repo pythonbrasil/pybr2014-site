@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PythonBrasil8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-26 20:17-0300\n"
+"POT-Creation-Date: 2014-01-30 00:59-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Tatiana Al-Chueyr <tatiana.alchueyr@gmail.com>\n"
 "Language-Team: Francisco Souza <f@souza.cc>\n"
@@ -689,23 +689,39 @@ msgstr "seja um patrocinador"
 
 #: templates/base.html:169
 msgid "ARE YOU SPEAKING OR ATTENDING?"
-msgstr ""
+msgstr "VAI PALESTRAR OU PARTICIPAR?"
 
 #: templates/base.html:170
 msgid "grab a badge"
 msgstr "baixe o banner!"
 
-#: templates/base.html:195 templates/base.html.py:199
+#: templates/base.html:174
+msgid "ARE YOU ATTENDING?"
+msgstr "VAI PARTICIPAR DO EVENTO?"
+
+#: templates/base.html:175
+msgid "Learn more about the code of conduct"
+msgstr "Saiba mais sobre o código de conduta"
+
+#: templates/base.html:178
+msgid "code of conduct"
+msgstr "código de conduta"
+
+#: templates/base.html:203 templates/base.html.py:207
 msgid "Organization"
 msgstr "Organização"
 
-#: templates/base.html:203
+#: templates/base.html:211
 msgid "Illustration"
 msgstr "Ilutração"
 
-#: templates/base.html:207
+#: templates/base.html:215
 msgid "WebDesign & Front-End"
 msgstr "WebDesign & Front-End"
+
+#: templates/code_of_conduct.html:4 templates/code_of_conduct.html.py:5
+msgid "CODE OF CONDUCT"
+msgstr "CÓDIGO DE CONDUTA"
 
 #: templates/news.html:5 templates/news.html.py:6 templates/post.html:5
 #: templates/post.html.py:6
