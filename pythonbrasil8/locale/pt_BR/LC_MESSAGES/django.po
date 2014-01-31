@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PythonBrasil8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-30 22:29-0300\n"
+"POT-Creation-Date: 2014-01-30 23:00-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Tatiana Al-Chueyr <tatiana.alchueyr@gmail.com>\n"
 "Language-Team: Francisco Souza <f@souza.cc>\n"
@@ -49,16 +49,16 @@ msgstr ""
 msgid ""
 "\n"
 "            We are celebrating our 10th edition, where for the first time, "
-"hosted at Northeast of Brazil, in the capital of Recife, Pernambuco, the "
-"land of frevo songs and crabs. It will be an unique event with a enjoyable "
-"experience to everyone.\n"
+"hosted at Northeast of Brazil, in the cities: Recife and Porto de Galinhas, "
+"Pernambuco, the land of frevo songs and crabs. It will be an unique event "
+"with a enjoyable experience to everyone.\n"
 "        "
 msgstr ""
 "\n"
 " Estamos celebrando nossa décima edição do encontro, com a primeira "
-"realização no Nordeste, na capital Recife, Pernambuco, a terra do frevo e do "
-"siris, e será um evento único com experiência agradável a todos "
-"presentes.        "
+"realização no Nordeste, nas cidades: Recife e Porto de Galinhas, Pernambuco, "
+"a terra do frevo e do siris, e será um evento único com experiência "
+"agradável a todos presentes.        "
 
 #: core/templates/home.html:28 templates/about.html:27
 msgid "Organizer"
@@ -116,23 +116,14 @@ msgstr ""
 msgid "Sponsoring prospectus"
 msgstr "Plano de captação (versão em inglês)"
 
-#: core/templates/venue.html:4
-msgid "Venue"
-msgstr "Local"
-
-#: core/templates/venue.html:13
-msgid "PythonBrasil Venue"
-msgstr "Local da PythonBrasil"
-
-#: core/templates/venue.html:18
-#, fuzzy
-msgid ""
-"Don't forget to bring your notebook for the tutorials! Also, you should be "
-"wearing trousers, shorts and skirts are not allowed in FGV, where the "
-"tutorials are taking place!'"
+#: core/templates/venue.html:5 core/templates/venue.html.py:6
+#: core/templates/venue.html:10
+msgid "Recife/Porto de Galinhas"
 msgstr ""
-"Para os tutoriais, traga seu notebook e venha de calça - bermudas e saias "
-"não são permitidos na PortoMidia, onde estão ocorrendo os tutoriais!"
+
+#: core/templates/venue.html:12
+msgid "How to get to Recife/Porto de Galinhas By air"
+msgstr ""
 
 #: dashboard/choices.py:6 templates/register.html:27
 #: templates/register.html.py:113
@@ -968,14 +959,6 @@ msgstr "Não aceita"
 msgid "Not supplied"
 msgstr "Não informada"
 
-#: templates/recife.html:5 templates/recife.html.py:6 templates/recife.html:10
-msgid "Recife"
-msgstr ""
-
-#: templates/recife.html:12
-msgid "How to get to Recife By air"
-msgstr ""
-
 #: templates/register.html:4 templates/register.html.py:5
 msgid "Registration"
 msgstr "Inscrição"
@@ -1336,6 +1319,35 @@ msgid "Please fill the form below to registrate yourself for PythonBrasil[8]:"
 msgstr ""
 "Favor preencher o formulário para pré-inscrição na PythonBrasil[8]. Todos "
 "campos são obrigatórios."
+
+#~ msgid ""
+#~ "\n"
+#~ "            We are celebrating our 10th edition, where for the first "
+#~ "time, hosted at Northeast of Brazil, in the capital of Recife, "
+#~ "Pernambuco, the land of frevo songs and crabs. It will be an unique event "
+#~ "with a enjoyable experience to everyone.\n"
+#~ "        "
+#~ msgstr ""
+#~ "\n"
+#~ " Estamos celebrando nossa décima edição do encontro, com a primeira "
+#~ "realização no Nordeste, na capital Recife, Pernambuco, a terra do frevo e "
+#~ "do siris, e será um evento único com experiência agradável a todos "
+#~ "presentes.        "
+
+#~ msgid "Venue"
+#~ msgstr "Local"
+
+#~ msgid "PythonBrasil Venue"
+#~ msgstr "Local da PythonBrasil"
+
+#, fuzzy
+#~ msgid ""
+#~ "Don't forget to bring your notebook for the tutorials! Also, you should "
+#~ "be wearing trousers, shorts and skirts are not allowed in FGV, where the "
+#~ "tutorials are taking place!'"
+#~ msgstr ""
+#~ "Para os tutoriais, traga seu notebook e venha de calça - bermudas e saias "
+#~ "não são permitidos na PortoMidia, onde estão ocorrendo os tutoriais!"
 
 #~ msgid "The conference"
 #~ msgstr "A conferência"
