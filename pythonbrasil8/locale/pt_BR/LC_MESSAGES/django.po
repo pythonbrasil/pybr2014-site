@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PythonBrasil8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-30 23:00-0300\n"
+"POT-Creation-Date: 2014-02-12 22:59-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Tatiana Al-Chueyr <tatiana.alchueyr@gmail.com>\n"
 "Language-Team: Francisco Souza <f@souza.cc>\n"
@@ -117,13 +117,136 @@ msgid "Sponsoring prospectus"
 msgstr "Plano de captação (versão em inglês)"
 
 #: core/templates/venue.html:5 core/templates/venue.html.py:6
+msgid "Porto de Galinhas"
+msgstr "Porto de Galinhas"
+
 #: core/templates/venue.html:10
-msgid "Recife/Porto de Galinhas"
-msgstr ""
+msgid "About Porto de Galinhas"
+msgstr "Sobre Porto de Galinhas"
 
 #: core/templates/venue.html:12
-msgid "How to get to Recife/Porto de Galinhas By air"
+msgid ""
+"For the first time, PythonBrazil is heading to Porto de Galinhas, "
+"Pernambuco, an amazing beach located 37 mi south of the city of Recife, "
+"Pernambuco."
 msgstr ""
+"Pela primeira vez, a Python Brazil está indo para a cidade de Porto De "
+"Galinhas,  uma das praias mais paradisíacas do Brasil localizado a 37 milhas "
+"ao sul da cidade do Recife, Pernambuco."
+
+#: core/templates/venue.html:13
+msgid ""
+"Until a few years ago, Porto was an anonymous small village of fishermen, "
+"but nowadays it is one of the most important tourist destinations in Brazil, "
+"being elected ten times in a row the best beach of the country. In spite of "
+"that, the village is still small and it managed to keep its distinctive "
+"rustic fishermen architecture."
+msgstr ""
+"Até poucos anos atrás, Porto era uma pequena e desconhecida vila de "
+"pescadores, mas atualmente é um dos destinos turísticos mais importantes no "
+"Brasil, sendo eleita por dez vezes seguidas a melhor praia do país. Apesar "
+"disto, a vila continua pequena, mantendo sua peculiar arquitetura rústica."
+
+#: core/templates/venue.html:14
+msgid ""
+"The beach line is 11 mi long, all with white, fine grained, clean sand. "
+"There is a chain of millenary reefs lining all along the coast. During the "
+"lower tide, the water trapped by the reefs form several natural pools where "
+"people can swim, dive and feed the fishes in an average water temperature of "
+"78 °F for the year. The location is known for its impressive landscapes and "
+"beautiful nature."
+msgstr ""
+"A praia tem 18 km de comprimento cobertos com areia fina e clara. Há um "
+"recife milenar de corais por toda a costa. Durante a maré baixa, a água "
+"acumula nos corais, formando piscinas naturais, onde as pessoas podem nadar, "
+"mergulhar e alimentar os peixes em uma água sempre morna. A localização é "
+"famosa pela suas paisagens incríveis e a sua natureza atraente."
+
+#: core/templates/venue.html:17
+msgid "How to get to Porto De Galinhas"
+msgstr "Como chegar em Porto de Galinhas"
+
+#: core/templates/venue.html:19
+msgid "By air"
+msgstr "Por avião"
+
+#: core/templates/venue.html:20
+msgid ""
+"The primary airport for Recife is Gilberto Freyre International Aiport  "
+"(Guararapes Airport). Flights from everywhere to Recife can be found on <a "
+"href='http://www.tripadvisor.com/Flights-g304560-Recife_State_of_Pernambuco-"
+"Cheap_Discount_Airfares.html'>TripAdvisor</a>.  PythonBrazil will provide "
+"free transportation for attendees from Recife to Porto de Galinhas during "
+"the days of the conference."
+msgstr ""
+"O aeroporto principal do Recife é o Aeroporto Internacional Gilberto Freire "
+"(Aeroporto dos Guararapes).  Vôos de todo local para Recife podem ser "
+"encontrados no site  <a href='http://www.tripadvisor.com/Flights-g304560-"
+"Recife_State_of_Pernambuco-Cheap_Discount_Airfares.html'>TripAdvisor</a>.  "
+"PythonBrasil disponibilizará transporte gratuito para os participantes "
+"saindo de Recife para Porto de Galinhas nos dias que ocorrem a Conferência."
+
+#: core/templates/venue.html:21
+msgid ""
+"You can also take a bus, use a shuttle service, get a taxi or rent a car to "
+"go to Porto de Galinhas (the trip between Recife and Porto usually takes 2 "
+"hours). If you're in a nearby state, you can also come by bus or drive "
+"directly to the beach."
+msgstr ""
+"Você também pode pegar um ônibus, um transfer, um taxi ou alugar um carro "
+"para chegar a Porto de Galinhas (a viagem entre Recife e Porto normalmente "
+"leva 2 horas). Se você está em um estado vizinho, há também a opção de vir "
+"de ônibus ou de carro."
+
+#: core/templates/venue.html:24
+msgid "How the free transportation will work"
+msgstr "Como transporte gratuito irá funcionar"
+
+#: core/templates/venue.html:25
+msgid ""
+"PythonBrazil will provide a nice and comfortable bus to all attendees. In "
+"future we will provide further information."
+msgstr ""
+"A PythonBrasil disponibilizará um confortável ônibus para todos os "
+"participantes. Em breve informaremos mais detalhes."
+
+#: core/templates/venue.html:27
+msgid "From abroad"
+msgstr "Para quem vem do exterior"
+
+#: core/templates/venue.html:28
+msgid ""
+"International travellers from the countries that are include in the Mercosul "
+"Agreement can travel to Brazil freely without the need for a Visa. Citizens "
+"from other countries should refer to <a href='http://brazil.travisa."
+"com/'>http://brazil.travisa.com/</a>  to check if they need  a visa and how "
+"to obtain one."
+msgstr ""
+"Viajantes internacionais de países que fazem parte do Acordo Mercosul podem "
+"viajar para o Brasil sem a necessidade de visto.  Para cidadãos que vêm de "
+"outros países, estes devem procurar mais informações em <a href='http://"
+"brazil.travisa.com/'>http://brazil.travisa.com/</a>  para checar a "
+"necessidade de visto e como obter um."
+
+#: core/templates/venue.html:31
+msgid "Invitation Letters"
+msgstr "Cartas de Convite."
+
+#: core/templates/venue.html:32
+msgid ""
+"Visitor visa applicants may need letters or other documents indicating the "
+"purpose of their visit, evidence of funds to cover accommodation and food, "
+"and so on. The PythonBrazil organizers are happy to provide an invitation "
+"letter if you need one; we do suggest, however, that you check with your "
+"local embassy or consulate, as requirements differ from country to country."
+msgstr ""
+"Para aqueles que vão aplicar para um visto de visitante, talvez seja "
+"necessário uma carta ou documentos que indiquem o propósito da viagem,  "
+"evidências de fundos que cubram os gastos de alimentação, hospedagem, etc.  "
+"Os organizadores do PythonBrasil estão à disposição para providenciar uma "
+"carta se necessário;  todavia, nós sugerimos que você cheque com sua "
+"embaixada local ou consulado, os requisitos que podem variar de país para "
+"país."
 
 #: dashboard/choices.py:6 templates/register.html:27
 #: templates/register.html.py:113
@@ -1319,90 +1442,3 @@ msgid "Please fill the form below to registrate yourself for PythonBrasil[8]:"
 msgstr ""
 "Favor preencher o formulário para pré-inscrição na PythonBrasil[8]. Todos "
 "campos são obrigatórios."
-
-#~ msgid ""
-#~ "\n"
-#~ "            We are celebrating our 10th edition, where for the first "
-#~ "time, hosted at Northeast of Brazil, in the capital of Recife, "
-#~ "Pernambuco, the land of frevo songs and crabs. It will be an unique event "
-#~ "with a enjoyable experience to everyone.\n"
-#~ "        "
-#~ msgstr ""
-#~ "\n"
-#~ " Estamos celebrando nossa décima edição do encontro, com a primeira "
-#~ "realização no Nordeste, na capital Recife, Pernambuco, a terra do frevo e "
-#~ "do siris, e será um evento único com experiência agradável a todos "
-#~ "presentes.        "
-
-#~ msgid "Venue"
-#~ msgstr "Local"
-
-#~ msgid "PythonBrasil Venue"
-#~ msgstr "Local da PythonBrasil"
-
-#, fuzzy
-#~ msgid ""
-#~ "Don't forget to bring your notebook for the tutorials! Also, you should "
-#~ "be wearing trousers, shorts and skirts are not allowed in FGV, where the "
-#~ "tutorials are taking place!'"
-#~ msgstr ""
-#~ "Para os tutoriais, traga seu notebook e venha de calça - bermudas e saias "
-#~ "não são permitidos na PortoMidia, onde estão ocorrendo os tutoriais!"
-
-#~ msgid "The conference"
-#~ msgstr "A conferência"
-
-#~ msgid ""
-#~ "\n"
-#~ "            PythonBrasil is the largest Brazilian gathering for the "
-#~ "community using and developing the open-source Python programming "
-#~ "language. It is a annual vibrant meeting ground to inspire, debate, make "
-#~ "deals, motivate and connect face to face.\n"
-#~ "            "
-#~ msgstr ""
-#~ "\n"
-#~ "        PythonBrasil é o maior encontro da comunidade comunidade "
-#~ "brasileira que utiliza e desenvolve a linguagem de programação Python. É "
-#~ "um encontro anual que inspira os participantes, proporcionando debates, "
-#~ "estimulando negócios, e estimula membros da comunidade a se reencontrarem "
-#~ "pessoalmente.\n"
-#~ "        "
-
-#~ msgid "im_attending_aside.png"
-#~ msgstr "im_attending_aside_pt.png"
-
-#~ msgid "I_speak_aside.png"
-#~ msgstr "I_speak_aside_pt.png"
-
-#~ msgid "I'm speaking at PythonBrasil[8]"
-#~ msgstr "Eu vou palestrar na PythonBrasil[8]"
-
-#~ msgid "Welcome to Recife"
-#~ msgstr "Seja Bem Vindo ao Recife"
-
-#~ msgid ""
-#~ "\n"
-#~ "        You’re invited to the tenth annual conference Python Brazil "
-#~ "august 9th - 13th at Recife getting us warmed up for the first Python "
-#~ "Brazil us outside of the us southeast in 2014!\n"
-#~ "        "
-#~ msgstr ""
-#~ "\n"
-#~ "Você está convidado para a nossa Décima edição da nossa conferência "
-#~ "brasileira de Python durante os dias 9 a 13 de Novembro em Recife, então "
-#~ "venha aproveitar para conhecer as nossas praias e nossos caranguejos, em "
-#~ "nossa primeira Python Brazil no Nordeste em 2014!\n"
-#~ "        "
-
-#~ msgid "Sponsoring prospectus (Portuguese version)"
-#~ msgstr "Plano de captação (versão em português)"
-
-#~ msgid "Register"
-#~ msgstr "Inscreva-se"
-
-#~ msgid "Talk Subscription"
-#~ msgstr "Descrição das trilhas"
-
-#, fuzzy
-#~ msgid "PythonBrasil[10] Tracks"
-#~ msgstr "Trilhas PythonBrasil[10]"

@@ -2,20 +2,34 @@
 {% load i18n %}
 {% load markup %}
 
-{% block title %}{% trans "Recife/Porto de Galinhas" %} | {{ post.title}} | PythonBrasil[10]{% endblock %}
-{% block og_title %}{% trans "Recife/Porto de Galinhas" %} | {{ post.title }} | PythonBrasil[10]{% endblock %}
+{% block title %}{% trans "Porto de Galinhas" %} | {{ post.title}} | PythonBrasil[10]{% endblock %}
+{% block og_title %}{% trans "Porto de Galinhas" %} | {{ post.title }} | PythonBrasil[10]{% endblock %}
 
 {% block content %}
 <div class="blog-news">
-  <h3><span>{% trans 'Recife/Porto de Galinhas' %}</span></h3>
+  <h3><span>{% trans 'About Porto de Galinhas' %}</span></h3>
   <article class="blog-item">
-    <h2>{% trans 'How to get to Recife/Porto de Galinhas By air' %}</h2>
-    <p>The primary airport for Recife/Porto de Galinhas is Gilberto Freyre International Aiport  (Guararapes Airport). Flights from everywhere to Recife/Porto de Galinhas can be found on … .   All locations, including the conference, tutorials and sprint locations and the hotels, are easily accessible by public transport.</p>
+      <p>{% trans "For the first time, PythonBrazil is heading to Porto de Galinhas, Pernambuco, an amazing beach located 37 mi south of the city of Recife, Pernambuco." %}</p>
+      <p>{% trans "Until a few years ago, Porto was an anonymous small village of fishermen, but nowadays it is one of the most important tourist destinations in Brazil, being elected ten times in a row the best beach of the country. In spite of that, the village is still small and it managed to keep its distinctive rustic fishermen architecture." %}</p>
+      <p>{% trans "The beach line is 11 mi long, all with white, fine grained, clean sand. There is a chain of millenary reefs lining all along the coast. During the lower tide, the water trapped by the reefs form several natural pools where people can swim, dive and feed the fishes in an average water temperature of 78 °F for the year. The location is known for its impressive landscapes and beautiful nature." %}</p>
+      <p></p>
 
-    <p>From Recife/Porto de Galinhas you should get into the city using any metro or public bus going to xxx main terminal. Make sure you buy a valid ticket before boarding the metro. The metro ride to the main station takes xx minutes and costs R$ …  For more details see get around.</p>
+    <h2>{% trans "How to get to Porto De Galinhas" %}</h2> 
 
-    <p>If you prefer, you could also get a taxi,  please check the main telephones to pick a cab and check the local fares.</p>
+    <h3>{% trans "By air" %}</h3>
+    <p>{% trans "The primary airport for Recife is Gilberto Freyre International Aiport  (Guararapes Airport). Flights from everywhere to Recife can be found on <a href='http://www.tripadvisor.com/Flights-g304560-Recife_State_of_Pernambuco-Cheap_Discount_Airfares.html'>TripAdvisor</a>.  PythonBrazil will provide free transportation for attendees from Recife to Porto de Galinhas during the days of the conference." %}</p>
+    <p>{% trans "You can also take a bus, use a shuttle service, get a taxi or rent a car to go to Porto de Galinhas (the trip between Recife and Porto usually takes 2 hours). If you're in a nearby state, you can also come by bus or drive directly to the beach." %}</p>
+    <p></p>
 
+    <h3>{% trans "How the free transportation will work" %}</h3>
+    <p>{% trans "PythonBrazil will provide a nice and comfortable bus to all attendees. In future we will provide further information." %}</p>
+
+    <h3>{% trans "From abroad" %}</h3>
+    <p>{% trans "International travellers from the countries that are include in the Mercosul Agreement can travel to Brazil freely without the need for a Visa. Citizens from other countries should refer to <a href='http://brazil.travisa.com/'>http://brazil.travisa.com/</a>  to check if they need  a visa and how to obtain one." %}</p>
+    <p></p>
+
+    <h4>{% trans "Invitation Letters" %}</h4>
+    <p>{% trans "Visitor visa applicants may need letters or other documents indicating the purpose of their visit, evidence of funds to cover accommodation and food, and so on. The PythonBrazil organizers are happy to provide an invitation letter if you need one; we do suggest, however, that you check with your local embassy or consulate, as requirements differ from country to country." %}</p>  
   </article>
 </div>
 {% endblock %}
