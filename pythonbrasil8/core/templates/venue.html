@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 {% load i18n %}
 {% load markup %}
+{% load static from staticfiles %}
 
 {% block title %}{% trans "Porto de Galinhas" %} | {{ post.title}} | PythonBrasil[10]{% endblock %}
 {% block og_title %}{% trans "Porto de Galinhas" %} | {{ post.title }} | PythonBrasil[10]{% endblock %}
@@ -9,6 +10,7 @@
 <div class="blog-news">
   <h3><span>{% trans 'About Porto de Galinhas' %}</span></h3>
   <article class="blog-item">
+      <img src="{% static 'images/home/porto_galinhas.jpg' %}" />
       <p>{% trans "For the first time, PythonBrazil is heading to Porto de Galinhas, Pernambuco, an amazing beach located 37 mi south of the city of Recife, Pernambuco." %}</p>
       <p>{% trans "Until a few years ago, Porto was an anonymous small village of fishermen, but nowadays it is one of the most important tourist destinations in Brazil, being elected ten times in a row the best beach of the country. In spite of that, the village is still small and it managed to keep its distinctive rustic fishermen architecture." %}</p>
       <p>{% trans "The beach line is 11 mi long, all with white, fine grained, clean sand. There is a chain of millenary reefs lining all along the coast. During the lower tide, the water trapped by the reefs form several natural pools where people can swim, dive and feed the fishes in an average water temperature of 78 °F for the year. The location is known for its impressive landscapes and beautiful nature." %}</p>
