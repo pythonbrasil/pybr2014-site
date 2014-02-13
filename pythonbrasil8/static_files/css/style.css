@@ -356,7 +356,10 @@ li{
 }
 .banner-inner{
   height: 325px;
-  background: url(../images/home/banner-inner_bg.png) no-repeat 50% 0;
+  -webkit-animation: slidein 3s ease infinite alternate;
+  -o-animation: slidein 3s ease infinite alternate;
+  animation: slidein 3s ease infinite alternate;
+  background: url(../images/home/banner-inner_bg.gif) no-repeat 50% 0;
 }
 .carangueijo-big{
   text-align: center;
@@ -374,6 +377,10 @@ li{
   font-size: .8em;
   font-weight: 400;
 }
+
+
+
+
 
 nav.menu ul li{
   display: block;
@@ -406,6 +413,13 @@ nav.menu ul li a:hover, nav.menu ul li a.active{
  color: #fff; 
  font-weight: 400;
  font-size: 1.3em;
+}
+.call-subnav h2{
+  font-size: 1em;
+  margin-top: .5em;
+}
+.call-subnav h3, .call-subnav p{
+  font-size: .8em;
 }
 .call-conf, .call-subnav{
   margin: 0.7em 0;
