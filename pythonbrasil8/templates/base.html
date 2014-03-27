@@ -150,9 +150,12 @@
           {% block content %}{% endblock %}
       </section>
       <aside class="special-sponsor-aside grid-35">
-        <a class="btn" href="{% url sponsors-info %}">
-          {% trans "become a sponsor" %}
-        </a>
+        <div class="how-sponsor-call">
+            <p>{% trans 'Learn how to become a sponsor' %}<br /><br />
+            <a class="btn" href="{% url sponsors-info %}">
+              {% trans "become a sponsor" %}
+            </a>
+        </div>
         <ul class="sponsor-list">
           {% for sponsor in diamond_sponsors %}
           <li>
@@ -162,7 +165,6 @@
           {% endfor %}
         </ul>
         <div class="how-sponsor-call">
-          <p>{% trans 'Learn how to become a sponsor' %}<br />
           <span>{% trans 'ARE YOU SPEAKING OR ATTENDING?' %}</span></p>
           <a href="{% url badges %}" class="btn">{% trans 'grab a badge' %}</a>
         </div>
