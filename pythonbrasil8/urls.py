@@ -49,6 +49,7 @@ urlpatterns = patterns('',
     url(r'^accounts/', include('registration.backends.default.urls')),
 
     url(r'^news/', include('pythonbrasil8.news.urls', namespace='news')),
+    url(r'^promo_code/', include('pythonbrasil8.promo_code.urls', namespace='promo_code')),
     url(r'^admin/', include(admin.site.urls)),
     url(r'^i18n/', include('django.conf.urls.i18n')),
 ) + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

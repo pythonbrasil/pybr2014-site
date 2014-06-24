@@ -114,6 +114,7 @@ INSTALLED_APPS = (
     'pythonbrasil8.schedule',
     'pythonbrasil8.subscription',
     'pythonbrasil8.news',
+    'pythonbrasil8.promo_code',
 )
 
 LOGGING = {
