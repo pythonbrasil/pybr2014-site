@@ -148,7 +148,8 @@ LOGIN_REDIRECT_URL = '/dashboard/'
 
 EMAIL_PORT = 25
 EMAIL_USE_TLS = True
-EMAIL_SENDER = 'organizacao@python.org.br'
+EMAIL_SENDER = 'Organização PythonBrasil[10] <organizacao@python.org.br>'
+DEFAULT_FROM_EMAIL = EMAIL_SENDER
 
 
 AUTH_PROFILE_MODULE = 'dashboard.AccountProfile'

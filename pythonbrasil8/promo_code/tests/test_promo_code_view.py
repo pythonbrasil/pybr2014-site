@@ -4,6 +4,7 @@ import responses
 
 from django.test import TestCase
 from django.core.urlresolvers import reverse
+from django.core import mail
 
 from model_mommy import mommy
 from rest_framework.permissions import AllowAny
@@ -17,7 +18,7 @@ factory = APIRequestFactory()
 
 class PromoCodeViewTestCase(TestCase):
     def setUp(self):
-        mommy.make('promo_code.PromoCode', email=None)
+        self.pc = mommy.make('promo_code.PromoCode', email=None)
 
         self.mock_kwargs = {
             'method': responses.GET, 'content_type': 'application/json',
@@ -50,3 +51,16 @@ class PromoCodeViewTestCase(TestCase):
         request = factory.post('/', data={'email': 'a@a.com'}, format='json')
         response = self.view(request).render()
         self.assertEqual(response.status_code, 200)
+
+    @responses.activate
+    def test_valid_request_should_mail_user_code(self):
+        responses.add(**self.mock_kwargs)
+
+        request = factory.post('/', data={'email': 'a@a.com'}, format='json')
+        self.view(request).render()
+
+        self.assertEqual(
+            mail.outbox[0].subject,
+            u'Get your PythonBrasil[10] promotional code',
+        )
+        self.assertIn(self.pc.code, mail.outbox[0].body)

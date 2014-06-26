@@ -19,7 +19,7 @@ class PromoCodeView(generics.GenericAPIView):
 
         if ser.is_valid():
             pc = ser.save()
-            # pc.send_email()
+            pc.send_email()
             return Response(ser.data)
         else:
             return Response(ser.errors, status=status.HTTP_400_BAD_REQUEST)
