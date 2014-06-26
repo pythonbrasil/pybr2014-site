@@ -3,6 +3,7 @@
 import requests
 
 from django.utils.translation import ugettext as _
+from django.db import transaction
 
 from rest_framework import serializers
 
@@ -37,12 +38,16 @@ class PromoCodeSerializer(serializers.Serializer):
 
     def save(self):
         try:
-            # TODO: Lock
             pc = PromoCode.objects.get(email=self.data['email'])
         except PromoCode.DoesNotExist:
-            pc = PromoCode.objects.filter(email__isnull=True)[0]
-            pc.email = self.data['email']
-            pc.save()
+            with transaction.commit_on_success():
+                # TODO: This is, in fact, always will cause a lock, since the
+                # query is the same. It would be nice it only locked the row
+                # that are being updated.
+                pc = PromoCode.objects.select_for_update()
+                pc = pc.filter(email__isnull=True)[0]
+                pc.email = self.data['email']
+                pc.save()
 
         return pc
 
