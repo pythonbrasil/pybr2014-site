@@ -2,6 +2,8 @@
 
 import requests
 
+from django.utils.translation import ugettext as _
+
 from rest_framework import serializers
 
 from pythonbrasil8.promo_code.models import PromoCode
@@ -19,7 +21,7 @@ class PromoCodeSerializer(serializers.Serializer):
             )
         except requests.exceptions.ConnectionError:
             raise serializers.ValidationError(
-                u'Problem connecting with third party service',
+                _(u'Problem connecting with third party service'),
             )
         else:
             return response.json()['status'] == 'active'
@@ -28,7 +30,7 @@ class PromoCodeSerializer(serializers.Serializer):
         email = attrs[source]
         if not self.is_associated(email):
             raise serializers.ValidationError(
-                u'E-mail is not valid associated email',
+                _(u'E-mail is not valid associated email'),
             )
 
         return attrs
@@ -45,5 +47,5 @@ class PromoCodeSerializer(serializers.Serializer):
         return pc
 
     def to_native(self, value):
-        value['success'] = u'The code has been successfully sent'
+        value['success'] = _(u'The code has been successfully sent')
         return value

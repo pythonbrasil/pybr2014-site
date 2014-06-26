@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PythonBrasil8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-12 22:59-0300\n"
+"POT-Creation-Date: 2014-06-25 22:06-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Tatiana Al-Chueyr <tatiana.alchueyr@gmail.com>\n"
 "Language-Team: Francisco Souza <f@souza.cc>\n"
@@ -91,7 +91,7 @@ msgstr "Patrocinadores"
 msgid "PYTHONBRASIL SPONSORS"
 msgstr "PATROCINADORES DA PYTHONBRASIL"
 
-#: core/templates/sponsors.html:40 templates/base.html:168
+#: core/templates/sponsors.html:40 templates/base.html:156
 msgid "Learn how to become a sponsor"
 msgstr "Veja como se tornar um patrocinador"
 
@@ -116,15 +116,15 @@ msgstr ""
 msgid "Sponsoring prospectus"
 msgstr "Plano de captação (versão em inglês)"
 
-#: core/templates/venue.html:5 core/templates/venue.html.py:6
+#: core/templates/venue.html:6 core/templates/venue.html.py:7
 msgid "Porto de Galinhas"
 msgstr "Porto de Galinhas"
 
-#: core/templates/venue.html:10
+#: core/templates/venue.html:11
 msgid "About Porto de Galinhas"
 msgstr "Sobre Porto de Galinhas"
 
-#: core/templates/venue.html:12
+#: core/templates/venue.html:14
 msgid ""
 "For the first time, PythonBrazil is heading to Porto de Galinhas, "
 "Pernambuco, an amazing beach located 37 mi south of the city of Recife, "
@@ -134,7 +134,7 @@ msgstr ""
 "Galinhas,  uma das praias mais paradisíacas do Brasil localizado a 37 milhas "
 "ao sul da cidade do Recife, Pernambuco."
 
-#: core/templates/venue.html:13
+#: core/templates/venue.html:15
 msgid ""
 "Until a few years ago, Porto was an anonymous small village of fishermen, "
 "but nowadays it is one of the most important tourist destinations in Brazil, "
@@ -147,7 +147,7 @@ msgstr ""
 "Brasil, sendo eleita por dez vezes seguidas a melhor praia do país. Apesar "
 "disto, a vila continua pequena, mantendo sua peculiar arquitetura rústica."
 
-#: core/templates/venue.html:14
+#: core/templates/venue.html:16
 msgid ""
 "The beach line is 11 mi long, all with white, fine grained, clean sand. "
 "There is a chain of millenary reefs lining all along the coast. During the "
@@ -162,15 +162,15 @@ msgstr ""
 "mergulhar e alimentar os peixes em uma água sempre morna. A localização é "
 "famosa pela suas paisagens incríveis e a sua natureza atraente."
 
-#: core/templates/venue.html:17
+#: core/templates/venue.html:19
 msgid "How to get to Porto De Galinhas"
 msgstr "Como chegar em Porto de Galinhas"
 
-#: core/templates/venue.html:19
+#: core/templates/venue.html:21
 msgid "By air"
 msgstr "Por avião"
 
-#: core/templates/venue.html:20
+#: core/templates/venue.html:22
 msgid ""
 "The primary airport for Recife is Gilberto Freyre International Aiport  "
 "(Guararapes Airport). Flights from everywhere to Recife can be found on <a "
@@ -186,7 +186,7 @@ msgstr ""
 "PythonBrasil disponibilizará transporte gratuito para os participantes "
 "saindo de Recife para Porto de Galinhas nos dias que ocorrem a Conferência."
 
-#: core/templates/venue.html:21
+#: core/templates/venue.html:23
 msgid ""
 "You can also take a bus, use a shuttle service, get a taxi or rent a car to "
 "go to Porto de Galinhas (the trip between Recife and Porto usually takes 2 "
@@ -198,11 +198,11 @@ msgstr ""
 "leva 2 horas). Se você está em um estado vizinho, há também a opção de vir "
 "de ônibus ou de carro."
 
-#: core/templates/venue.html:24
+#: core/templates/venue.html:26
 msgid "How the free transportation will work"
 msgstr "Como transporte gratuito irá funcionar"
 
-#: core/templates/venue.html:25
+#: core/templates/venue.html:27
 msgid ""
 "PythonBrazil will provide a nice and comfortable bus to all attendees. In "
 "future we will provide further information."
@@ -210,11 +210,11 @@ msgstr ""
 "A PythonBrasil disponibilizará um confortável ônibus para todos os "
 "participantes. Em breve informaremos mais detalhes."
 
-#: core/templates/venue.html:27
+#: core/templates/venue.html:29
 msgid "From abroad"
 msgstr "Para quem vem do exterior"
 
-#: core/templates/venue.html:28
+#: core/templates/venue.html:30
 msgid ""
 "International travellers from the countries that are include in the Mercosul "
 "Agreement can travel to Brazil freely without the need for a Visa. Citizens "
@@ -228,11 +228,11 @@ msgstr ""
 "brazil.travisa.com/'>http://brazil.travisa.com/</a>  para checar a "
 "necessidade de visto e como obter um."
 
-#: core/templates/venue.html:31
+#: core/templates/venue.html:33
 msgid "Invitation Letters"
 msgstr "Cartas de Convite."
 
-#: core/templates/venue.html:32
+#: core/templates/venue.html:34
 msgid ""
 "Visitor visa applicants may need letters or other documents indicating the "
 "purpose of their visit, evidence of funds to cover accommodation and food, "
@@ -537,6 +537,50 @@ msgstr ""
 msgid "Author"
 msgstr ""
 
+#: promo_code/models.py:21
+msgid "Get your PythonBrasil[10] promotional code"
+msgstr "Pegue seu código promocional da Pythonbrasil[10]!"
+
+#: promo_code/models.py:22
+msgid ""
+"\n"
+"        Hi,\n"
+"        Congratulations, here is your discount code for being a associated\n"
+"        of PythonBrasil!\n"
+"\n"
+"        Code: {}\n"
+"\n"
+"        You can complete your registration going to: <link>.\n"
+"\n"
+"        Att.\n"
+"            PythonBrasil[10] Team\n"
+"        "
+msgstr ""
+"\n"
+"        Olá,\n"
+"        Parabéns, aqui está seu código de desconto por ser um associado\n"
+"        da PythonBrasil!\n"
+"\n"
+"        Código: {}\n"
+"\n"
+"        Você pode completar sua inscrição acessando: <link>.\n"
+"\n"
+"        Att.\n"
+"            Organização PythonBrasil[10]\n"
+"        "
+
+#: promo_code/serializers.py:24
+msgid "Problem connecting with third party service"
+msgstr "Erro ao tentar conectar com serviço externo"
+
+#: promo_code/serializers.py:33
+msgid "E-mail is not valid associated email"
+msgstr "E-mail não é uma associação válida"
+
+#: promo_code/serializers.py:50
+msgid "The code has been successfully sent"
+msgstr "O código foi enviado com sucesso!"
+
 #: schedule/admin.py:22 schedule/models.py:69 templates/proposal.html:46
 msgid "Speakers"
 msgstr "Palestrantes"
@@ -752,7 +796,7 @@ msgstr "Para confirmar sua inscrição, por favor pague a taxa de inscrição (R
 msgid " using the button below:"
 msgstr " usando o botão abaixo:"
 
-#: templates/about.html:4 templates/about.html.py:5 templates/base.html:83
+#: templates/about.html:4 templates/about.html.py:5 templates/base.html:82
 #: templates/previous_editions.html:4
 msgid "About"
 msgstr "Sobre"
@@ -773,63 +817,63 @@ msgstr "Baixe o banner!"
 msgid "I'm Attending to PythonBrasil[10]"
 msgstr "Eu vou na PythonBrasil[10]"
 
-#: templates/base.html:88
+#: templates/base.html:87
 msgid "Blog"
 msgstr "Blog"
 
-#: templates/base.html:127
+#: templates/base.html:126
 msgid "The Python Comunity Event"
 msgstr "O evento da Comunidade Python"
 
-#: templates/base.html:131
+#: templates/base.html:130
 msgid "TUTORIALS"
 msgstr "TUTORIAIS"
 
-#: templates/base.html:132 templates/base.html.py:137 templates/base.html:142
+#: templates/base.html:131 templates/base.html.py:136 templates/base.html:141
 msgid "November"
 msgstr "NOVEMBRO"
 
-#: templates/base.html:136
+#: templates/base.html:135
 msgid "TALKS"
 msgstr "PALESTRAS"
 
-#: templates/base.html:141
+#: templates/base.html:140
 msgid "SPRINTS"
 msgstr "SPRINTS"
 
-#: templates/base.html:157
+#: templates/base.html:158
 msgid "become a sponsor"
 msgstr "seja um patrocinador"
 
-#: templates/base.html:169
+#: templates/base.html:170
 msgid "ARE YOU SPEAKING OR ATTENDING?"
 msgstr "VAI PALESTRAR OU PARTICIPAR?"
 
-#: templates/base.html:170
+#: templates/base.html:171
 msgid "grab a badge"
 msgstr "baixe o banner!"
 
-#: templates/base.html:174
+#: templates/base.html:175
 msgid "ARE YOU ATTENDING?"
 msgstr "VAI PARTICIPAR DO EVENTO?"
 
-#: templates/base.html:175
+#: templates/base.html:176
 msgid "Learn more about the code of conduct"
 msgstr "Saiba mais sobre o código de conduta"
 
-#: templates/base.html:178
+#: templates/base.html:179
 msgid "code of conduct"
 msgstr "código de conduta"
 
-#: templates/base.html:203 templates/base.html.py:207
+#: templates/base.html:204 templates/base.html.py:208
 msgid "Organization"
 msgstr "Organização"
 
-#: templates/base.html:211
+#: templates/base.html:212
 msgid "Illustration"
 msgstr "Ilutração"
 
-#: templates/base.html:215
+#: templates/base.html:216
 msgid "WebDesign & Front-End"
 msgstr "WebDesign & Front-End"
 
