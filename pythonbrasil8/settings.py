@@ -172,7 +172,7 @@ PAGSEGURO_WEBCHECKOUT = 'https://pagseguro.uol.com.br/v2/checkout/payment.html?c
 COMPRESS_OFFLINE = False
 COMPRESS_ENABLED = False
 
-if bool(int(os.environ.get('S3'))):
+if bool(int(os.environ.get('S3', '0'))):
     AWS_QUERYSTRING_AUTH = False
     AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
     AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
