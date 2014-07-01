@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PythonBrasil8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-30 23:40-0300\n"
+"POT-Creation-Date: 2014-07-01 10:09-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Tatiana Al-Chueyr <tatiana.alchueyr@gmail.com>\n"
 "Language-Team: Francisco Souza <f@souza.cc>\n"
@@ -91,7 +91,7 @@ msgstr "Patrocinadores"
 msgid "PYTHONBRASIL SPONSORS"
 msgstr "PATROCINADORES DA PYTHONBRASIL"
 
-#: core/templates/sponsors.html:40 templates/base.html:156
+#: core/templates/sponsors.html:40 templates/base.html:158
 msgid "Learn how to become a sponsor"
 msgstr "Veja como se tornar um patrocinador"
 
@@ -248,17 +248,15 @@ msgstr ""
 "embaixada local ou consulado, os requisitos que podem variar de país para "
 "país."
 
-#: dashboard/choices.py:6 templates/register.html:27
-#: templates/register.html.py:113
+#: dashboard/choices.py:6
 msgid "Corporate"
 msgstr "Corporativo"
 
-#: dashboard/choices.py:7 templates/register.html:122
+#: dashboard/choices.py:7
 msgid "Individual"
 msgstr "Individual"
 
-#: dashboard/choices.py:8 dashboard/choices.py:48 templates/register.html:38
-#: templates/register.html.py:131
+#: dashboard/choices.py:8 dashboard/choices.py:48
 msgid "Student"
 msgstr "Estudante"
 
@@ -399,6 +397,7 @@ msgstr "Propostas"
 #: subscription/templates/subscription/tutorials.html:12
 #: subscription/templates/subscription/tutorials_confirmed.html:12
 #: subscription/templates/subscription/tutorials_success.html:12
+#: templates/register.html:61
 msgid "Tutorials"
 msgstr "Tutoriais"
 
@@ -537,7 +536,7 @@ msgstr ""
 msgid "Author"
 msgstr ""
 
-#: promo_code/models.py:24
+#: promo_code/models.py:25
 msgid "Get your PythonBrasil[10] promotional code"
 msgstr "Pegue seu código promocional da Pythonbrasil[10]!"
 
@@ -653,6 +652,7 @@ msgstr "Submeter palestra"
 #: schedule/templates/schedule/edit-session.html:27
 #: schedule/templates/schedule/subscribe.html:39
 #: subscription/templates/subscription/tutorials.html:54
+#: templates/register.html:33
 #: templates/registration/password_change_form.html:17
 msgid "Send"
 msgstr "Enviar"
@@ -768,7 +768,7 @@ msgstr "Para confirmar sua inscrição, por favor pague a taxa de inscrição (R
 msgid " using the button below:"
 msgstr " usando o botão abaixo:"
 
-#: templates/about.html:4 templates/about.html.py:5 templates/base.html:82
+#: templates/about.html:4 templates/about.html.py:5 templates/base.html:84
 #: templates/previous_editions.html:4
 msgid "About"
 msgstr "Sobre"
@@ -789,63 +789,68 @@ msgstr "Baixe o banner!"
 msgid "I'm Attending to PythonBrasil[10]"
 msgstr "Eu vou na PythonBrasil[10]"
 
-#: templates/base.html:87
+#: templates/base.html:89
 msgid "Blog"
 msgstr "Blog"
 
-#: templates/base.html:126
+#: templates/base.html:94 templates/register.html:24
+#, fuzzy
+msgid "Register"
+msgstr "Inscrição"
+
+#: templates/base.html:128
 msgid "The Python Comunity Event"
 msgstr "O evento da Comunidade Python"
 
-#: templates/base.html:130
+#: templates/base.html:132
 msgid "TUTORIALS"
 msgstr "TUTORIAIS"
 
-#: templates/base.html:131 templates/base.html.py:136 templates/base.html:141
+#: templates/base.html:133 templates/base.html.py:138 templates/base.html:143
 msgid "November"
 msgstr "NOVEMBRO"
 
-#: templates/base.html:135
+#: templates/base.html:137
 msgid "TALKS"
 msgstr "PALESTRAS"
 
-#: templates/base.html:140
+#: templates/base.html:142
 msgid "SPRINTS"
 msgstr "SPRINTS"
 
-#: templates/base.html:158
+#: templates/base.html:160
 msgid "become a sponsor"
 msgstr "seja um patrocinador"
 
-#: templates/base.html:170
+#: templates/base.html:172
 msgid "ARE YOU SPEAKING OR ATTENDING?"
 msgstr "VAI PALESTRAR OU PARTICIPAR?"
 
-#: templates/base.html:171
+#: templates/base.html:173
 msgid "grab a badge"
 msgstr "baixe o banner!"
 
-#: templates/base.html:175
+#: templates/base.html:177
 msgid "ARE YOU ATTENDING?"
 msgstr "VAI PARTICIPAR DO EVENTO?"
 
-#: templates/base.html:176
+#: templates/base.html:178
 msgid "Learn more about the code of conduct"
 msgstr "Saiba mais sobre o código de conduta"
 
-#: templates/base.html:179
+#: templates/base.html:181
 msgid "code of conduct"
 msgstr "código de conduta"
 
-#: templates/base.html:204 templates/base.html.py:208
+#: templates/base.html:206 templates/base.html.py:210
 msgid "Organization"
 msgstr "Organização"
 
-#: templates/base.html:212
+#: templates/base.html:214
 msgid "Illustration"
 msgstr "Ilutração"
 
-#: templates/base.html:216
+#: templates/base.html:218
 msgid "WebDesign & Front-End"
 msgstr "WebDesign & Front-End"
 
@@ -1102,187 +1107,81 @@ msgstr "Não informada"
 msgid "Registration"
 msgstr "Inscrição"
 
-#: templates/register.html:13
-msgid "PythonBrasil Registration Rates"
-msgstr "Taxas de Inscrição da PythonBrasil"
+#: templates/register.html:25
+msgid ""
+"If you are member of Python Brasil Association, please fill the email field "
+"bellow to receive the discount code. Please insert the same e-mail you've "
+"registered at the association site."
+msgstr ""
+"Se vocẽ é membro da Associação Python Brasil, por favor preencha o campo abaixo com seu e-mail"
+"para receber seu código de desconto. Por favor insira o e-mail em que você se registrou no site "
 
-#: templates/register.html:20
-msgid "Conference Registration"
-msgstr "Inscrição na Conferência"
+#: templates/register.html:35
+msgid "If you're not a member yet, visit"
+msgstr "Se você não é membro ainda, acesse"
 
-#: templates/register.html:21
-msgid "Regular Rate"
-msgstr "Normal"
+#: templates/register.html:35
+msgid "and register right now."
+msgstr "e associe-se agora."
 
-#: templates/register.html:22
-msgid "Last Week Rate"
-msgstr "Última semana"
+#: templates/register.html:43
+#, fuzzy
+msgid "Session"
+msgstr "Sessão"
 
-#: templates/register.html:27 templates/register.html.py:32
-#: templates/register.html:38 templates/register.html.py:39
-#: templates/register.html:40
-msgid "Registration Information"
-msgstr "Informações sobre a inscrição"
+#: templates/register.html:46
+msgid "Dates"
+msgstr "Datas"
 
-#: templates/register.html:39 templates/register.html.py:139
-msgid "Speaker"
-msgstr "Palestrante"
+#: templates/register.html:49
+msgid "First batch"
+msgstr "Primeiro Lote"
 
-#: templates/register.html:40 templates/register.html.py:147
-msgid "APyB member"
-msgstr "Membro APyB"
+#: templates/register.html:52
+msgid "Second batch"
+msgstr "Segundo Lote"
 
-#: templates/register.html:53
-msgid "Regular Rate:"
-msgstr "Valor normal:"
+#: templates/register.html:55
+msgid "Third batch"
+msgstr "Terceiro Lote"
 
-#: templates/register.html:54
-msgid "until November 15, 2012"
-msgstr "até 15 de novembro de 2012"
+#: templates/register.html:62
+msgid "Nov 4th and 5th"
+msgstr "4 e 5 de Novembro"
 
-#: templates/register.html:57
-msgid "Last week Rate:"
-msgstr "Última semana"
+#: templates/register.html:63 templates/register.html.py:64
+#: templates/register.html:65 templates/register.html.py:77
+#: templates/register.html:78 templates/register.html.py:79
+msgid "TBA"
+msgstr "Em breve"
 
-#: templates/register.html:58
-msgid "since November 16, 2012"
-msgstr "a partir de 16 de novembro"
+#: templates/register.html:68
+msgid "Conference / Sprints"
+msgstr "Conferência / Sprints"
 
-#: templates/register.html:63 templates/register.html.py:107
-msgid "Buy your ticket!"
-msgstr "Pague sua inscrição!"
+#: templates/register.html:69
+msgid "Nov 6th to 8th"
+msgstr "6 a 8 de Novembro"
 
 #: templates/register.html:75
-msgid "Tutorial Registration"
-msgstr "Inscrição em Tutoriais"
+msgid "Activities"
+msgstr "Atividades"
 
 #: templates/register.html:76
-msgid "Rate"
-msgstr "Valor"
+msgid "Nov 9th"
+msgstr "9 de Novembro"
 
-#: templates/register.html:111
-msgid "Registration Types"
-msgstr "Tipos de inscrição"
+#: templates/register.html:110
+msgid "We sent you an e-mail with your discount code! :)"
+msgstr "Acabamos de lhe mandar um e-mail com o código de desconto! :)"
 
-#: templates/register.html:115
-msgid ""
-"\n"
-"                If your company is paying for you to attend PythonBrasil, "
-"you should register at the corporate rate.\n"
-"                You'll be helping to keep the conference affordable for all, "
-"especially for students and those needing financial aid.\n"
-"                Government employees should also register at the corporate "
-"rate.\n"
-"                "
-msgstr ""
-"\n"
-"                Se a sua empresa está pagando para você participar da "
-"PythonBrasil, você deve se inscrever usando a taxa coorporativa.\n"
-"                Você estará ajudando a manter a conferência acessível para "
-"todos, especialmente para estudantes e pessoas precisando de apoio "
-"financeiro.\n"
-"                Servidores públicos também devem se inscrever utilizando a "
-"taxa coorporativa.                 "
+#: templates/register.html:121
+msgid "Error: We have a few monkeys working on it right now."
+msgstr "Erro: Temos alguns macacos treinados trabalhando nisto."
 
-#: templates/register.html:124
-msgid ""
-"\n"
-"                If you are paying for yourself to attend PythonBrasil,\n"
-"                and you are not member of the APyB (Brazilian Python "
-"Association),\n"
-"                feel free to come as an individual.\n"
-"                "
-msgstr ""
-"\n"
-"                Se você está pagando a sua própria inscrição para "
-"PythonBrasil,\n"
-"                e você não é membro da APyB (Associação Python Brasil),\n"
-"                selecione essa taxa de inscrição.\n"
-"                "
-
-#: templates/register.html:133
-msgid ""
-"\n"
-"                This rate is for full-time students.\n"
-"                You must present the documentation that proofs this "
-"condition in the first day of the conference.\n"
-"                "
-msgstr ""
-"\n"
-"                Esta é a taxa de inscrição para estudantes em tempo "
-"integral.\n"
-"                Você deverá apresentar um comprovante válido, no primeiro "
-"dia da conferência.\n"
-"                "
-
-#: templates/register.html:141
-#, fuzzy
-msgid ""
-"\n"
-"                The selected speakers will be announced <span class=\"strong"
-"\">August 25, 2012</span>.\n"
-"                Therefore, if you are not an APyB member nor a student, we "
-"suggest you wait until this date, in order to buy your ticket.\n"
-"                "
-msgstr ""
-"\n"
-"                Os palestrantes selecionados serão anunciados no dia <span "
-"class=\"strong\">30 de agosto de 2014</span>.\n"
-"                Portanto, se você não for membro APyB ou estudante e "
-"submeter palestra, sugerimos que aguarde até esta data para pagar a sua "
-"inscrição.\n"
-"                "
-
-#: templates/register.html:149
-msgid ""
-"\n"
-"                This rate is for members of the <a href=\"http://associacao."
-"python.org.br/\">Brazilian Python Association</a> (APyB),\n"
-"                with the annual fee payed (R$ 40,00 for non-students per "
-"year).\n"
-"                If in doubt, check the <a href=\"http://associacao.python."
-"org.br/associados/relacao\">status of your membership</a>.\n"
-"                "
-msgstr ""
-"\n"
-"                Esta taxa é para membro sda  <a href=\"http://associacao."
-"python.org.br/\">Associação Python Brasil</a> (APyB),\n"
-"                que tiverem pago a taxa anual (R$ 40,00 para não-estudantes "
-"por ano).\n"
-"                Se estiver em dúvida, confira o <a href=\"http://associacao."
-"python.org.br/associados/relacao\">status da sua associação</a>.\n"
-"                "
-
-#: templates/register.html:157
-msgid "What's included?"
-msgstr "O que está incluído?"
-
-#: templates/register.html:159
-msgid ""
-"\n"
-"                <p>Conference registration includes access to open spaces, "
-"coding dojos and talks on the two conference days (Friday & Saturday). "
-"Coffee-breaks and the conference T-shirt are also included.</p>\n"
-"                <p>Tutorial attendees will be provided with coffee breaks. "
-"Tutorials are charged separately from registration and do not include "
-"admission to the main conference.</p>\n"
-"                <p>If you have questions or issues with registration, please "
-"send email to <a href=\"mailto:organizes@python.org.br\">organizers@python."
-"org.br</a>.</p>\n"
-"                "
-msgstr ""
-"\n"
-"                <p>A inscrição à conferência inclui acesso aos open spaces, "
-"palestras relâmpago e apresentações durante os dois dias de conferência "
-"(Sexta & Sábado). Coffee breaks e a camiseta da conferência também estão "
-"incluídos.</p>\n"
-"                <p>Participantes dos tutoriais terão coffee breaks nos dias "
-"correspondentes Tutoriais são cobrados a parte da inscrição e não permitem "
-"acesso  à conferência principal.</p>\n"
-"                <p>Se você tiver perguntas ou problemas com a inscrição, por "
-"favor envie email para <a href=\"mailto:organizes@python.org.br"
-"\">organizers@python.org.br</a>.</p>\n"
-"                "
+#: templates/register.html:129
+msgid "Please insert a valid e-mail address"
+msgstr "Por favor, insira um endereço de e-mail válido"
 
 #: templates/schedule.html:4 templates/schedule.html.py:5
 msgid "Schedule"
@@ -1343,12 +1242,13 @@ msgid "You should enable JavaScript to have a better experience when voting!"
 msgstr ""
 
 #: templates/promo_code/email_promo_code.txt:1
+#, fuzzy, python-format
 msgid ""
 "Hi,\n"
 "Congratulations, here is your discount code for being a associated\n"
 "of PythonBrasil!\n"
 "\n"
-"Code: {code}\n"
+"Code: %(code)s\n"
 "\n"
 "You can complete your registration going to: <link>.\n"
 "\n"
@@ -1482,3 +1382,160 @@ msgid "Please fill the form below to registrate yourself for PythonBrasil[8]:"
 msgstr ""
 "Favor preencher o formulário para pré-inscrição na PythonBrasil[8]. Todos "
 "campos são obrigatórios."
+
+#~ msgid "PythonBrasil Registration Rates"
+#~ msgstr "Taxas de Inscrição da PythonBrasil"
+
+#~ msgid "Regular Rate"
+#~ msgstr "Normal"
+
+#~ msgid "Last Week Rate"
+#~ msgstr "Última semana"
+
+#~ msgid "Registration Information"
+#~ msgstr "Informações sobre a inscrição"
+
+#~ msgid "Speaker"
+#~ msgstr "Palestrante"
+
+#~ msgid "APyB member"
+#~ msgstr "Membro APyB"
+
+#~ msgid "Regular Rate:"
+#~ msgstr "Valor normal:"
+
+#~ msgid "until November 15, 2012"
+#~ msgstr "até 15 de novembro de 2012"
+
+#~ msgid "Last week Rate:"
+#~ msgstr "Última semana"
+
+#~ msgid "since November 16, 2012"
+#~ msgstr "a partir de 16 de novembro"
+
+#~ msgid "Buy your ticket!"
+#~ msgstr "Pague sua inscrição!"
+
+#~ msgid "Tutorial Registration"
+#~ msgstr "Inscrição em Tutoriais"
+
+#~ msgid "Rate"
+#~ msgstr "Valor"
+
+#~ msgid "Registration Types"
+#~ msgstr "Tipos de inscrição"
+
+#~ msgid ""
+#~ "\n"
+#~ "                If your company is paying for you to attend PythonBrasil, "
+#~ "you should register at the corporate rate.\n"
+#~ "                You'll be helping to keep the conference affordable for "
+#~ "all, especially for students and those needing financial aid.\n"
+#~ "                Government employees should also register at the "
+#~ "corporate rate.\n"
+#~ "                "
+#~ msgstr ""
+#~ "\n"
+#~ "                Se a sua empresa está pagando para você participar da "
+#~ "PythonBrasil, você deve se inscrever usando a taxa coorporativa.\n"
+#~ "                Você estará ajudando a manter a conferência acessível "
+#~ "para todos, especialmente para estudantes e pessoas precisando de apoio "
+#~ "financeiro.\n"
+#~ "                Servidores públicos também devem se inscrever utilizando "
+#~ "a taxa coorporativa.                 "
+
+#~ msgid ""
+#~ "\n"
+#~ "                If you are paying for yourself to attend PythonBrasil,\n"
+#~ "                and you are not member of the APyB (Brazilian Python "
+#~ "Association),\n"
+#~ "                feel free to come as an individual.\n"
+#~ "                "
+#~ msgstr ""
+#~ "\n"
+#~ "                Se você está pagando a sua própria inscrição para "
+#~ "PythonBrasil,\n"
+#~ "                e você não é membro da APyB (Associação Python Brasil),\n"
+#~ "                selecione essa taxa de inscrição.\n"
+#~ "                "
+
+#~ msgid ""
+#~ "\n"
+#~ "                This rate is for full-time students.\n"
+#~ "                You must present the documentation that proofs this "
+#~ "condition in the first day of the conference.\n"
+#~ "                "
+#~ msgstr ""
+#~ "\n"
+#~ "                Esta é a taxa de inscrição para estudantes em tempo "
+#~ "integral.\n"
+#~ "                Você deverá apresentar um comprovante válido, no primeiro "
+#~ "dia da conferência.\n"
+#~ "                "
+
+#, fuzzy
+#~ msgid ""
+#~ "\n"
+#~ "                The selected speakers will be announced <span class="
+#~ "\"strong\">August 25, 2012</span>.\n"
+#~ "                Therefore, if you are not an APyB member nor a student, "
+#~ "we suggest you wait until this date, in order to buy your ticket.\n"
+#~ "                "
+#~ msgstr ""
+#~ "\n"
+#~ "                Os palestrantes selecionados serão anunciados no dia "
+#~ "<span class=\"strong\">30 de agosto de 2014</span>.\n"
+#~ "                Portanto, se você não for membro APyB ou estudante e "
+#~ "submeter palestra, sugerimos que aguarde até esta data para pagar a sua "
+#~ "inscrição.\n"
+#~ "                "
+
+#~ msgid ""
+#~ "\n"
+#~ "                This rate is for members of the <a href=\"http://"
+#~ "associacao.python.org.br/\">Brazilian Python Association</a> (APyB),\n"
+#~ "                with the annual fee payed (R$ 40,00 for non-students per "
+#~ "year).\n"
+#~ "                If in doubt, check the <a href=\"http://associacao.python."
+#~ "org.br/associados/relacao\">status of your membership</a>.\n"
+#~ "                "
+#~ msgstr ""
+#~ "\n"
+#~ "                Esta taxa é para membro sda  <a href=\"http://associacao."
+#~ "python.org.br/\">Associação Python Brasil</a> (APyB),\n"
+#~ "                que tiverem pago a taxa anual (R$ 40,00 para não-"
+#~ "estudantes por ano).\n"
+#~ "                Se estiver em dúvida, confira o <a href=\"http://"
+#~ "associacao.python.org.br/associados/relacao\">status da sua associação</"
+#~ "a>.\n"
+#~ "                "
+
+#~ msgid "What's included?"
+#~ msgstr "O que está incluído?"
+
+#~ msgid ""
+#~ "\n"
+#~ "                <p>Conference registration includes access to open "
+#~ "spaces, coding dojos and talks on the two conference days (Friday & "
+#~ "Saturday). Coffee-breaks and the conference T-shirt are also included.</"
+#~ "p>\n"
+#~ "                <p>Tutorial attendees will be provided with coffee "
+#~ "breaks. Tutorials are charged separately from registration and do not "
+#~ "include admission to the main conference.</p>\n"
+#~ "                <p>If you have questions or issues with registration, "
+#~ "please send email to <a href=\"mailto:organizes@python.org.br"
+#~ "\">organizers@python.org.br</a>.</p>\n"
+#~ "                "
+#~ msgstr ""
+#~ "\n"
+#~ "                <p>A inscrição à conferência inclui acesso aos open "
+#~ "spaces, palestras relâmpago e apresentações durante os dois dias de "
+#~ "conferência (Sexta & Sábado). Coffee breaks e a camiseta da conferência "
+#~ "também estão incluídos.</p>\n"
+#~ "                <p>Participantes dos tutoriais terão coffee breaks nos "
+#~ "dias correspondentes Tutoriais são cobrados a parte da inscrição e não "
+#~ "permitem acesso  à conferência principal.</p>\n"
+#~ "                <p>Se você tiver perguntas ou problemas com a inscrição, "
+#~ "por favor envie email para <a href=\"mailto:organizes@python.org.br"
+#~ "\">organizers@python.org.br</a>.</p>\n"
+#~ "                "
