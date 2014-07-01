@@ -5,165 +5,138 @@
 {% block og_title %}{% trans "Registration" %} | PythonBrasil[8]{% endblock %}
 
 {% block css %}
-    <link rel="stylesheet" href="/static/css/register.css" type="text/css" />
+  <link rel="stylesheet" href="/static/css/footable-0.1.css" />
+  <style type="text/css">
+    .error-message{
+      color: red;
+    }
+
+    .success-message{
+      color: green;
+    }
+  </style>
+ 
+
 {% endblock %}
 
 {% block content %}
-    <div class="row">
-        <h1>{% trans "PythonBrasil Registration Rates" %}</h1>
+  <article class="blog-item">
+    <h2 id="register">{% trans "Register" %}</h2>
+    <p>{% trans "If you are member of Python Brasil Association, please fill the email field bellow to receive the discount code. Please insert the same e-mail you've registered at the association site." %}</p>
+    <p class="error-message"></p>
+    <p class="success-message"></p>
 
-        <section class="registration">
-            <div class="table">
-                <table>
-                    <thead>
-                        <tr>
-                            <th align="left">{% trans "Conference Registration" %}</th>
-                            <th align="center">{% trans "Regular Rate" %}</th>
-                            <th align="center">{% trans "Last Week Rate" %}</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td align="left"><a href="#corporate" title="{% trans "Registration Information" %}">{% trans "Corporate" %}</a></td>
-                            <td align="center">R$ 350,00</td>
-                            <td align="center">R$ 450,00</td>
-                        </tr>
-                        <tr>
-                            <td align="left"><a href="#individual" title="{% trans "Registration Information" %}">Individual</a></td>
-                            <td align="center">R$ 150,00</td>
-                            <td align="center">R$ 250,00</td>
-                        </tr>
-                        <tr>
-                            <td align="left">
-                                <a href="#student" title="{% trans "Registration Information" %}">{% trans "Student" %}</a>,
-                                <a href="#speaker" title="{% trans "Registration Information" %}">{% trans "Speaker" %}</a> or
-                                <a href="#apyb" title="{% trans "Registration Information" %}">{% trans "APyB member" %}</a>
-                            </td>
-                            <td align="center">R$ 250,00</td>
-                            <td align="center">R$ 350,00</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-                <div class="note">
-                <div class="inner-note">
-                    <ul>
-                        <li>
-                        <li>
-                            <p class="subtitle">{% trans "Regular Rate:" %}</p>
-                            <p>{% trans "until November 15, 2012" %}</p>
-                        </li>
-                        <li>
-                            <p class="subtitle">{% trans "Last week Rate:" %}</p>
-                            <p>{% trans "since November 16, 2012" %}</p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <a class="btn" href="{% url dashboard-index %}">{% trans "Buy your ticket!" %}</a>
-            <p>
-                If you have already payed the conference registration, you can attend to the tutorials by:<br>
-                - subscribing to the tutorial, from your dashboard<br>
-                - bringing a kg of non-perishable food<br>
-                The food will be donated to <a href="http://www.apaerio.org.br/" target="_blank">APAE</a>, Association of Parents and Friends of Exceptional Children of Rio de Janeiro.
-            </p><br><br>
+    <p>
+      <label>
+        E-mail: <input size="40" class="email" type="email">
+      </label>
+      <a href="#register" id="send-mail" class="btn">{% trans "Send" %}</a>
+    </p>
+    <p>{% trans "If you're not a member yet, visit" %} <a href="http://associados.python.org.br" target="_blank">http://associados.python.org.br</a> {% trans "and register right now." %}</p>
 
-            <div class="table">
-                <table class="tutorial-table">
-                    <thead>
-                        <tr>
-                            <th align="left">{% trans "Tutorial Registration" %}</th>
-                            <th align="center">{% trans "Rate" %}</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td align="left">
-                                1 tutorial
-                            </td>
-                            <td align="center">R$ 35,00</td>
-                        </tr>
-                        <tr>
-                            <td align="left">
-                                2 tutorials
-                            </td>
-                            <td align="center">R$ 65,00</td>
-                        </tr>
-                        <tr>
-                            <td align="left">
-                                3 tutorials
-                            </td>
-                            <td align="center">R$ 90,00</td>
-                        </tr>
-                        <tr>
-                            <td align="left">
-                                4 tutorials
-                            </td>
-                            <td align="center">R$ 100,00</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <a class="btn" href="{% url dashboard-index %}">{% trans "Buy your ticket!" %}</a>
-        </div>
-        <div clas="row">
+    <div class="grid-100 border-content">
+      <div class="session-selection">
+        <table class="footable grid-100">
+          <thead>
+            <tr>
+              <th>
+                {% trans "Session" %}
+              </th>
+              <th>
+                {% trans "Dates" %}
+              </th>
+              <th data-hide="phone">
+                {% trans "First batch" %}
+              </th>
+              <th data-hide="phone">
+                {% trans "Second batch" %}
+              </th>
+              <th data-hide="phone">
+                {% trans "Third batch" %}
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>{% trans "Tutorials" %}</td>
+              <td>{% trans "Nov 4th and 5th" %}</td>
+              <td>{% trans "TBA" %}</td>
+              <td>{% trans "TBA" %}</td>
+              <td>{% trans "TBA" %}</td>
+            </tr>
+            <tr>
+              <td>{% trans "Conference / Sprints" %}</td>
+              <td>{% trans "Nov 6th to 8th" %}</td>
+              <td>R$ 250,00<br>R$ 350,00</td>
+              <td>R$ 300,00<br>R$ 400,00</td>
+              <td>R$ 350,00<br>R$ 450,00</td>
+            </tr>
+            <tr>
+              <td>{% trans "Activities" %}</td>
+              <td>{% trans "Nov 9th" %}</td>
+              <td>{% trans "TBA" %}</td>
+              <td>{% trans "TBA" %}</td>
+              <td>{% trans "TBA" %}</td>
+            </tr>
+          </tbody>  
+        </table>
+      </div>
 
-            <h2>{% trans "Registration Types" %}</h2>
+    </div> 
+    <div style='width:100%; text-align:left;'><iframe src='https://eventioz.com.br/e/pythonbrasil10/registrations/new?iframe=' width='600' height='800' frameborder='0' scrolling='yes' style='width:600;height:800;border:none'></iframe></div>
+    
+  </article>
+{% endblock %}
 
-            <h3 id="corporate">{% trans "Corporate" %}</h3>
-            <p>
-                {% blocktrans %}
-                If your company is paying for you to attend PythonBrasil, you should register at the corporate rate.
-                You'll be helping to keep the conference affordable for all, especially for students and those needing financial aid.
-                Government employees should also register at the corporate rate.
-                {% endblocktrans %}
-            </p>
+{% block 'javascript' %}
+<script type="text/javascript">
+function validateEmail(email) { 
+    var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(email);
+}
+$("#send-mail").on('click', function(){
+  var email = $(".email").val()
+  if (email){
+    if (validateEmail(email)){
+      console.log(email)
+      $.ajax({
+        type: "POST",
+        url: "/promo_code/",
+        data: {
+          email: email
+        },
+        success: function(data){
+          $(".error-message").text("")
+          $(".success-message").text("{% trans 'We sent you an e-mail with your discount code! :)' %}")
+        },
+        statusCode: {
+          400: function(msg){
+            var message = $.parseJSON(msg['responseText'])
+            console.log(message['email'][0])
+            $(".error-message").text(message['email'][0])
+            $(".success-message").text("")
 
-            <h3 id="individual">{% trans "Individual" %}</h3>
-            <p>
-                {% blocktrans %}
-                If you are paying for yourself to attend PythonBrasil,
-                and you are not member of the APyB (Brazilian Python Association),
-                feel free to come as an individual.
-                {% endblocktrans %}
-            </p>
+          },
+          500: function(msg){
+            $(".error-message").text("{% trans 'Error: We have a few monkeys working on it right now.' %}")
+            $(".success-message").text("")
+          }
+        },
+        dataType: "json",
+      });
+    } else {
+      $(".success-message").text("")
+      $(".error-message").text("{% trans 'Please insert a valid e-mail address' %}")
+    }
+  }
+});
 
-            <h3 id="student">{% trans "Student" %}</h3>
-            <p>
-                {% blocktrans %}
-                This rate is for full-time students.
-                You must present the documentation that proofs this condition in the first day of the conference.
-                {% endblocktrans %}
-            </p>
 
-            <h3 id="speaker">{% trans "Speaker" %}</h3>
-            <p>
-                {% blocktrans %}
-                The selected speakers will be announced <span class="strong">August 25, 2012</span>.
-                Therefore, if you are not an APyB member nor a student, we suggest you wait until this date, in order to buy your ticket.
-                {% endblocktrans %}
-            </p>
-
-            <h3 id="apyb">{% trans "APyB member" %}</h3>
-            <p>
-                {% blocktrans %}
-                This rate is for members of the <a href="http://associacao.python.org.br/">Brazilian Python Association</a> (APyB),
-                with the annual fee payed (R$ 40,00 for non-students per year).
-                If in doubt, check the <a href="http://associacao.python.org.br/associados/relacao">status of your membership</a>.
-                {% endblocktrans %}
-            </p>
-
-            <div class="included">
-                <h2>{% trans "What's included?" %}</h2>
-
-                {% blocktrans %}
-                <p>Conference registration includes access to open spaces, coding dojos and talks on the two conference days (Friday & Saturday). Coffee-breaks and the conference T-shirt are also included.</p>
-                <p>Tutorial attendees will be provided with coffee breaks. Tutorials are charged separately from registration and do not include admission to the main conference.</p>
-                <p>If you have questions or issues with registration, please send email to <a href="mailto:organizes@python.org.br">organizers@python.org.br</a>.</p>
-                {% endblocktrans %}
-            </div>
-
-        </section>
-
-    </div>
+</script>
+ <script src="/static/js/footable-0.1.js" type="text/javascript"></script>
+  <script type="text/javascript">
+        $(function() {
+          $('table').footable();
+        });
+  </script>
 {% endblock %}
