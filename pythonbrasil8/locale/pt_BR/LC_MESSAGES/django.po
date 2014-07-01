@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PythonBrasil8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-25 22:06-0300\n"
+"POT-Creation-Date: 2014-06-30 23:40-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Tatiana Al-Chueyr <tatiana.alchueyr@gmail.com>\n"
 "Language-Team: Francisco Souza <f@souza.cc>\n"
@@ -537,47 +537,19 @@ msgstr ""
 msgid "Author"
 msgstr ""
 
-#: promo_code/models.py:21
+#: promo_code/models.py:24
 msgid "Get your PythonBrasil[10] promotional code"
 msgstr "Pegue seu código promocional da Pythonbrasil[10]!"
 
-#: promo_code/models.py:22
-msgid ""
-"\n"
-"        Hi,\n"
-"        Congratulations, here is your discount code for being a associated\n"
-"        of PythonBrasil!\n"
-"\n"
-"        Code: {}\n"
-"\n"
-"        You can complete your registration going to: <link>.\n"
-"\n"
-"        Att.\n"
-"            PythonBrasil[10] Team\n"
-"        "
-msgstr ""
-"\n"
-"        Olá,\n"
-"        Parabéns, aqui está seu código de desconto por ser um associado\n"
-"        da PythonBrasil!\n"
-"\n"
-"        Código: {}\n"
-"\n"
-"        Você pode completar sua inscrição acessando: <link>.\n"
-"\n"
-"        Att.\n"
-"            Organização PythonBrasil[10]\n"
-"        "
-
-#: promo_code/serializers.py:24
+#: promo_code/serializers.py:25
 msgid "Problem connecting with third party service"
 msgstr "Erro ao tentar conectar com serviço externo"
 
-#: promo_code/serializers.py:33
+#: promo_code/serializers.py:34
 msgid "E-mail is not valid associated email"
 msgstr "E-mail não é uma associação válida"
 
-#: promo_code/serializers.py:50
+#: promo_code/serializers.py:55
 msgid "The code has been successfully sent"
 msgstr "O código foi enviado com sucesso!"
 
@@ -1369,6 +1341,30 @@ msgstr ""
 #: templates/vote.html:47
 msgid "You should enable JavaScript to have a better experience when voting!"
 msgstr ""
+
+#: templates/promo_code/email_promo_code.txt:1
+msgid ""
+"Hi,\n"
+"Congratulations, here is your discount code for being a associated\n"
+"of PythonBrasil!\n"
+"\n"
+"Code: {code}\n"
+"\n"
+"You can complete your registration going to: <link>.\n"
+"\n"
+"Att.\n"
+"    PythonBrasil[10] Team\n"
+msgstr ""
+"Olá,\n"
+"Parabéns, aqui está seu código de desconto por ser um associado\n"
+"da PythonBrasil!\n"
+"\n"
+"Código: {code}\n"
+"\n"
+"Você pode completar sua inscrição acessando: <link>.\n"
+"\n"
+"Att.\n"
+"    PythonBrasil[10] Team\n"
 
 #: templates/registration/activate.html:8
 #: templates/registration/registration_form.html:11
