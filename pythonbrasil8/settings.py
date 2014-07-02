@@ -8,7 +8,9 @@ TEMPLATE_DEBUG = DEBUG
 
 PROJECT_DIR = os.path.dirname(__file__)
 
-ADMINS = ()
+ADMINS = (
+    ('Organizacao', 'organizacao@python.org.br'),
+)
 
 MANAGERS = ADMINS
 
