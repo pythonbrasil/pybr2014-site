@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PythonBrasil8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-01 23:35-0300\n"
+"POT-Creation-Date: 2014-07-01 23:46-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Tatiana Al-Chueyr <tatiana.alchueyr@gmail.com>\n"
 "Language-Team: Francisco Souza <f@souza.cc>\n"
@@ -397,7 +397,7 @@ msgstr "Propostas"
 #: subscription/templates/subscription/tutorials.html:12
 #: subscription/templates/subscription/tutorials_confirmed.html:12
 #: subscription/templates/subscription/tutorials_success.html:12
-#: templates/register.html:61
+#: templates/register.html:63
 msgid "Tutorials"
 msgstr "Tutoriais"
 
@@ -652,7 +652,7 @@ msgstr "Submeter palestra"
 #: schedule/templates/schedule/edit-session.html:27
 #: schedule/templates/schedule/subscribe.html:39
 #: subscription/templates/subscription/tutorials.html:54
-#: templates/register.html:33
+#: templates/register.html:35
 #: templates/registration/password_change_form.html:17
 msgid "Send"
 msgstr "Enviar"
@@ -794,7 +794,7 @@ msgid "Blog"
 msgstr "Blog"
 
 #: templates/base.html:94 templates/register.html:24
-#: templates/register.html.py:86
+#: templates/register.html.py:88
 msgid "Register"
 msgstr "Inscreva-se"
 
@@ -1113,74 +1113,82 @@ msgid ""
 "bellow to receive the discount code. Please insert the same e-mail you've "
 "registered at the association site."
 msgstr ""
-"Se vocẽ é membro da Associação Python Brasil, por favor preencha o campo "
+"Se você é membro da Associação Python Brasil, por favor preencha o campo "
 "abaixo com seu e-mailpara receber seu código de desconto. Por favor insira o "
 "e-mail em que você se registrou no site "
 
-#: templates/register.html:35
+#: templates/register.html:27
+msgid ""
+"If you have any kind of trouble, please send us an e-mail: <a href='mailto:"
+"organizers@python.org.br'>organizers@python.org.br</a>"
+msgstr ""
+"Se você tiver algum problema, por favor nos mande um e-mail: <a href='mailto:"
+"organizacao@python.org.br'>organizacao@python.org.br</a>"
+
+#: templates/register.html:37
 msgid "If you're not a member yet, visit"
 msgstr "Se você não é membro ainda, acesse"
 
-#: templates/register.html:35
+#: templates/register.html:37
 msgid "and register right now."
 msgstr "e associe-se agora."
 
-#: templates/register.html:43
+#: templates/register.html:45
 #, fuzzy
 msgid "Session"
 msgstr "Sessão"
 
-#: templates/register.html:46
+#: templates/register.html:48
 msgid "Dates"
 msgstr "Datas"
 
-#: templates/register.html:49
+#: templates/register.html:51
 msgid "First batch"
 msgstr "Primeiro Lote"
 
-#: templates/register.html:52
+#: templates/register.html:54
 msgid "Second batch"
 msgstr "Segundo Lote"
 
-#: templates/register.html:55
+#: templates/register.html:57
 msgid "Third batch"
 msgstr "Terceiro Lote"
 
-#: templates/register.html:62
+#: templates/register.html:64
 msgid "Nov 4th and 5th"
 msgstr "4 e 5 de Novembro"
 
-#: templates/register.html:63 templates/register.html.py:64
-#: templates/register.html:65 templates/register.html.py:77
-#: templates/register.html:78 templates/register.html.py:79
+#: templates/register.html:65 templates/register.html.py:66
+#: templates/register.html:67 templates/register.html.py:79
+#: templates/register.html:80 templates/register.html.py:81
 msgid "TBA"
 msgstr "Em breve"
 
-#: templates/register.html:68
+#: templates/register.html:70
 msgid "Conference / Sprints"
 msgstr "Conferência / Sprints"
 
-#: templates/register.html:69
+#: templates/register.html:71
 msgid "Nov 6th to 8th"
 msgstr "6 a 8 de Novembro"
 
-#: templates/register.html:75
+#: templates/register.html:77
 msgid "Activities"
 msgstr "Atividades"
 
-#: templates/register.html:76
+#: templates/register.html:78
 msgid "Nov 9th"
 msgstr "9 de Novembro"
 
-#: templates/register.html:110
+#: templates/register.html:112
 msgid "We sent you an e-mail with your discount code! :)"
 msgstr "Acabamos de lhe mandar um e-mail com o código de desconto! :)"
 
-#: templates/register.html:121
+#: templates/register.html:122
 msgid "Error: We have a few monkeys working on it right now."
 msgstr "Erro: Temos alguns macacos treinados trabalhando nisto."
 
-#: templates/register.html:129
+#: templates/register.html:130
 msgid "Please insert a valid e-mail address"
 msgstr "Por favor, insira um endereço de e-mail válido"
 
