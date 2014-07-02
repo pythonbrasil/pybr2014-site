@@ -149,6 +149,11 @@ LOGIN_REDIRECT_URL = '/dashboard/'
 EMAIL_PORT = 25
 EMAIL_USE_TLS = True
 EMAIL_SENDER = 'Organização PythonBrasil[10] <organizacao@python.org.br>'
+
+EMAIL_HOST = 'email-smtp.us-east-1.amazonaws.com'
+EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
+EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
+
 DEFAULT_FROM_EMAIL = EMAIL_SENDER
 
 
