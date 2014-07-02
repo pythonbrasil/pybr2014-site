@@ -1,11 +1,12 @@
 {% extends "base.html" %}
 {% load i18n %}
+{% load static %}
 
 {% block title %}{% trans "Registration" %} | PythonBrasil[8]{% endblock %}
 {% block og_title %}{% trans "Registration" %} | PythonBrasil[8]{% endblock %}
 
 {% block css %}
-  <link rel="stylesheet" href="/static/css/footable-0.1.css" />
+<link rel="stylesheet" href="{% static 'css/footable-0.1.css' %}" />
   <style type="text/css">
     .error-message{
       color: red;
