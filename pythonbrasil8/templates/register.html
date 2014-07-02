@@ -112,7 +112,6 @@ $("#send-mail").on('click', function(){
         statusCode: {
           400: function(msg){
             var message = $.parseJSON(msg['responseText'])
-            console.log(message['email'][0])
             $(".error-message").text(message['email'][0])
             $(".success-message").text("")
 
