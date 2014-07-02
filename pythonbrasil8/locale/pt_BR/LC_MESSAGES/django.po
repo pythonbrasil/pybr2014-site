@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PythonBrasil8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-01 10:09-0300\n"
+"POT-Creation-Date: 2014-07-01 21:55-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Tatiana Al-Chueyr <tatiana.alchueyr@gmail.com>\n"
 "Language-Team: Francisco Souza <f@souza.cc>\n"
@@ -794,9 +794,9 @@ msgid "Blog"
 msgstr "Blog"
 
 #: templates/base.html:94 templates/register.html:24
-#, fuzzy
+#: templates/register.html.py:86
 msgid "Register"
-msgstr "Inscrição"
+msgstr "Inscreva-se"
 
 #: templates/base.html:128
 msgid "The Python Comunity Event"
@@ -1113,8 +1113,9 @@ msgid ""
 "bellow to receive the discount code. Please insert the same e-mail you've "
 "registered at the association site."
 msgstr ""
-"Se vocẽ é membro da Associação Python Brasil, por favor preencha o campo abaixo com seu e-mail"
-"para receber seu código de desconto. Por favor insira o e-mail em que você se registrou no site "
+"Se vocẽ é membro da Associação Python Brasil, por favor preencha o campo "
+"abaixo com seu e-mailpara receber seu código de desconto. Por favor insira o "
+"e-mail em que você se registrou no site "
 
 #: templates/register.html:35
 msgid "If you're not a member yet, visit"
