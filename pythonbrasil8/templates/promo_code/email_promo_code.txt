@@ -4,8 +4,8 @@ of PythonBrasil!
 
 Code: {{ code }}
 
-You can complete your registration going to: <link>.
+You can complete your registration going to: https://eventioz.com.br/e/pythonbrasil10
 
 Att.
-    PythonBrasil[10] Team
+PythonBrasil[10] Team
 {% endblocktrans %}

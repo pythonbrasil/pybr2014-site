@@ -25,7 +25,7 @@ class PromoCode(models.Model):
         subject = _(u'Get your PythonBrasil[10] promotional code')
 
         sent = send_mail(
-            subject=subject, message=body, recipient_list=['to@example.com'],
+            subject=subject, message=body, recipient_list=[self.email],
             from_email=settings.DEFAULT_FROM_EMAIL,
         )
 

@@ -156,6 +156,9 @@ table {
 .left {
   text-align: left;
 }
+.marginleft{
+  margin-left: 1em;
+}
 th,
 td,
 caption {
@@ -208,7 +211,9 @@ pre,
 code {
   font-family: "DejaVu Sans Mono", Monaco, Consolas, monospace;
 }
-
+aside hr{
+  border-top: 1px dashed #ccc;
+}
 hr {
   border: none;
   border-top: 3px solid #0466A9;
@@ -325,6 +330,10 @@ li{
   background-color: #2D72A2;
   display: inline-block;
 }
+.btn-big{
+  padding: .5em 2em;
+  font-size: 2em;
+}
 .btn:hover{
   background-color: #368AC5;
   box-shadow: 0px 3px 0px #132C3B;
@@ -361,7 +370,8 @@ li{
   animation: slidein 3s ease infinite alternate;
   background: url(../images/home/banner-praia.png) no-repeat 50% 0;
 }
-.carangueijo-big{
+
+.carangueijo-big, .center{
   text-align: center;
 }
 .banner .flags{
@@ -369,7 +379,7 @@ li{
 }
 .banner .topdatecall{
   text-align: right;
-  font-size: 1.6em;
+  font-size: 2em;
   margin-top: .2em;
 }
 .banner .topdatecall span{
@@ -659,7 +669,7 @@ address span{
   font-weight: 600;
 }
 
-.hotel{
+.hotel, .border-content{
   border-radius: 5px;
   border: 1px solid #132C3B;
   padding: .75em 0;

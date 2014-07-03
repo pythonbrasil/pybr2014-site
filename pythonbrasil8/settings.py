@@ -8,7 +8,9 @@ TEMPLATE_DEBUG = DEBUG
 
 PROJECT_DIR = os.path.dirname(__file__)
 
-ADMINS = ()
+ADMINS = (
+    ('Organizacao', 'organizacao@python.org.br'),
+)
 
 MANAGERS = ADMINS
 
@@ -148,7 +150,12 @@ LOGIN_REDIRECT_URL = '/dashboard/'
 
 EMAIL_PORT = 25
 EMAIL_USE_TLS = True
-EMAIL_SENDER = 'Organização PythonBrasil[10] <organizacao@python.org.br>'
+EMAIL_SENDER = u'Organização PythonBrasil 10 <organizacao@python.org.br>'
+
+EMAIL_HOST = 'email-smtp.us-east-1.amazonaws.com'
+EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
+EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
+
 DEFAULT_FROM_EMAIL = EMAIL_SENDER
 
 
@@ -172,7 +179,7 @@ PAGSEGURO_WEBCHECKOUT = 'https://pagseguro.uol.com.br/v2/checkout/payment.html?c
 COMPRESS_OFFLINE = False
 COMPRESS_ENABLED = False
 
-if bool(int(os.environ.get('S3'))):
+if bool(int(os.environ.get('S3', '0'))):
     AWS_QUERYSTRING_AUTH = False
     AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
     AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
