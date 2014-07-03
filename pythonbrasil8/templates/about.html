@@ -1,8 +1,13 @@
 {% extends "base.html" %}
+{% load staticfiles %}
 {% load i18n %}
 
 {% block title %}{% trans "About" %} | PythonBrasil[10]{% endblock %}
 {% block og_title %}{% trans "About" %} | PythonBrasil[10]{% endblock %}
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'css/footable-0.1.css' %}" />
+{% endblock %}
 
 {% block content %}
     <article class="main-call">
@@ -24,6 +29,49 @@
         {% endblocktrans %}
       </p>
 
+      <h2>{% trans "Subscriptions" %}</h2>
+      <br>
+      <div class="grid-100 border-content">
+        <div class="session-selection">
+          <table class="footable grid-100">
+            <thead>
+              <tr>
+                <th>{% trans "Batches" %}</th>
+                <th>{% trans "Dates" %}</th>
+                <th>{% trans "Prices for Apyb Members" %}</th>
+                <th>{% trans "Prices for non-Members" %}</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>{% trans "First batch" %}</td>
+                <td>{% trans "July 2nd to August 17th" %}</td>
+                <td>R$ 250,00</td>
+                <td>R$ 350,00</td>
+              </tr>
+              <tr>
+                <td>{% trans "Second batch" %}</td>
+                <td>{% trans "August 18th to September 30th" %}</td>
+                <td>R$ 250,00</td>
+                <td>R$ 350,00</td>
+              </tr>
+              <tr>
+                <td>{% trans "Third batch" %}</td>
+                <td>{% trans "October 1st to November 7th" %}</td>
+                <td>R$ 250,00</td>
+                <td>R$ 350,00</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <h2>{% trans "Call for Papers" %}</h2>
+        <p>
+          {% blocktrans %}
+            From July 7th to August 10th
+          {% endblocktrans %}
+        </p>
+
       <h2>{% trans 'Organizer' %}</h2>
 
       <p>
@@ -44,4 +92,13 @@
         </ul>
       </article>
     </div>
+{% endblock %}
+
+{% block 'javascript' %}
+  <script src="{% static 'js/footable-0.1.js' %}" type="text/javascript"></script>
+  <script type="text/javascript">
+        $(function() {
+          $('table').footable();
+        });
+  </script>
 {% endblock %}

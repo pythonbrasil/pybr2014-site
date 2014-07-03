@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PythonBrasil8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-01 23:57-0300\n"
+"POT-Creation-Date: 2014-07-02 18:50-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Tatiana Al-Chueyr <tatiana.alchueyr@gmail.com>\n"
 "Language-Team: Francisco Souza <f@souza.cc>\n"
@@ -15,11 +15,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1)\n"
 
-#: core/templates/home.html:10 templates/about.html:9
+#: core/templates/home.html:10 templates/about.html:14
 msgid "The Conference"
 msgstr "A Conferência"
 
-#: core/templates/home.html:12 templates/about.html:11
+#: core/templates/home.html:12 templates/about.html:16
 msgid ""
 "\n"
 "            The PythonBrazil is currently considered one of the main tech "
@@ -30,7 +30,7 @@ msgstr ""
 "A PythonBrasil é considerada um dos principais eventos de tecnologia na "
 "atualidade da América Latina. "
 
-#: core/templates/home.html:17 templates/about.html:16
+#: core/templates/home.html:17 templates/about.html:21
 msgid ""
 "\n"
 "\n"
@@ -45,7 +45,7 @@ msgstr ""
 "interessados durante 5 dias para discutir sobre software livre, práticas de "
 "desenvolvimento e claro, sobre Python!         "
 
-#: core/templates/home.html:23 templates/about.html:22
+#: core/templates/home.html:23 templates/about.html:27
 msgid ""
 "\n"
 "            We are celebrating our 10th edition, where for the first time, "
@@ -60,11 +60,11 @@ msgstr ""
 "a terra do frevo e do siris, e será um evento único com experiência "
 "agradável a todos presentes.        "
 
-#: core/templates/home.html:28 templates/about.html:27
+#: core/templates/home.html:28 templates/about.html:75
 msgid "Organizer"
 msgstr "Organização"
 
-#: core/templates/home.html:31 templates/about.html:30
+#: core/templates/home.html:31 templates/about.html:78
 msgid ""
 "\n"
 "            PythonBrazil 2014 is organized by the Pernambuco Python User "
@@ -768,12 +768,70 @@ msgstr "Para confirmar sua inscrição, por favor pague a taxa de inscrição (R
 msgid " using the button below:"
 msgstr " usando o botão abaixo:"
 
-#: templates/about.html:4 templates/about.html.py:5 templates/base.html:84
+#: templates/about.html:5 templates/about.html.py:6 templates/base.html:84
 #: templates/previous_editions.html:4
 msgid "About"
 msgstr "Sobre"
 
-#: templates/about.html:38
+#: templates/about.html:32
+msgid "Subscriptions"
+msgstr "Inscrições"
+
+#: templates/about.html:39
+msgid "Batches"
+msgstr "Lotes"
+
+#: templates/about.html:40 templates/register.html:49
+msgid "Dates"
+msgstr "Datas"
+
+#: templates/about.html:41
+msgid "Prices for Apyb Members"
+msgstr "Preços para Membros Apyb"
+
+#: templates/about.html:42
+msgid "Prices for non-Members"
+msgstr "Preços para Não Membros"
+
+#: templates/about.html:47 templates/register.html:52
+msgid "First batch"
+msgstr "Primeiro Lote"
+
+#: templates/about.html:48
+msgid "July 2nd to August 17th"
+msgstr "2 de Julho a 17 de Agosto"
+
+#: templates/about.html:53 templates/register.html:55
+msgid "Second batch"
+msgstr "Segundo Lote"
+
+#: templates/about.html:54
+msgid "August 18th to September 30th"
+msgstr "18 de Agosto a 30 de Setembro"
+
+#: templates/about.html:59 templates/register.html:58
+msgid "Third batch"
+msgstr "Terceiro Lote"
+
+#: templates/about.html:60
+msgid "October 1st to November 7th"
+msgstr "1 de Outubro a 7 de Novembro"
+
+#: templates/about.html:68
+msgid "Call for Papers"
+msgstr "Chamada de Palestras"
+
+#: templates/about.html:70
+msgid ""
+"\n"
+"            From July 7th to August 10th\n"
+"          "
+msgstr ""
+"\n"
+"            De 7 de Julho a 10 de Agosto\n"
+"          "
+
+#: templates/about.html:86
 msgid "Contact"
 msgstr "Contato"
 
@@ -1137,22 +1195,6 @@ msgstr "e associe-se agora."
 #, fuzzy
 msgid "Session"
 msgstr "Sessão"
-
-#: templates/register.html:49
-msgid "Dates"
-msgstr "Datas"
-
-#: templates/register.html:52
-msgid "First batch"
-msgstr "Primeiro Lote"
-
-#: templates/register.html:55
-msgid "Second batch"
-msgstr "Segundo Lote"
-
-#: templates/register.html:58
-msgid "Third batch"
-msgstr "Terceiro Lote"
 
 #: templates/register.html:65
 msgid "Nov 4th and 5th"
