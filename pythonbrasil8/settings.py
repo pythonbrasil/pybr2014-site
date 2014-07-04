@@ -2,6 +2,8 @@
 import os
 # Django settings for pythonbrasil8 project.
 import dj_database_url
+from memcacheify import memcacheify
+
 
 DEBUG = bool(int(os.environ.get('DJANGO_DEBUG', 1)))
 TEMPLATE_DEBUG = DEBUG
@@ -192,18 +194,7 @@ if bool(int(os.environ.get('S3', '0'))):
     STATIC_URL = 'https://%s.s3.amazonaws.com/static/' % AWS_STORAGE_BUCKET_NAME
 
 if not DEBUG:
-    CACHES = {
-      'default': {
-        'LOCATION': os.environ.get('MEMCACHIER_SERVERS', '').replace(',', ';'),
-        'BACKEND': 'django_pylibmc.memcached.PyLibMCCache',
-        'TIMEOUT': 1000,
-        'BINARY': True,
-        'OPTIONS': {
-            'tcp_nodelay': True,
-            'remove_failed': 4
-        }
-      }
-    }
+    CACHES = memcacheify()
 else:
     CACHES = {
         'default': {
