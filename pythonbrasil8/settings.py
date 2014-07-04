@@ -191,6 +191,20 @@ if bool(int(os.environ.get('S3', '0'))):
     MEDIA_URL = 'https://%s.s3.amazonaws.com/media/' % AWS_STORAGE_BUCKET_NAME
     STATIC_URL = 'https://%s.s3.amazonaws.com/static/' % AWS_STORAGE_BUCKET_NAME
 
+if not DEBUG:
+    CACHES = {
+      'default': {
+        'LOCATION': os.environ.get('MEMCACHIER_SERVERS', '').replace(',', ';'),
+        'BACKEND': 'django_pylibmc.memcached.PyLibMCCache',
+        'TIMEOUT': 1000,
+        'BINARY': True,
+        'OPTIONS': {
+            'tcp_nodelay': True,
+            'remove_failed': 4
+        }
+      }
+    }
+else:
     CACHES = {
         'default': {
             'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',
