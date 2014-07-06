@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PythonBrasil8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-06 15:20-0300\n"
+"POT-Creation-Date: 2014-07-06 15:27-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Tatiana Al-Chueyr <tatiana.alchueyr@gmail.com>\n"
 "Language-Team: Francisco Souza <f@souza.cc>\n"
@@ -554,7 +554,7 @@ msgstr "O código foi enviado com sucesso!"
 
 #: schedule/admin.py:22 schedule/models.py:69 templates/base.html:99
 #: templates/proposal.html:46 templates/speakers.html:5
-#: templates/speakers.html.py:6
+#: templates/speakers.html.py:6 templates/speakers.html:14
 msgid "Speakers"
 msgstr "Palestrantes"
 
@@ -826,11 +826,11 @@ msgstr "Chamada de Palestras"
 #: templates/about.html:70
 msgid ""
 "\n"
-"            From July 7th to August 10th\n"
+"            From July 10th to August 10th\n"
 "          "
 msgstr ""
 "\n"
-"            De 7 de Julho a 10 de Agosto\n"
+"            De 10 de Julho a 10 de Agosto\n"
 "          "
 
 #: templates/about.html:86
@@ -1249,23 +1249,7 @@ msgstr "Programação da PythonBrasil"
 msgid "Brazilian #Python conference in November - Join us!"
 msgstr "Em novembro, conferência nacional de #Python - Participe!"
 
-#: templates/speakers.html:21
-msgid ""
-"\n"
-"              Lynn Root is a backend engineer for Spotify located in San "
-"Francisco. She is also a director on the Python Software Foundation board, a "
-"member of the Django Software Foundation, and the founder/leader of PyLadies "
-"of San Francisco. Lastly, Lynn is a caffeine and bacon addict, VM breaker, "
-"and email loather.\n"
-"              "
-msgstr ""
-"\n"
-"Lynn Root é engenheira de software no Spotify, São Francisco Califórnia. Ela "
-"também é diretora da Python Software Foundation, membro da Django Software\n"
-"Foundation, e fundadora/líder do Pyladies São Francisco. Por último, Lynn é "
-"viciada em cafeína e bacon, VM breaker e detesta e-mails."
-
-#: templates/speakers.html:29
+#: templates/speakers.html:19
 msgid ""
 "\n"
 "              Alex is a software engineer living in San Francisco, "
@@ -1281,7 +1265,7 @@ msgstr ""
 "É membro da diretoria da Python Software Foundation e trabalha no Rackspace. "
 "Quando não está programando, Alex é fã de basquete e bagel."
 
-#: templates/speakers.html:39
+#: templates/speakers.html:29
 msgid ""
 "\n"
 "              Fernando Perez is a research scientist at the UC Berkeley "
@@ -1309,6 +1293,22 @@ msgstr ""
 "Numfocus Foundation. Ele recebeu 2012 Award for the Advancement of Free "
 "Software daFree Software Foundation e é um investigador fundador do Berkeley "
 "Institute for Data Science, criado em 2013."
+
+#: templates/speakers.html:39
+msgid ""
+"\n"
+"              Lynn Root is a backend engineer for Spotify located in San "
+"Francisco. She is also a director on the Python Software Foundation board, a "
+"member of the Django Software Foundation, and the founder/leader of PyLadies "
+"of San Francisco. Lastly, Lynn is a caffeine and bacon addict, VM breaker, "
+"and email loather.\n"
+"              "
+msgstr ""
+"\n"
+"Lynn Root é engenheira de software no Spotify, São Francisco Califórnia. Ela "
+"também é diretora da Python Software Foundation, membro da Django Software\n"
+"Foundation, e fundadora/líder do Pyladies São Francisco. Por último, Lynn é "
+"viciada em cafeína e bacon, VM breaker e detesta e-mails."
 
 #: templates/track.html:14
 #, fuzzy

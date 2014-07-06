@@ -2,6 +2,8 @@
 import os
 # Django settings for pythonbrasil8 project.
 import dj_database_url
+from memcacheify import memcacheify
+
 
 DEBUG = bool(int(os.environ.get('DJANGO_DEBUG', 1)))
 TEMPLATE_DEBUG = DEBUG
@@ -191,6 +193,9 @@ if bool(int(os.environ.get('S3', '0'))):
     MEDIA_URL = 'https://%s.s3.amazonaws.com/media/' % AWS_STORAGE_BUCKET_NAME
     STATIC_URL = 'https://%s.s3.amazonaws.com/static/' % AWS_STORAGE_BUCKET_NAME
 
+if not DEBUG:
+    CACHES = memcacheify()
+else:
     CACHES = {
         'default': {
             'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',
