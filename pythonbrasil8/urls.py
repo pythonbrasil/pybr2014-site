@@ -21,6 +21,7 @@ urlpatterns = patterns('',
     url(r'^previous-editions/$', TemplateView.as_view(template_name="previous_editions.html"), name='previous-editions'),
     url(r'^badges/$', TemplateView.as_view(template_name="badges.html"), name='badges'),
     url(r'^register/$', TemplateView.as_view(template_name="register.html"), name='register'),
+    url(r'^speakers/$', TemplateView.as_view(template_name='speakers.html'), name='speakers'),
     url(r'^sponsors/$', CustomSponsorsView.as_view(), name='custom-sponsors'),
     url(r'^sponsors/jobs/$', SponsorsJobsView.as_view(), name='sponsors-jobs'),
 

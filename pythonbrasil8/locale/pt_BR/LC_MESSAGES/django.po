@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PythonBrasil8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-02 18:50-0300\n"
+"POT-Creation-Date: 2014-07-06 15:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Tatiana Al-Chueyr <tatiana.alchueyr@gmail.com>\n"
 "Language-Team: Francisco Souza <f@souza.cc>\n"
@@ -91,7 +91,7 @@ msgstr "Patrocinadores"
 msgid "PYTHONBRASIL SPONSORS"
 msgstr "PATROCINADORES DA PYTHONBRASIL"
 
-#: core/templates/sponsors.html:40 templates/base.html:158
+#: core/templates/sponsors.html:40 templates/base.html:163
 msgid "Learn how to become a sponsor"
 msgstr "Veja como se tornar um patrocinador"
 
@@ -552,7 +552,9 @@ msgstr "E-mail não é uma associação válida"
 msgid "The code has been successfully sent"
 msgstr "O código foi enviado com sucesso!"
 
-#: schedule/admin.py:22 schedule/models.py:69 templates/proposal.html:46
+#: schedule/admin.py:22 schedule/models.py:69 templates/base.html:99
+#: templates/proposal.html:46 templates/speakers.html:5
+#: templates/speakers.html.py:6
 msgid "Speakers"
 msgstr "Palestrantes"
 
@@ -856,59 +858,59 @@ msgstr "Blog"
 msgid "Register"
 msgstr "Inscreva-se"
 
-#: templates/base.html:128
+#: templates/base.html:133
 msgid "The Python Comunity Event"
 msgstr "O evento da Comunidade Python"
 
-#: templates/base.html:132
+#: templates/base.html:137
 msgid "TUTORIALS"
 msgstr "TUTORIAIS"
 
-#: templates/base.html:133 templates/base.html.py:138 templates/base.html:143
+#: templates/base.html:138 templates/base.html.py:143 templates/base.html:148
 msgid "November"
 msgstr "NOVEMBRO"
 
-#: templates/base.html:137
+#: templates/base.html:142
 msgid "TALKS"
 msgstr "PALESTRAS"
 
-#: templates/base.html:142
+#: templates/base.html:147
 msgid "SPRINTS"
 msgstr "SPRINTS"
 
-#: templates/base.html:160
+#: templates/base.html:165
 msgid "become a sponsor"
 msgstr "seja um patrocinador"
 
-#: templates/base.html:172
+#: templates/base.html:177
 msgid "ARE YOU SPEAKING OR ATTENDING?"
 msgstr "VAI PALESTRAR OU PARTICIPAR?"
 
-#: templates/base.html:173
+#: templates/base.html:178
 msgid "grab a badge"
 msgstr "baixe o banner!"
 
-#: templates/base.html:177
+#: templates/base.html:182
 msgid "ARE YOU ATTENDING?"
 msgstr "VAI PARTICIPAR DO EVENTO?"
 
-#: templates/base.html:178
+#: templates/base.html:183
 msgid "Learn more about the code of conduct"
 msgstr "Saiba mais sobre o código de conduta"
 
-#: templates/base.html:181
+#: templates/base.html:186
 msgid "code of conduct"
 msgstr "código de conduta"
 
-#: templates/base.html:206 templates/base.html.py:210
+#: templates/base.html:211 templates/base.html.py:215
 msgid "Organization"
 msgstr "Organização"
 
-#: templates/base.html:214
+#: templates/base.html:219
 msgid "Illustration"
 msgstr "Ilutração"
 
-#: templates/base.html:218
+#: templates/base.html:223
 msgid "WebDesign & Front-End"
 msgstr "WebDesign & Front-End"
 
@@ -1246,6 +1248,67 @@ msgstr "Programação da PythonBrasil"
 #: templates/social.html:5
 msgid "Brazilian #Python conference in November - Join us!"
 msgstr "Em novembro, conferência nacional de #Python - Participe!"
+
+#: templates/speakers.html:21
+msgid ""
+"\n"
+"              Lynn Root is a backend engineer for Spotify located in San "
+"Francisco. She is also a director on the Python Software Foundation board, a "
+"member of the Django Software Foundation, and the founder/leader of PyLadies "
+"of San Francisco. Lastly, Lynn is a caffeine and bacon addict, VM breaker, "
+"and email loather.\n"
+"              "
+msgstr ""
+"\n"
+"Lynn Root é engenheira de software no Spotify, São Francisco Califórnia. Ela "
+"também é diretora da Python Software Foundation, membro da Django Software\n"
+"Foundation, e fundadora/líder do Pyladies São Francisco. Por último, Lynn é "
+"viciada em cafeína e bacon, VM breaker e detesta e-mails."
+
+#: templates/speakers.html:29
+msgid ""
+"\n"
+"              Alex is a software engineer living in San Francisco, "
+"California. He works on Python open source projects, such as PyPy, "
+"OpenStack, and Django. He servers on the board of directors of the Python "
+"Software Foundation and works at Rackspace. When he's not programming, Alex "
+"is a basketball and bagel fan.\n"
+"              "
+msgstr ""
+"\n"
+"Alex é um Engenheiro de Software, que mora em São Francisco, Califórnia. Ele "
+"trabalha com Python em projetos open-source como o PyPy, OpenStack e Django."
+"É membro da diretoria da Python Software Foundation e trabalha no Rackspace. "
+"Quando não está programando, Alex é fã de basquete e bagel."
+
+#: templates/speakers.html:39
+msgid ""
+"\n"
+"              Fernando Perez is a research scientist at the UC Berkeley "
+"Brain Imaging Center. After a PhD in Physics from the University of "
+"Colorado, Boulder and postdoctoral work in Applied Mathematics on numerical "
+"algorithms, his research moved into the development of tools to effectively "
+"extract and communicate insight from computation and data. He is the creator "
+"and lead of the IPython environment for interactive computing, as well as a "
+"contributor to a number of scientific Python projects.\n"
+"              He is a member of the Python Software Foundation as well as a "
+"founding board member of the Numfocus Foundation. He received the 2012 Award "
+"for the Advancement of Free Software from the Free Software Foundation and "
+"is a founding investigator of the Berkeley Institute for Data Science, "
+"created in 2013.\n"
+"              "
+msgstr ""
+"\n"
+"Fernando Perez é pesquisador da UC Berkeley Brain Imaging Center. Com "
+"doutorado em Física pela Universidade do Colorado, Boulder e trabalho de Pós-"
+"doutorado emMatemática aplicada em algoritmos numéricos, sua pesquisa migrou "
+"para o desenvolvimento de ferramentas para extrair efetivamente e "
+"comunicação introspectivaentre computação e dados. Criador e lider do "
+"IPython, bem como contribuidor de vários projetos científicos com Python.\n"
+"Ele é membro da Python Software Foundation, bem como um membro fundador da "
+"Numfocus Foundation. Ele recebeu 2012 Award for the Advancement of Free "
+"Software daFree Software Foundation e é um investigador fundador do Berkeley "
+"Institute for Data Science, criado em 2013."
 
 #: templates/track.html:14
 #, fuzzy

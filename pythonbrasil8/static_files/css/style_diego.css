@@ -339,7 +339,7 @@ li{
   box-shadow: 0px 3px 0px #132C3B;
 }
 .maintop{
-  background: url(../images/home/bg_blue.png);
+  background: url(../img/bg_blue.png);
 }
 .maintop h1{
   margin: .5em 0;
@@ -358,7 +358,7 @@ li{
 
 .banner{
   height: 325px;
-  background: #ECF0F3 url(../images/home/banner_bg.png) repeat-x;
+  background: #ECF0F3 url(../img/banner_bg.png) repeat-x;
   /*------- 
   background: #fff url(https://trello-attachments.s3.amazonaws.com/50f72b87c83fed4424007c34/52ab80b677ef492f15002979/6168880db3ac4386a63a8d24a3923631/carangueijo1.gif) no-repeat 50% 0;
   background-size: 88%; -------*/
@@ -368,9 +368,21 @@ li{
   -webkit-animation: slidein 3s ease infinite alternate;
   -o-animation: slidein 3s ease infinite alternate;
   animation: slidein 3s ease infinite alternate;
-  background: url(../images/home/banner-praia.png) no-repeat 50% 0;
+  background: url(../img/banner-inner_bg.gif) no-repeat 50% 0;
+}
+.banner-inner-porto{
+  background: url(../img/porto.png) no-repeat 50% 0;
 }
 
+/*@keyframes slidein {
+  from {
+    background-image: url(../img/banner-inner_bg.png)
+  }
+
+  to {
+    background-image: url(../img/porto.png);
+  }
+}*/
 .carangueijo-big, .center{
   text-align: center;
 }
@@ -435,7 +447,7 @@ nav.menu ul li a:hover, nav.menu ul li a.active{
   margin: 0.7em 0;
 }
 .maincontent{
-  background: url(../images/home/bg_gradient.jpg) repeat-x; 
+  background: url(../img/bg_gradient.jpg) repeat-x; 
 }
 .maincontent section, .special-sponsor-aside{
   margin-top: 2em;
@@ -575,7 +587,7 @@ aside.special-sponsor-aside{
   padding: 1em 0 0;
 }
 .bottom{
-  background: url(../images/home/bg_footer.png);
+  background: url(../img/bg_footer.png);
   font-size: .9em;
   text-align: right;
   padding: 1em 0;

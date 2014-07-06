@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 {% load menu %}
 {% load i18n %}
 {% load setting %}
@@ -91,6 +91,11 @@
           <li>
             <a class="{% is_active request.path 'register' %}" href="{% url register %}">
               {% trans "Register" %}
+            </a>
+          </li>
+          <li>
+            <a class="{% is_active request.path 'speakers' %}" href="{% url speakers %}">
+              {% trans "Speakers" %}
             </a>
           </li>
           {% comment %}

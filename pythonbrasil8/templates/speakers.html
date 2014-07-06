@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load static %}
+
+{% block title %}{% trans "Speakers" %} | PythonBrasil[10]{% endblock %}
+{% block og_title %}{% trans "Speakers" %} | PythonBrasil[10]{% endblock %} 
+
+{% block  css %}
+{% endblock %}
+
+
+{% block content %}
+    <div class="about recife">
+    		<h2>{% trans "Speakers" %}</h2>
+        <div class="blog-news">
+          <article class="blog-item grid-100">
+            <h3>Alex Gaynor</h3>
+            <p class="grid-60">
+              {% blocktrans %}
+              Alex is a software engineer living in San Francisco, California. He works on Python open source projects, such as PyPy, OpenStack, and Django. He servers on the board of directors of the Python Software Foundation and works at Rackspace. When he's not programming, Alex is a basketball and bagel fan.
+              {% endblocktrans %}
+            </p>
+            <div class="grid-30 img-keynote"><img src="{% static 'images/speakers/alex_gaynor.jpg' %}" /></div>
+          </article>
+          <article class="blog-item grid-100">
+            <h3>Fernando Perez</h3>
+            <div class="grid-30 img-keynote"><img src="{% static 'images/speakers/fernando_perez.jpg' %}" /></div>
+            <p>
+              {% blocktrans %}
+              Fernando Perez is a research scientist at the UC Berkeley Brain Imaging Center. After a PhD in Physics from the University of Colorado, Boulder and postdoctoral work in Applied Mathematics on numerical algorithms, his research moved into the development of tools to effectively extract and communicate insight from computation and data. He is the creator and lead of the IPython environment for interactive computing, as well as a contributor to a number of scientific Python projects.
+              He is a member of the Python Software Foundation as well as a founding board member of the Numfocus Foundation. He received the 2012 Award for the Advancement of Free Software from the Free Software Foundation and is a founding investigator of the Berkeley Institute for Data Science, created in 2013.
+              {% endblocktrans %}
+            </p>
+          </article>
+          <article class="blog-item grid-100">
+            <h3>Lynn Root</h3>
+            <div class="grid-30 img-keynote"><img src="{% static 'images/speakers/lynn.jpeg' %}" /></div>
+            <p>
+              {% blocktrans %}
+              Lynn Root is a backend engineer for Spotify located in San Francisco. She is also a director on the Python Software Foundation board, a member of the Django Software Foundation, and the founder/leader of PyLadies of San Francisco. Lastly, Lynn is a caffeine and bacon addict, VM breaker, and email loather.
+              {% endblocktrans %}
+            </p>
+          </article>
+      </div>
+    </div>
+ {% endblock %}
