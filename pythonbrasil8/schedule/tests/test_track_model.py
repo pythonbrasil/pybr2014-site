@@ -20,36 +20,36 @@ class TrackModelTestCase(unittest.TestCase):
         self.assertIsInstance(models.Track, transmeta.TransMeta)
 
     def test_should_have_a_name_field(self):
-        self.assertIn("name_en_us", self.fields)
+        self.assertIn("name_en", self.fields)
         self.assertIn("name_pt_br", self.fields)
 
     def test_name_should_be_a_CharField(self):
-        field = self.fields["name_en_us"]
+        field = self.fields["name_en"]
         self.assertIsInstance(field, django_models.CharField)
 
     def test_name_should_have_at_most_255_characters(self):
-        field = self.fields["name_en_us"]
+        field = self.fields["name_en"]
         self.assertEqual(255, field.max_length)
 
     def test_should_translate_name(self):
         self.assertIn("name", models.Track._meta.translatable_fields)
 
     def test_should_have_a_description_field(self):
-        self.assertIn("description_en_us", self.fields)
+        self.assertIn("description_en", self.fields)
         self.assertIn("description_pt_br", self.fields)
 
     def test_description_should_be_a_CharField(self):
-        field = self.fields["description_en_us"]
+        field = self.fields["description_en"]
         self.assertIsInstance(field, django_models.CharField)
 
     def test_description_should_have_at_most_2000_characters(self):
-        field = self.fields["description_en_us"]
+        field = self.fields["description_en"]
         self.assertEqual(2000, field.max_length)
 
     def test_should_translate_description(self):
         self.assertIn("description", models.Track._meta.translatable_fields)
 
     def test_should_be_represented_by_its_name(self):
-        t = models.Track(name_en_us=u"Django")
+        t = models.Track(name_en=u"Django")
         self.assertEqual(u"Django", unicode(t))
         self.assertEqual(u"Django", str(t))
