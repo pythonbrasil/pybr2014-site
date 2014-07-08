@@ -50,8 +50,10 @@ class SessionAdminTestCase(TestCase):
                                                           email="foo3@bar.com")
         dashboard_models.AccountProfile.objects.create(user=user3,
                                                        name="Foo Bar")
-        track, _ = models.Track.objects.get_or_create(name_en_us="Session test",
-                                                      description_en_us="test")
+        track, _ = models.Track.objects.get_or_create(
+            name_en="Session test", name_pt_br=u"test sessão",
+            description_en="test",
+        )
         session = models.Session.objects.create(
             title=u"Admin test",
             description=u"desc",

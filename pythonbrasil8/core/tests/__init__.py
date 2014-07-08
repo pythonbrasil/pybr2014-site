@@ -80,9 +80,9 @@ class CustomSponsorsViewTestCase(TestCase):
         sponsor_categories = self.response.context_data['sponsors_categories']
 
         self.assertEqual(3, len(sponsor_categories))
-        sponsor_1_category = sponsor_categories[0].name_en_us
-        sponsor_2_category = sponsor_categories[1].name_en_us
-        sponsor_3_category = sponsor_categories[2].name_en_us
+        sponsor_1_category = sponsor_categories[0].name_en
+        sponsor_2_category = sponsor_categories[1].name_en
+        sponsor_3_category = sponsor_categories[2].name_en
 
         self.assertEqual("Diamond", sponsor_1_category)
         self.assertEqual("Gold", sponsor_2_category)
@@ -122,10 +122,11 @@ class HomeViewTestCase(TestCase):
     def test_get_context_data_should_include_posts(self):
         user = User.objects.create_user(username='r3do', password='123')
         Post.objects.create(
-            title = 'Test Title',
-            content = 'test content',
-            author = user,
-            published_at = date.today()
+            title='Test Title',
+            title_pt_br=u'título teste',
+            content='test content',
+            author=user,
+            published_at=date.today()
         )
         view = views.Home()
         context = view.get_context_data(object_list=[])

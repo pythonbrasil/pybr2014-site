@@ -19,7 +19,7 @@ class DashboardIndexTestCase(TestCase):
         self.request = RequestFactory().get("/")
         self.request.user = User.objects.create_user(username="user", password='test')
         self.track = Track.objects.create(
-            name=u"Beginners",
+            name=u"Beginners", name_pt_br=u"Iniciante",
             description=u"Python for noobies",
         )
         self.session = Session.objects.create(
