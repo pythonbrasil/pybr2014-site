@@ -58,6 +58,7 @@
         "pk": 1,
         "fields": {
             "name_en": "Newbies",
+            "name_pt_br": "Iniciante",
             "slug": "newbies",
             "description_en": "Python for newbies"
         }

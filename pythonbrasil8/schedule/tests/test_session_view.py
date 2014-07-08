@@ -31,7 +31,10 @@ class SessionViewTestCase(test.TestCase):
 
     def test_form_valid_saves_the_form_using_the_user_from_request(self):
         user, _ = auth_models.User.objects.get_or_create(username="foo", email="foo@bar.com")
-        track, _ = models.Track.objects.get_or_create(name_en_us="Session test", description_en_us="test")
+        track, _ = models.Track.objects.get_or_create(
+            name_en="Session test", name_pt_br=u"teste sessão",
+            description_en="test",
+        )
         data = {
             "title": "some title",
             "description": "some description",
@@ -52,7 +55,10 @@ class SessionViewTestCase(test.TestCase):
 
     def test_should_create_a_session_with_the_post_data_getting_user_from_request(self):
         user, _ = auth_models.User.objects.get_or_create(username="foo", email="foo@bar.com")
-        track, _  = models.Track.objects.get_or_create(name_en_us="Session test", description_en_us="test")
+        track, _  = models.Track.objects.get_or_create(
+            name_en="Session test", name_pt_br=u'teste sessão',
+            description_en="test",
+        )
         data = {
             "title": "some title",
             "description": "some description",
@@ -75,7 +81,10 @@ class SessionViewTestCase(test.TestCase):
     def test_should_save_the_current_user_and_extra_speakers(self):
         user1, _ = auth_models.User.objects.get_or_create(username="foo", email="foo@bar.com")
         user2, _ = auth_models.User.objects.get_or_create(username="foo2", email="foo2@bar.com")
-        track, _ = models.Track.objects.get_or_create(name_en_us="Session test", description_en_us="test")
+        track, _ = models.Track.objects.get_or_create(
+            name_en="Session test", description_en="test",
+            name_pt_br=u"teste de sessão",
+        )
         data = {
             "title": "some title",
             "description": "some description",
