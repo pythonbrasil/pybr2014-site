@@ -1,0 +1,178 @@
+[
+    {
+        "pk": 1, 
+        "model": "schedule.track", 
+        "fields": {
+            "description_pt_br": "A linguagem, CPython, PyPy, Jython, IronPython, bindings, bibliotaca padr\u00e3o, otimiza\u00e7\u00f5es", 
+            "name_en": "Core & Interpreters", 
+            "name_pt_br": "Core & Interpretadores", 
+            "description_en": "The language, CPython, PyPy, Jython, IronPython, bindings, standard library, optimizations", 
+            "slug": "core-interpreters"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "schedule.track", 
+        "fields": {
+            "description_pt_br": "Jogos, multim\u00eddia, processamento de imagens e v\u00eddeo, interatividade, TV digital", 
+            "name_en": "Games & Multimedia", 
+            "name_pt_br": "Jogos & Multim\u00eddia", 
+            "description_en": "Games, multimedia, image and video processing, interactivity, digital TV", 
+            "slug": "games-multimedia"
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "schedule.track", 
+        "fields": {
+            "description_pt_br": "Microcontroladores, redes de sensores sem fio, aplicativos para celular", 
+            "name_en": "Embedded Systems & Mobile", 
+            "name_pt_br": "Sistemas embarcados e m\u00f3veis", 
+            "description_en": "Microncontrollers, wireless sensor networks, mobile applications", 
+            "slug": "embedded-systems-mobile"
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "schedule.track", 
+        "fields": {
+            "description_pt_br": "Bibliotecas GUI, interface homem-m\u00e1quina ", 
+            "name_en": "GUI Programming", 
+            "name_pt_br": "GUI", 
+            "description_en": "GUI libraries, human-machine interface", 
+            "slug": "gui-programming"
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "schedule.track", 
+        "fields": {
+            "description_pt_br": "Empreendedorismo, inova\u00e7\u00e3o, casos de sucesso", 
+            "name_en": "Business", 
+            "name_pt_br": "Neg\u00f3cios", 
+            "description_en": "Entrepreneurship, innovation, success cases", 
+            "slug": "business"
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "schedule.track", 
+        "fields": {
+            "description_pt_br": "Bancos de dados, recupera\u00e7\u00e3o de informa\u00e7\u00e3o, sistemas de informa\u00e7\u00e3o", 
+            "name_en": "Databases", 
+            "name_pt_br": "Banco de dados", 
+            "description_en": "Databases, information retrieval, information systems", 
+            "slug": "databases"
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "schedule.track", 
+        "fields": {
+            "description_pt_br": "Computa\u00e7\u00e3o cient\u00edfica, processamento de linguagem natural, intelig\u00eancia artificial, simula\u00e7\u00e3o computacional", 
+            "name_en": "Science", 
+            "name_pt_br": "Python na ci\u00eancia", 
+            "description_en": "Scientific computing, natural language processing, artificial intelligence, computer simulation", 
+            "slug": "science"
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "schedule.track", 
+        "fields": {
+            "description_pt_br": "Comunidades, educa\u00e7\u00e3o, dados abertos, governo, artes", 
+            "name_en": "Python in society", 
+            "name_pt_br": "Python na sociedade", 
+            "description_en": "Communities, education, open data, government, art", 
+            "slug": "python-in-society"
+        }
+    }, 
+    {
+        "pk": 9, 
+        "model": "schedule.track", 
+        "fields": {
+            "description_pt_br": "Frameworks para desenvolvimento Web, bibliotecas, aplica\u00e7\u00f5es", 
+            "name_en": "Web Frameworks", 
+            "name_pt_br": "Frameworks Web", 
+            "description_en": "Frameworks for Web development, libraries, applications", 
+            "slug": "web-frameworks"
+        }
+    }, 
+    {
+        "pk": 10, 
+        "model": "schedule.track", 
+        "fields": {
+            "description_pt_br": "Computa\u00e7\u00e3o na nuvem, m\u00e1quinas virtuais, elasticidade, infraestrutura", 
+            "name_en": "Cloud computing", 
+            "name_pt_br": "Computa\u00e7\u00e3o na nuvem", 
+            "description_en": "Cloud computing, virtual machines, elasticity, infrastructure", 
+            "slug": "cloud-computing"
+        }
+    }, 
+    {
+        "pk": 11, 
+        "model": "schedule.track", 
+        "fields": {
+            "description_pt_br": "Administra\u00e7\u00e3o de sistemas, gerenciamento de infraestrutura", 
+            "name_en": "SysAdmin & DevOp", 
+            "name_pt_br": "SysAdmin & DevOp", 
+            "description_en": "Systems administration, infrastructure management", 
+            "slug": "sysadmin-devop"
+        }
+    }, 
+    {
+        "pk": 12, 
+        "model": "schedule.track", 
+        "fields": {
+            "description_pt_br": "Sistemas distribu\u00eddos, protocolos de rede, seguran\u00e7a", 
+            "name_en": "Networks", 
+            "name_pt_br": "Redes de computadores", 
+            "description_en": "Distributed systems, network protocols, security", 
+            "slug": "networks"
+        }
+    }, 
+    {
+        "pk": 13, 
+        "model": "schedule.track", 
+        "fields": {
+            "description_pt_br": "O framework, aplica\u00e7\u00f5es, bibliotecas", 
+            "name_en": "Django", 
+            "name_pt_br": "Django", 
+            "description_en": "The framework, applications, libraries", 
+            "slug": "django"
+        }
+    }, 
+    {
+        "pk": 14, 
+        "model": "schedule.track", 
+        "fields": {
+            "description_pt_br": "O framework, aplica\u00e7\u00f5es, bibliotecas", 
+            "name_en": "Plone", 
+            "name_pt_br": "Plone", 
+            "description_en": "The framework, applications, libraries", 
+            "slug": "plone"
+        }
+    }, 
+    {
+        "pk": 15, 
+        "model": "schedule.track", 
+        "fields": {
+            "description_pt_br": "Boas pr\u00e1ticas, design patterns, testes, documenta\u00e7\u00e3o, empacotamento", 
+            "name_en": "Tools & methodology", 
+            "name_pt_br": "Ferramentas e metodologias", 
+            "description_en": "Good practices, design patterns, tests, documentation, packaging", 
+            "slug": "tools-methodology"
+        }
+    }, 
+    {
+        "pk": 16, 
+        "model": "schedule.track", 
+        "fields": {
+            "description_pt_br": "N\u00e3o se encaixa nas demais op\u00e7\u00f5es", 
+            "name_en": "Other", 
+            "name_pt_br": "Outra", 
+            "description_en": "Does not fit in other options", 
+            "slug": "other"
+        }
+    }
+]
