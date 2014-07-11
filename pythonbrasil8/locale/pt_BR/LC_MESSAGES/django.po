@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PythonBrasil8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-11 00:21-0300\n"
+"POT-Creation-Date: 2014-07-11 00:54-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Tatiana Al-Chueyr <tatiana.alchueyr@gmail.com>\n"
 "Language-Team: Francisco Souza <f@souza.cc>\n"
@@ -425,6 +425,10 @@ msgstr ""
 msgid "your profile"
 msgstr "seu perfil"
 
+#: dashboard/templates/dashboard/index.html:17
+msgid "Welcome to the PythonBrasil[10] Dashboard"
+msgstr "Bemvindo ao Dashboard da PythonBrasil[10]"
+
 #: dashboard/templates/dashboard/profile.html:19
 #: templates/registration/registration_form.html:16
 msgid "Save"
@@ -442,16 +446,16 @@ msgstr ""
 msgid "Edit proposal"
 msgstr "Editar palestra"
 
-#: dashboard/templates/dashboard/sessions.html:22
-#: dashboard/templates/dashboard/sessions.html:24
+#: dashboard/templates/dashboard/sessions.html:21
+#: dashboard/templates/dashboard/sessions.html:23
 msgid "Submit a proposal"
 msgstr "Submeta uma palestra"
 
-#: dashboard/templates/dashboard/sessions.html:24
+#: dashboard/templates/dashboard/sessions.html:23
 msgid "You did not submit any proposal yet."
 msgstr "Você não enviou nenhuma proposta de palestra ainda."
 
-#: dashboard/templates/dashboard/sessions.html:24
+#: dashboard/templates/dashboard/sessions.html:23
 msgid "Why don't you send one?"
 msgstr "Por que você não envia uma?"
 

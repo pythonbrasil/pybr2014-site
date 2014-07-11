@@ -14,7 +14,7 @@
             {% if not request.user.get_profile.name %}
                 {% trans "In order to register to PythonBrasil[8], you still need to fill the required fields in" %} <a href="/dashboard/profile/">{% trans 'your profile' %}.</a>
             {% else %}
-
+                {% trans "Welcome to the PythonBrasil[10] Dashboard" %}, {{request.user.get_profile.name}}.
             {% endif %}
             </p>
 

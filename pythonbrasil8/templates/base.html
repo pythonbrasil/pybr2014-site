@@ -92,6 +92,11 @@
             </a>
           </li>
           <li>
+            <a class="{% is_active request.path 'dashboard-index' %}" href="{% url dashboard-index %}">
+              {% trans "Submit a proposal" %}
+            </a>
+          </li>
+          <li>
             <a class="{% is_active request.path 'speakers' %}" href="{% url speakers %}">
               {% trans "Speakers" %}
             </a>
