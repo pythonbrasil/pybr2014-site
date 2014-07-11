@@ -9,38 +9,16 @@
 {% block content %}
 <div class="row">
     <div class="column grid_12">
-        <h1>{% trans "your account" %}</h1>
-        {% if request.user.get_profile.has_talk_subscription %}
-            {% if request.user.get_profile.talk_subscription.done %}
-                <p>{% trans "Your registration to PythonBrasil[8] is confirmed, we'll see you at the conference!" %}</p>
-            {% else %}
-            <p>
-                {% if not request.user.get_profile.name %}
-                    {% trans "In order to register to PythonBrasil[8], you still need to fill the required fields in your profile and" %}
-                {% endif %}
-                    {% trans "Now to finish your registration to PythonBrasil[8], you need to pay the registration fee, using PagSeguro." %}
-                    <a href="{{ request.user.get_profile.transaction.get_checkout_url }}" title="{% trans "Pay and confirm the registration for PythonBrasil[8]" %}" class="btn">{% trans "Pay registration" %}</a>
-                </p>
-            {% endif %}
-        {% else %}
+        <h1>{% trans "Your account" %}</h1>
             <p>
             {% if not request.user.get_profile.name %}
-                {% trans "In order to register to PythonBrasil[8], you still need to fill the required fields in" %} <a href="/dashboard/profile/">your profile</a>{% trans " and " %}
-            {% endif %}
-                {% trans "Now to finish your registration to PythonBrasil[8], you need to pay the registration fee, using PagSeguro." %}
-            </p>
-
-            {% if not request.user.get_profile.name %}
-            <p id="register-to-the-conference">
-                <a href="{% url talk-subscription %}" title="{% trans "Fill the required fields in your profile" %}" class="btn">{% trans "Fill the required fields in your profile" %}</a>
-            </p>
+                {% trans "In order to register to PythonBrasil[8], you still need to fill the required fields in" %} <a href="/dashboard/profile/">{% trans 'your profile' %}.</a>
             {% else %}
-            <p id="register-to-the-conference">
-                <a href="{% url talk-subscription %}" title="{% trans "Pay your ticket" %}" class="btn">{% trans "Pay your ticket" %}</a>
-            </p>
+                {% trans "Welcome to the PythonBrasil[10] Dashboard" %}, {{request.user.get_profile.name}}.
             {% endif %}
+            </p>
 
-        {% endif %}
+
     </div>
 </div>
 {% endblock %}

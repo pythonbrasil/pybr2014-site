@@ -8,7 +8,7 @@ class ProfileForm(ModelForm):
 
     class Meta:
         model = AccountProfile
-        exclude = ('user', 'payement',)
+        fields = ('name', 'description', 'twitter', 'public',)
         widgets = {
             'description': Textarea,
         }

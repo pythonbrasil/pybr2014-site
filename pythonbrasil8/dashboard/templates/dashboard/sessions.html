@@ -13,6 +13,7 @@
         {% if sessions %}
             <p>{% trans "Below you can see a list of your talk proposals. Click in any of them to edit it." %}</p>
             <ul id="proposals">
+                <br>
                 {% for session in sessions %}
                 <li>- <a href="{% url session-edit id=session.pk %}" title="{% trans "Edit proposal" %}">{{ session.title }}</li>
                 {% endfor %}

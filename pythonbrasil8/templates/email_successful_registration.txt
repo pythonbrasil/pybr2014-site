@@ -1,24 +1,12 @@
 Dear {{ profile.name }},
 
-This is your official confirmation for PythonBrasil[8] Conference, to be held during November 23 and 24, 2012 at:
-
-SulAmérica Convention Center
-Av, Paulo de Frontin, 1
-Cidade Nova, Downtown
-Rio de Janeiro, RJ
-Brazil
-+ 55 (21) 3293-6700
-
-Your payment of a {{ profile.type }} registration has been successfully processed.
-
-Please, note that the tutorials are charged separately from registration and are not included in this payment.
+This is your official confirmation for PythonBrasil[10] Conference, to be held during November 4 to 8, 2014.
 
 More information about the conference can be found at:
-http://2012.pythonbrasil.org.br
+http://2014.pythonbrasil.org.br
 
-If you need assistance, you can email us at organizacao@python.org.br.
+If you need assistance, you can email us at organizers@pythonbrasil.org.br.
 
 Thank you,
 
 PythonBrasil Conference Registration
-

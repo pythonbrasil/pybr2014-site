@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PythonBrasil8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-06 15:27-0300\n"
+"POT-Creation-Date: 2014-07-11 00:54-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Tatiana Al-Chueyr <tatiana.alchueyr@gmail.com>\n"
 "Language-Team: Francisco Souza <f@souza.cc>\n"
@@ -91,7 +91,7 @@ msgstr "Patrocinadores"
 msgid "PYTHONBRASIL SPONSORS"
 msgstr "PATROCINADORES DA PYTHONBRASIL"
 
-#: core/templates/sponsors.html:40 templates/base.html:163
+#: core/templates/sponsors.html:40 templates/base.html:160
 msgid "Learn how to become a sponsor"
 msgstr "Veja como se tornar um patrocinador"
 
@@ -388,99 +388,46 @@ msgstr "Perfil público (visivel para todos)?"
 msgid "Profile successfully updated."
 msgstr "Perfil atualizado com sucesso."
 
-#: dashboard/templates/dashboard/base.html:17
+#: dashboard/templates/dashboard/base.html:18
 #: dashboard/templates/dashboard/sessions.html:12
 msgid "Proposals"
 msgstr "Propostas"
 
-#: dashboard/templates/dashboard/base.html:20
-#: subscription/templates/subscription/tutorials.html:12
-#: subscription/templates/subscription/tutorials_confirmed.html:12
-#: subscription/templates/subscription/tutorials_success.html:12
-#: templates/register.html:64
-msgid "Tutorials"
-msgstr "Tutoriais"
-
-#: dashboard/templates/dashboard/base.html:23
+#: dashboard/templates/dashboard/base.html:27
 msgid "edit your profile"
 msgstr "edite seu perfil"
 
-#: dashboard/templates/dashboard/base.html:23
+#: dashboard/templates/dashboard/base.html:27
 msgid "Edit your profile"
 msgstr "Edite seu perfil"
 
-#: dashboard/templates/dashboard/base.html:26
+#: dashboard/templates/dashboard/base.html:30
 msgid "Change password"
 msgstr "Altere sua senha"
 
-#: dashboard/templates/dashboard/base.html:29
+#: dashboard/templates/dashboard/base.html:33 templates/base.html:48
 msgid "Logout"
 msgstr "Sair"
 
-#: dashboard/templates/dashboard/base.html:43
-msgid ""
-"You are close to participate of PythonBrasil[8]! Pay your ticket and start "
-"planning your travel!"
-msgstr ""
-"Você está próximo a participar da PythonBrasil[8]! Pague sua inscrição e "
-"planeje a sua viagem!"
-
 #: dashboard/templates/dashboard/index.html:12
-msgid "your account"
-msgstr "sua conta"
+msgid "Your account"
+msgstr "Sua conta"
 
 #: dashboard/templates/dashboard/index.html:15
-msgid ""
-"Your registration to PythonBrasil[8] is confirmed, we'll see you at the "
-"conference!"
-msgstr ""
-"Sua inscrição na PythonBrasil[8] está confirmada, nos vemos na conferência!"
-
-#: dashboard/templates/dashboard/index.html:19
-msgid ""
-"In order to register to PythonBrasil[8], you still need to fill the required "
-"fields in your profile and"
-msgstr ""
-"Para se inscrever na conferência, você ainda precisa preencher os "
-"camposobrigatórios do seu perfil e"
-
-#: dashboard/templates/dashboard/index.html:21
-#: dashboard/templates/dashboard/index.html:30
-msgid ""
-"Now to finish your registration to PythonBrasil[8], you need to pay the "
-"registration fee, using PagSeguro."
-msgstr ""
-"Para concluir a sua inscrição na PythonBrasil[8], você precisa pagar a taxa "
-"de inscrição, utilizando PagSeguro"
-
-#: dashboard/templates/dashboard/index.html:22
-msgid "Pay and confirm the registration for PythonBrasil[8]"
-msgstr "Pague e confirme sua inscrição na PythonBrasil[8]"
-
-#: dashboard/templates/dashboard/index.html:22
-#: subscription/templates/subscription/tutorials_success.html:25
-msgid "Pay registration"
-msgstr "Pagar a inscrição"
-
-#: dashboard/templates/dashboard/index.html:28
 msgid ""
 "In order to register to PythonBrasil[8], you still need to fill the required "
 "fields in"
 msgstr ""
-"Para se inscrever na conferência, você ainda precisa preencher os "
-"camposobrigatórios do seu perfil em"
+"Para se inscrever na conferência, você ainda precisa preencher os campos "
+"obrigatórios do seu perfil em"
 
-#: dashboard/templates/dashboard/index.html:28
-msgid " and "
-msgstr " e"
+#: dashboard/templates/dashboard/index.html:15
+msgid "your profile"
+msgstr "seu perfil"
 
-#: dashboard/templates/dashboard/index.html:35
-msgid "Fill the required fields in your profile"
-msgstr "Preencher os campos obrigatórios no seu perfil"
-
-#: dashboard/templates/dashboard/index.html:39
-msgid "Pay your ticket"
-msgstr "Pague sua inscrição"
+#: dashboard/templates/dashboard/index.html:17
+msgid "Welcome to the PythonBrasil[10] Dashboard"
+msgstr "Bemvindo ao Dashboard da PythonBrasil[10]"
 
 #: dashboard/templates/dashboard/profile.html:19
 #: templates/registration/registration_form.html:16
@@ -495,20 +442,20 @@ msgstr ""
 "Abaixo você pode ver a lista de suas propostas de palestras. Selecione uma "
 "para editá-la."
 
-#: dashboard/templates/dashboard/sessions.html:17
+#: dashboard/templates/dashboard/sessions.html:18
 msgid "Edit proposal"
 msgstr "Editar palestra"
 
-#: dashboard/templates/dashboard/sessions.html:20
-#: dashboard/templates/dashboard/sessions.html:22
+#: dashboard/templates/dashboard/sessions.html:21
+#: dashboard/templates/dashboard/sessions.html:23
 msgid "Submit a proposal"
 msgstr "Submeta uma palestra"
 
-#: dashboard/templates/dashboard/sessions.html:22
+#: dashboard/templates/dashboard/sessions.html:23
 msgid "You did not submit any proposal yet."
 msgstr "Você não enviou nenhuma proposta de palestra ainda."
 
-#: dashboard/templates/dashboard/sessions.html:22
+#: dashboard/templates/dashboard/sessions.html:23
 msgid "Why don't you send one?"
 msgstr "Por que você não envia uma?"
 
@@ -552,7 +499,7 @@ msgstr "E-mail não é uma associação válida"
 msgid "The code has been successfully sent"
 msgstr "O código foi enviado com sucesso!"
 
-#: schedule/admin.py:22 schedule/models.py:69 templates/base.html:99
+#: schedule/admin.py:22 schedule/models.py:69 templates/base.html:96
 #: templates/proposal.html:46 templates/speakers.html:5
 #: templates/speakers.html.py:6 templates/speakers.html:14
 msgid "Speakers"
@@ -688,7 +635,7 @@ msgstr "nome de usuário ou e-mail (sem espaços)"
 msgid "Please fill the form below to submit your proposal:"
 msgstr "Por favor, preencha o formulário abaixo para enviar sua proposta:"
 
-#: schedule/templates/schedule/subscribe.html:45
+#: schedule/templates/schedule/subscribe.html:46
 msgid "Tracks' description"
 msgstr "Descrição das trilhas"
 
@@ -711,6 +658,13 @@ msgid ""
 msgstr ""
 "Falha ao gerar a transação para o gateway de pagamento. Por favor, contacte "
 "a organização."
+
+#: subscription/templates/subscription/tutorials.html:12
+#: subscription/templates/subscription/tutorials_confirmed.html:12
+#: subscription/templates/subscription/tutorials_success.html:12
+#: templates/register.html:64
+msgid "Tutorials"
+msgstr "Tutoriais"
 
 #: subscription/templates/subscription/tutorials.html:14
 msgid ""
@@ -770,7 +724,11 @@ msgstr "Para confirmar sua inscrição, por favor pague a taxa de inscrição (R
 msgid " using the button below:"
 msgstr " usando o botão abaixo:"
 
-#: templates/about.html:5 templates/about.html.py:6 templates/base.html:84
+#: subscription/templates/subscription/tutorials_success.html:25
+msgid "Pay registration"
+msgstr "Pagar a inscrição"
+
+#: templates/about.html:5 templates/about.html.py:6 templates/base.html:81
 #: templates/previous_editions.html:4
 msgid "About"
 msgstr "Sobre"
@@ -849,68 +807,73 @@ msgstr "Baixe o banner!"
 msgid "I'm Attending to PythonBrasil[10]"
 msgstr "Eu vou na PythonBrasil[10]"
 
-#: templates/base.html:89
+#: templates/base.html:52 templates/registration/login.html:13
+#: templates/registration/login.html:18
+msgid "Log In"
+msgstr "Acessar"
+
+#: templates/base.html:86
 msgid "Blog"
 msgstr "Blog"
 
-#: templates/base.html:94 templates/register.html:25
+#: templates/base.html:91 templates/register.html:25
 #: templates/register.html.py:89
 msgid "Register"
 msgstr "Inscreva-se"
 
-#: templates/base.html:133
+#: templates/base.html:130
 msgid "The Python Comunity Event"
 msgstr "O evento da Comunidade Python"
 
-#: templates/base.html:137
+#: templates/base.html:134
 msgid "TUTORIALS"
 msgstr "TUTORIAIS"
 
-#: templates/base.html:138 templates/base.html.py:143 templates/base.html:148
+#: templates/base.html:135 templates/base.html.py:140 templates/base.html:145
 msgid "November"
 msgstr "NOVEMBRO"
 
-#: templates/base.html:142
+#: templates/base.html:139
 msgid "TALKS"
 msgstr "PALESTRAS"
 
-#: templates/base.html:147
+#: templates/base.html:144
 msgid "SPRINTS"
 msgstr "SPRINTS"
 
-#: templates/base.html:165
+#: templates/base.html:162
 msgid "become a sponsor"
 msgstr "seja um patrocinador"
 
-#: templates/base.html:177
+#: templates/base.html:174
 msgid "ARE YOU SPEAKING OR ATTENDING?"
 msgstr "VAI PALESTRAR OU PARTICIPAR?"
 
-#: templates/base.html:178
+#: templates/base.html:175
 msgid "grab a badge"
 msgstr "baixe o banner!"
 
-#: templates/base.html:182
+#: templates/base.html:179
 msgid "ARE YOU ATTENDING?"
 msgstr "VAI PARTICIPAR DO EVENTO?"
 
-#: templates/base.html:183
+#: templates/base.html:180
 msgid "Learn more about the code of conduct"
 msgstr "Saiba mais sobre o código de conduta"
 
-#: templates/base.html:186
+#: templates/base.html:183
 msgid "code of conduct"
 msgstr "código de conduta"
 
-#: templates/base.html:211 templates/base.html.py:215
+#: templates/base.html:208 templates/base.html.py:212
 msgid "Organization"
 msgstr "Organização"
 
-#: templates/base.html:219
+#: templates/base.html:216
 msgid "Illustration"
 msgstr "Ilutração"
 
-#: templates/base.html:223
+#: templates/base.html:220
 msgid "WebDesign & Front-End"
 msgstr "WebDesign & Front-End"
 
@@ -1294,7 +1257,7 @@ msgstr ""
 "Software daFree Software Foundation e é um investigador fundador do Berkeley "
 "Institute for Data Science, criado em 2013."
 
-#: templates/speakers.html:39
+#: templates/speakers.html:38
 msgid ""
 "\n"
 "              Lynn Root is a backend engineer for Spotify located in San "
@@ -1424,7 +1387,7 @@ msgstr "log in"
 msgid " in order to buy your ticket!"
 msgstr " para pagar a sua inscrição"
 
-#: templates/registration/login.html:12
+#: templates/registration/login.html:11
 msgid ""
 "In order to pay your registration for attending to PythonBrasil[8] or to "
 "propose a talk, an account is required. Please, log in or sign up, if you "
@@ -1434,19 +1397,15 @@ msgstr ""
 "palestra é necessário criar uma conta. Por favor, faça login ou crie uma "
 "conta,  caso você não tenha ainda."
 
-#: templates/registration/login.html:15 templates/registration/login.html:20
-msgid "Log In"
-msgstr "Acessar"
-
-#: templates/registration/login.html:19
+#: templates/registration/login.html:17
 msgid "Forgot your password?"
 msgstr "Esqueceu sua senha?"
 
-#: templates/registration/login.html:25
+#: templates/registration/login.html:22
 msgid "Don't have an account yet? Sign Up now!"
 msgstr "Não tem cadastro? Cadastre-se no site agora!"
 
-#: templates/registration/login.html:29
+#: templates/registration/login.html:26
 msgid "Sign Up"
 msgstr "Cadastre-se"
 
@@ -1483,7 +1442,7 @@ msgstr ""
 
 #: templates/registration/registration_complete.html:7
 msgid "pythonbrasil account activation"
-msgstr "ativação de conta pythonbrasil"
+msgstr "Ativação de conta pythonbrasil"
 
 #: templates/registration/registration_complete.html:8
 msgid ""
@@ -1498,6 +1457,49 @@ msgid "Please fill the form below to registrate yourself for PythonBrasil[8]:"
 msgstr ""
 "Favor preencher o formulário para pré-inscrição na PythonBrasil[8]. Todos "
 "campos são obrigatórios."
+
+#~ msgid ""
+#~ "You are close to participate of PythonBrasil[8]! Pay your ticket and "
+#~ "start planning your travel!"
+#~ msgstr ""
+#~ "Você está próximo a participar da PythonBrasil[8]! Pague sua inscrição e "
+#~ "planeje a sua viagem!"
+
+#~ msgid "your account"
+#~ msgstr "sua conta"
+
+#~ msgid ""
+#~ "Your registration to PythonBrasil[8] is confirmed, we'll see you at the "
+#~ "conference!"
+#~ msgstr ""
+#~ "Sua inscrição na PythonBrasil[8] está confirmada, nos vemos na "
+#~ "conferência!"
+
+#~ msgid ""
+#~ "In order to register to PythonBrasil[8], you still need to fill the "
+#~ "required fields in your profile and"
+#~ msgstr ""
+#~ "Para se inscrever na conferência, você ainda precisa preencher os "
+#~ "camposobrigatórios do seu perfil e"
+
+#~ msgid ""
+#~ "Now to finish your registration to PythonBrasil[8], you need to pay the "
+#~ "registration fee, using PagSeguro."
+#~ msgstr ""
+#~ "Para concluir a sua inscrição na PythonBrasil[8], você precisa pagar a "
+#~ "taxa de inscrição, utilizando PagSeguro"
+
+#~ msgid "Pay and confirm the registration for PythonBrasil[8]"
+#~ msgstr "Pague e confirme sua inscrição na PythonBrasil[8]"
+
+#~ msgid " and "
+#~ msgstr " e"
+
+#~ msgid "Fill the required fields in your profile"
+#~ msgstr "Preencher os campos obrigatórios no seu perfil"
+
+#~ msgid "Pay your ticket"
+#~ msgstr "Pague sua inscrição"
 
 #~ msgid "PythonBrasil Registration Rates"
 #~ msgstr "Taxas de Inscrição da PythonBrasil"

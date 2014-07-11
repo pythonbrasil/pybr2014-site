@@ -3,7 +3,7 @@ from django.conf.urls import patterns, url
 
 from pythonbrasil8.dashboard.views import IndexView, ProfileView, SessionsView
 from pythonbrasil8.subscription.views import SubscriptionView, TutorialSubscriptionView
-from pythonbrasil8.schedule.views import DeleteSessionView, EditSessionView, FinishedProposalsView
+from pythonbrasil8.schedule.views import DeleteSessionView, EditSessionView, SubscribeView
 
 
 urlpatterns = patterns('',
@@ -12,7 +12,7 @@ urlpatterns = patterns('',
     url(r'^subscription/tutorials/$', TutorialSubscriptionView.as_view(), name='tutorials-subscription'),
     url(r'^profile/$', ProfileView.as_view(), name='edit-profile'),
     url(r'^proposals/$', SessionsView.as_view(), name='dashboard-sessions'),
-    url(r'^proposals/propose/$', FinishedProposalsView.as_view(), name='session-subscribe'),
+    url(r'^proposals/propose/$', SubscribeView.as_view(), name='session-subscribe'),
     url(r'^proposals/edit/(?P<id>\d+)', EditSessionView.as_view(), name='session-edit'),
     url(r'^proposals/delete/(?P<id>\d+)', DeleteSessionView.as_view(), name='session-delete'),
 )

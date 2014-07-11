@@ -8,11 +8,6 @@
 
 {% block js_top %}
 <script src="{{ STATIC_URL }}js/jquery-1.7.2.min.js" type="text/javascript" charset="utf-8"></script>
-<script type="text/javascript" language="javascript" charset="utf-8">
-//<![CDATA[
-var nameOrEmail = "{% trans "username or email (no spaces)" %}";
-//]]>
-</script>
 {% endblock %}
 
 {% block content %}
@@ -41,8 +36,10 @@ var nameOrEmail = "{% trans "username or email (no spaces)" %}";
     </div>
     {% endblock %}
     {% block tracks %}
+    <div class="blog-news">
     <div class="column grid_6">
         <h2>{% trans "Tracks' description" %}</h2>
+        <br>
         <dl>
             {% for track in tracks %}
             <dt>{{ track.name }} </dt>
@@ -50,10 +47,16 @@ var nameOrEmail = "{% trans "username or email (no spaces)" %}";
             {% endfor %}
         </dl>
     </div>
+</div>
     {% endblock %}
 </div>
 {% endblock %}
 
-{% block js_bottom %}
+{% block 'javascript' %}
+<script type="text/javascript" language="javascript" charset="utf-8">
+//<![CDATA[
+var nameOrEmail = "{% trans "username or email (no spaces)" %}";
+//]]>
+</script>
 <script src="{{ STATIC_URL }}js/speakers.js" type="text/javascript" charset="utf-8"></script>
 {% endblock %}

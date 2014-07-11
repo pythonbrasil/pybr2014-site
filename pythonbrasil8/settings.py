@@ -150,13 +150,20 @@ ACCOUNT_ACTIVATION_DAYS = 7
 
 LOGIN_REDIRECT_URL = '/dashboard/'
 
-EMAIL_PORT = 25
-EMAIL_USE_TLS = True
 EMAIL_SENDER = u'Organização PythonBrasil 10 <organizacao@python.org.br>'
 
-EMAIL_HOST = 'email-smtp.us-east-1.amazonaws.com'
-EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
-EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
+EMAIL_PORT = 25
+EMAIL_USE_TLS = True
+if os.environ.get('EMAIL_HOST_USER'):
+    EMAIL_HOST = 'email-smtp.us-east-1.amazonaws.com'
+    EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
+    EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
+else:
+    EMAIL_HOST = 'mailtrap.io'
+    EMAIL_HOST_USER = '74046c736e198ef'
+    EMAIL_HOST_PASSWORD = 'dacb9ddfed2e78'
+    EMAIL_PORT = '2525'
+    EMAIL_USE_TLS = True
 
 DEFAULT_FROM_EMAIL = EMAIL_SENDER
 
