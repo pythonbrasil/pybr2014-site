@@ -41,8 +41,10 @@ var nameOrEmail = "{% trans "username or email (no spaces)" %}";
     </div>
     {% endblock %}
     {% block tracks %}
+    <div class="blog-news">
     <div class="column grid_6">
         <h2>{% trans "Tracks' description" %}</h2>
+        <br>
         <dl>
             {% for track in tracks %}
             <dt>{{ track.name }} </dt>
@@ -50,6 +52,7 @@ var nameOrEmail = "{% trans "username or email (no spaces)" %}";
             {% endfor %}
         </dl>
     </div>
+</div>
     {% endblock %}
 </div>
 {% endblock %}

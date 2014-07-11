@@ -9,7 +9,7 @@
 {% block content %}
 <div class="row">
     <div class="column grid_12">
-        <h1>{% trans "your account" %}</h1>
+        <h1>{% trans "Your account" %}</h1>
             <p>
             {% if not request.user.get_profile.name %}
                 {% trans "In order to register to PythonBrasil[8], you still need to fill the required fields in" %} <a href="/dashboard/profile/">{% trans 'your profile' %}.</a>
