@@ -711,4 +711,5 @@ address span{
   font-family: 'Ubuntu', Helvetica, Verdana, Arial, sans-serif;
   text-decoration: none;
   font-weight: 300;
+  border: none;
 }
