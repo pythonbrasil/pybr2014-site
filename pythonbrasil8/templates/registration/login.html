@@ -6,7 +6,7 @@
 {% endblock %}
 
 {% block content %}
-<article class="main-call">
+<article class="main-call" id="access">
         <h2>Login</h2>
         <p>{% trans "In order to pay your registration for attending to PythonBrasil[8] or to propose a talk, an account is required. Please, log in or sign up, if you don't have an account yet." %}</p>
 
@@ -14,8 +14,8 @@
         <form method="post" action="">
             {% csrf_token %}
             {{ form.as_p }}
-            <a href={% url password_reset %}>{% trans "Forgot your password?" %}</a>
-            <button class="btn" type="submit">{% trans "Log In" %}</button>
+            <p><a href={% url password_reset %}>{% trans "Forgot your password?" %}</a></p>
+            <p><button class="btn btn-pybr btn-login" type="submit">{% trans "Log In" %}</button></p>
         </form>
         <br>
        
@@ -23,7 +23,7 @@
         <form method="post" action="{% url registration_register %}">
             {% csrf_token %}
             {{ registration_form.as_p }}
-            <button class="btn" type="submit">{% trans "Sign Up" %}</button>
+            <p><button class="btn btn-pybr btn-register" type="submit">{% trans "Sign Up" %}</button></p>
         </form>
        
 </article>

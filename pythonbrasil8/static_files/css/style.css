@@ -705,3 +705,10 @@ address span{
   border: 1px dashed #132C3B;
   border-radius: 5px;
 }
+
+.btn-pybr{
+  padding: .5em 2em !important;
+  font-family: 'Ubuntu', Helvetica, Verdana, Arial, sans-serif;
+  text-decoration: none;
+  font-weight: 300;
+}
