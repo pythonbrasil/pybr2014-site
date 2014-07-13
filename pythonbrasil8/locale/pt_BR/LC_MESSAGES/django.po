@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PythonBrasil8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-11 00:54-0300\n"
+"POT-Creation-Date: 2014-07-12 22:17-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Tatiana Al-Chueyr <tatiana.alchueyr@gmail.com>\n"
 "Language-Team: Francisco Souza <f@souza.cc>\n"
@@ -91,7 +91,7 @@ msgstr "Patrocinadores"
 msgid "PYTHONBRASIL SPONSORS"
 msgstr "PATROCINADORES DA PYTHONBRASIL"
 
-#: core/templates/sponsors.html:40 templates/base.html:160
+#: core/templates/sponsors.html:40 templates/base.html:165
 msgid "Learn how to become a sponsor"
 msgstr "Veja como se tornar um patrocinador"
 
@@ -447,7 +447,7 @@ msgid "Edit proposal"
 msgstr "Editar palestra"
 
 #: dashboard/templates/dashboard/sessions.html:21
-#: dashboard/templates/dashboard/sessions.html:23
+#: dashboard/templates/dashboard/sessions.html:23 templates/base.html:96
 msgid "Submit a proposal"
 msgstr "Submeta uma palestra"
 
@@ -499,7 +499,7 @@ msgstr "E-mail não é uma associação válida"
 msgid "The code has been successfully sent"
 msgstr "O código foi enviado com sucesso!"
 
-#: schedule/admin.py:22 schedule/models.py:69 templates/base.html:96
+#: schedule/admin.py:22 schedule/models.py:69 templates/base.html:101
 #: templates/proposal.html:46 templates/speakers.html:5
 #: templates/speakers.html.py:6 templates/speakers.html:14
 msgid "Speakers"
@@ -579,27 +579,27 @@ msgid "Please fill the form below to edit your proposal:"
 msgstr "Por favor, preencha o formulário abaixo para enviar sua proposta:"
 
 #: schedule/templates/schedule/edit-session.html:19
-#: schedule/templates/schedule/subscribe.html:32
+#: schedule/templates/schedule/subscribe.html:27
 msgid "you"
 msgstr "você"
 
 #: schedule/templates/schedule/edit-session.html:23
-#: schedule/templates/schedule/subscribe.html:36
+#: schedule/templates/schedule/subscribe.html:31
 msgid "Add speaker"
 msgstr "Adicionar palestrante"
 
 #: schedule/templates/schedule/edit-session.html:23
-#: schedule/templates/schedule/subscribe.html:36
+#: schedule/templates/schedule/subscribe.html:31
 msgid "Add another speaker"
 msgstr "Adicionar outro palestrante"
 
 #: schedule/templates/schedule/edit-session.html:27
-#: schedule/templates/schedule/subscribe.html:39
+#: schedule/templates/schedule/subscribe.html:34
 msgid "Send proposal"
 msgstr "Submeter palestra"
 
 #: schedule/templates/schedule/edit-session.html:27
-#: schedule/templates/schedule/subscribe.html:39
+#: schedule/templates/schedule/subscribe.html:34
 #: subscription/templates/subscription/tutorials.html:54
 #: templates/register.html:36
 #: templates/registration/password_change_form.html:17
@@ -619,7 +619,7 @@ msgid "Delete"
 msgstr "Apagar"
 
 #: schedule/templates/schedule/finished_proposals.html:11
-#: schedule/templates/schedule/subscribe.html:22
+#: schedule/templates/schedule/subscribe.html:17
 msgid "Send a proposal"
 msgstr "Submeter palestra"
 
@@ -627,17 +627,17 @@ msgstr "Submeter palestra"
 msgid "The period for session proposals has ended."
 msgstr "O prazo para submissão de palestras já está encerrado."
 
-#: schedule/templates/schedule/subscribe.html:13
-msgid "username or email (no spaces)"
-msgstr "nome de usuário ou e-mail (sem espaços)"
-
-#: schedule/templates/schedule/subscribe.html:24
+#: schedule/templates/schedule/subscribe.html:19
 msgid "Please fill the form below to submit your proposal:"
 msgstr "Por favor, preencha o formulário abaixo para enviar sua proposta:"
 
-#: schedule/templates/schedule/subscribe.html:46
+#: schedule/templates/schedule/subscribe.html:41
 msgid "Tracks' description"
 msgstr "Descrição das trilhas"
+
+#: schedule/templates/schedule/subscribe.html:58
+msgid "username or email (no spaces)"
+msgstr "nome de usuário ou e-mail (sem espaços)"
 
 #: subscription/models.py:84
 #, python-format
@@ -821,59 +821,59 @@ msgstr "Blog"
 msgid "Register"
 msgstr "Inscreva-se"
 
-#: templates/base.html:130
+#: templates/base.html:135
 msgid "The Python Comunity Event"
 msgstr "O evento da Comunidade Python"
 
-#: templates/base.html:134
+#: templates/base.html:139
 msgid "TUTORIALS"
 msgstr "TUTORIAIS"
 
-#: templates/base.html:135 templates/base.html.py:140 templates/base.html:145
+#: templates/base.html:140 templates/base.html.py:145 templates/base.html:150
 msgid "November"
 msgstr "NOVEMBRO"
 
-#: templates/base.html:139
+#: templates/base.html:144
 msgid "TALKS"
 msgstr "PALESTRAS"
 
-#: templates/base.html:144
+#: templates/base.html:149
 msgid "SPRINTS"
 msgstr "SPRINTS"
 
-#: templates/base.html:162
+#: templates/base.html:167
 msgid "become a sponsor"
 msgstr "seja um patrocinador"
 
-#: templates/base.html:174
+#: templates/base.html:179
 msgid "ARE YOU SPEAKING OR ATTENDING?"
 msgstr "VAI PALESTRAR OU PARTICIPAR?"
 
-#: templates/base.html:175
+#: templates/base.html:180
 msgid "grab a badge"
 msgstr "baixe o banner!"
 
-#: templates/base.html:179
+#: templates/base.html:184
 msgid "ARE YOU ATTENDING?"
 msgstr "VAI PARTICIPAR DO EVENTO?"
 
-#: templates/base.html:180
+#: templates/base.html:185
 msgid "Learn more about the code of conduct"
 msgstr "Saiba mais sobre o código de conduta"
 
-#: templates/base.html:183
+#: templates/base.html:188
 msgid "code of conduct"
 msgstr "código de conduta"
 
-#: templates/base.html:208 templates/base.html.py:212
+#: templates/base.html:213 templates/base.html.py:217
 msgid "Organization"
 msgstr "Organização"
 
-#: templates/base.html:216
+#: templates/base.html:221
 msgid "Illustration"
 msgstr "Ilutração"
 
-#: templates/base.html:220
+#: templates/base.html:225
 msgid "WebDesign & Front-End"
 msgstr "WebDesign & Front-End"
 
@@ -1272,6 +1272,28 @@ msgstr ""
 "também é diretora da Python Software Foundation, membro da Django Software\n"
 "Foundation, e fundadora/líder do Pyladies São Francisco. Por último, Lynn é "
 "viciada em cafeína e bacon, VM breaker e detesta e-mails."
+
+#: templates/speakers.html:48
+msgid ""
+"\n"
+"              Daniel Greenfeld is a senior software engineer at Eventbrite. "
+"Daniel is the co-author of Two Scoops of Django: Best Practices for Django "
+"and two O'Reilly courses. He is also a co-creator and maintainer of Django "
+"Packages, the index for researching Django apps. Before that he spent over "
+"five years at NASA as a software engineer, where he won numerous awards. "
+"He's enthusiastic about open source, technology communities, and Capoeira. "
+"He hopes to be able to do Capoeira in Brazil with his Python friends there. "
+"He blogs regularly at <a href=\"http://pydanny.com\">pydanny.com</a>.\n"
+"              "
+msgstr ""
+"\n"
+"Daniel Greenfield é Engenheiro de Software Senior na Eventbrite. Co-autor do "
+"livro Two Scoops of Django: Best "Practices for Django e de mais dois cursos "
+"na O'Reilly. Também é co-criador e mantenedor do site Django "Packages, o índice "
+"de apps Django. Antes disso ele passou mais de cinco anos como Engenheiro de Software na "
+"NASA, quando ganhou muitos prêmios. Entusiasta open source, comunidades de tecnologia, "
+"e Capoeira. Ele espera poder jogar Capoeira no Brasil com seus amigos Pythonistas. "
+"Ele posta regularmente em <a href=\"http://pydanny.com\">pydanny.com</a>.\n"
 
 #: templates/track.html:14
 #, fuzzy
