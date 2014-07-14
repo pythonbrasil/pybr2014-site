@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PythonBrasil8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-12 22:17-0300\n"
+"POT-Creation-Date: 2014-07-13 21:47-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Tatiana Al-Chueyr <tatiana.alchueyr@gmail.com>\n"
 "Language-Team: Francisco Souza <f@souza.cc>\n"
@@ -1228,7 +1228,7 @@ msgstr ""
 "É membro da diretoria da Python Software Foundation e trabalha no Rackspace. "
 "Quando não está programando, Alex é fã de basquete e bagel."
 
-#: templates/speakers.html:29
+#: templates/speakers.html:30
 msgid ""
 "\n"
 "              Fernando Perez is a research scientist at the UC Berkeley "
@@ -1257,7 +1257,7 @@ msgstr ""
 "Software daFree Software Foundation e é um investigador fundador do Berkeley "
 "Institute for Data Science, criado em 2013."
 
-#: templates/speakers.html:38
+#: templates/speakers.html:41
 msgid ""
 "\n"
 "              Lynn Root is a backend engineer for Spotify located in San "
@@ -1273,7 +1273,7 @@ msgstr ""
 "Foundation, e fundadora/líder do Pyladies São Francisco. Por último, Lynn é "
 "viciada em cafeína e bacon, VM breaker e detesta e-mails."
 
-#: templates/speakers.html:48
+#: templates/speakers.html:52
 msgid ""
 "\n"
 "              Daniel Greenfeld is a senior software engineer at Eventbrite. "
@@ -1287,13 +1287,15 @@ msgid ""
 "              "
 msgstr ""
 "\n"
-"Daniel Greenfield é Engenheiro de Software Senior na Eventbrite. Co-autor do "
-"livro Two Scoops of Django: Best "Practices for Django e de mais dois cursos "
-"na O'Reilly. Também é co-criador e mantenedor do site Django "Packages, o índice "
-"de apps Django. Antes disso ele passou mais de cinco anos como Engenheiro de Software na "
-"NASA, quando ganhou muitos prêmios. Entusiasta open source, comunidades de tecnologia, "
-"e Capoeira. Ele espera poder jogar Capoeira no Brasil com seus amigos Pythonistas. "
-"Ele posta regularmente em <a href=\"http://pydanny.com\">pydanny.com</a>.\n"
+"              Daniel Greenfield é Engenheiro de Software Senior na "
+"Eventbrite. Co-autor do livro Two Scoops of Django: Best Practices for "
+"Django e de mais dois cursos na O'Reilly. Também é co-criador e mantenedor "
+"do site Django Packages, o índice de apps Django. Antes disso ele passou "
+"mais de cinco anos como Engenheiro de Software na NASA, quando ganhou muitos "
+"prêmios. Entusiasta open source, comunidades de tecnologia, e Capoeira. Ele "
+"espera poder jogar Capoeira no Brasil com seus amigos Pythonistas. He blogs "
+"regularly at <a href=\"http://pydanny.com\">pydanny.com</a>.\n"
+"              "
 
 #: templates/track.html:14
 #, fuzzy
