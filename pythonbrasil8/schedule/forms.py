@@ -6,4 +6,4 @@ from pythonbrasil8.schedule.models import Session
 class SessionForm(ModelForm):
     class Meta:
         model = Session
-        exclude = ("speakers", "status", "date")
+        exclude = ("speakers", "status", "date", "slug")
