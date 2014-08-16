@@ -30,7 +30,9 @@ class SessionViewTestCase(test.TestCase):
         self.assertIsInstance(result.context_data['form'], forms.SessionForm)
 
     def test_form_valid_saves_the_form_using_the_user_from_request(self):
-        user, _ = auth_models.User.objects.get_or_create(username="foo", email="foo@bar.com")
+        user, _ = auth_models.User.objects.get_or_create(
+            username="foo", email="foo@bar.com"
+        )
         track, _ = models.Track.objects.get_or_create(
             name_en="Session test", name_pt_br=u"teste sessão",
             description_en="test",

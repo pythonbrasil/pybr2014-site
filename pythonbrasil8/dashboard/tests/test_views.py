@@ -123,8 +123,9 @@ class ProfileViewTestCase(TestCase):
         profile = AccountProfile.objects.get(id=self.account_profile.id)
         self.assertEqual('siminino', profile.name)
         self.assertEqual('simi test', profile.description)
-        self.assertEqual('Student', profile.type)
-        self.assertEqual('M', profile.tshirt)
+        # ProfileForm exclude 'type' and 'tshirt' fields
+        # self.assertEqual('Student', profile.type)
+        # self.assertEqual('M', profile.tshirt)
 
     def test_get_url_should_return_200(self):
         client = Client()

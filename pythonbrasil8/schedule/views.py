@@ -33,8 +33,7 @@ class SubscribeView(LoginRequiredMixin, CreateView):
         r = super(SubscribeView, self).form_valid(form)
         spkrs = [self.request.user]
         spkrs.extend(self.get_extra_speakers())
-        self.object.speakers = spkrs
-        self.object.save()
+        self.object.speakers.add(*spkrs)
         return r
 
     def get(self, request, *args, **kwargs):
