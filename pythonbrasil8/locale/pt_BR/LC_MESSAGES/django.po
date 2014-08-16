@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PythonBrasil8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-13 21:49-0300\n"
+"POT-Creation-Date: 2014-08-16 00:21-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Tatiana Al-Chueyr <tatiana.alchueyr@gmail.com>\n"
 "Language-Team: Francisco Souza <f@souza.cc>\n"
@@ -446,18 +446,9 @@ msgstr ""
 msgid "Edit proposal"
 msgstr "Editar palestra"
 
-#: dashboard/templates/dashboard/sessions.html:21
-#: dashboard/templates/dashboard/sessions.html:23 templates/base.html:96
-msgid "Submit a proposal"
-msgstr "Submeta uma palestra"
-
-#: dashboard/templates/dashboard/sessions.html:23
-msgid "You did not submit any proposal yet."
-msgstr "Você não enviou nenhuma proposta de palestra ainda."
-
-#: dashboard/templates/dashboard/sessions.html:23
-msgid "Why don't you send one?"
-msgstr "Por que você não envia uma?"
+#: dashboard/templates/dashboard/sessions.html:22
+msgid "The call for papers is now closed. Thanks to everyone who submitted."
+msgstr "A submissão de palestras está fechada. Obrigado a todos que submeteram."
 
 #: news/models.py:12 schedule/models.py:64
 msgid "Title"
@@ -873,7 +864,7 @@ msgstr "Organização"
 msgid "Illustration"
 msgstr "Ilutração"
 
-#: templates/base.html:225
+#: templates/base.html:225 templates/base.html.py:229
 msgid "WebDesign & Front-End"
 msgstr "WebDesign & Front-End"
 
@@ -1476,3 +1467,12 @@ msgid "Please fill the form below to registrate yourself for PythonBrasil[10]:"
 msgstr ""
 "Favor preencher o formulário para pré-inscrição na PythonBrasil[10]. Todos "
 "campos são obrigatórios."
+
+#~ msgid "Submit a proposal"
+#~ msgstr "Submeta uma palestra"
+
+#~ msgid "You did not submit any proposal yet."
+#~ msgstr "Você não enviou nenhuma proposta de palestra ainda."
+
+#~ msgid "Why don't you send one?"
+#~ msgstr "Por que você não envia uma?"

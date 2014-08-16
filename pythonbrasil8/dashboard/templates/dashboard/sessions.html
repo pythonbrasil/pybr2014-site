@@ -18,9 +18,8 @@
                 <li>- <a href="{% url session-edit id=session.pk %}" title="{% trans "Edit proposal" %}">{{ session.title }}</li>
                 {% endfor %}
             </ul>
-            <p><a href="{% url session-subscribe %}" title="{% trans "Submit a proposal" %}" class="btn">{% trans "Submit a proposal" %}</a></p>
         {% else %}
-        <p>{% trans "You did not submit any proposal yet." %} <a href="{% url session-subscribe %}" title="{% trans "Submit a proposal" %}">{% trans "Why don't you send one?" %}</a></p>
+        <p>{% trans 'The call for papers is now closed. Thanks to everyone who submitted.' %}</a></p>
         {% endif %}
     </div>
 </div>

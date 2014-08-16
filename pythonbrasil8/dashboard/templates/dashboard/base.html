@@ -15,7 +15,7 @@
                 <a href="{% url dashboard-index %}" title="Dashboard" class="{% is_active request.path 'dashboard-index' %}">Dashboard</a>
             </li>
             <li>
-                <a href="{% url dashboard-sessions %}" title="{% trans "Proposals" %}" class="{% is_active request.path 'dashboard-sessions' %}{% is_active request.path 'session-subscribe' %}">{% trans "Proposals" %}</a>
+                <a href="{% url dashboard-sessions %}" title="{% trans "Proposals" %}" class="{% is_active request.path 'dashboard-sessions' %}">{% trans "Proposals" %}</a>
             </li>
             {% comment %}
             <li>

@@ -93,7 +93,7 @@
           </li>
           <li>
             <a class="{% is_active request.path 'dashboard-sessions' %}" href="{% url dashboard-sessions %}">
-              {% trans "Submit a proposal" %}
+              Dashboard
             </a>
           </li>
           <li>
@@ -203,7 +203,7 @@
         {% for sponsor in sponsors %}
         <li class="grid-25">
           <h4>{{ sponsor.category.name }}</h4>
-          <img src="{{ sponsor.logo.url }}" alt="{{ sponsor.name  }}">
+          <a href="{{ sponsor.url }}"><img src="{{ sponsor.logo.url }}" alt="{{ sponsor.name  }}"></a>
         </li>
         {% endfor %}
       </ul>
