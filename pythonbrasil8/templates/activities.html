@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load static %}
+
+{% block title %}{% trans "Activities" %} | PythonBrasil[10]{% endblock %}
+{% block og_title %}{% trans "Activities" %} | PythonBrasil[10]{% endblock %} 
+
+{% block  css %}
+{% endblock %}
+
+
+{% block content %}
+    <div class="about recife">
+    		<h2>{% trans "Activities" %}</h2>
+        <div class="credits"><p>{% trans "Tickets will be released soon." %}</p></div>
+        <div class="blog-news">
+          <article class="blog-item grid-100">
+            <h3>{% trans "Raft Boat Sailing" %}</h3>
+            <p class="grid-60">
+              {% blocktrans %}
+              Sail over the famous natural pools of Porto de Galinhas on a traditional raft boat used by local fishermen.
+              {% endblocktrans %}
+            </p>
+            <div class="grid-30 img-keynote"><img src="{% static 'images/icons/boat.png' %}" /></div>
+          </article>
+          <article class="blog-item grid-100">
+            <h3>{% trans "Scuba Diving" %}</h3>
+            <div class="grid-30 img-keynote"><img src="{% static 'images/icons/scuba-diving.png' %}" /></div>
+            <p>
+              {% blocktrans %}
+              Explore the gorgeous marine fauna & flora of Porto de Galinhas in this baptism diving accompanied by an SSI certified instructor.
+              {% endblocktrans %}
+            </p>
+
+          </article>
+          <article class="blog-item grid-100">
+            <h3>{% trans "Buggy Ride" %}</h3>
+            <p class='grid-60'>
+              {% blocktrans %}
+              Enjoy this off-road adventure across the white sand beaches of Muro Alto, Cupe, Porto de Galinhas and Maracaípe.
+              {% endblocktrans %}
+            </p>
+            <div class="grid-30 img-keynote"><img src="{% static 'images/icons/buggy.png' %}" /></div>
+          </article>
+          <article class="blog-item grid-100">
+            <h3>Standup Paddle</h3>
+            <div class="grid-30 img-keynote"><img src="{% static 'images/icons/standup.png' %}" /></div>
+            <p>
+              {% blocktrans %}
+              Row from Pontal de Maracaípe beach to the beautiful seahorse's birthplace. Shuttle from Porto de Galinhas to Maracaípe beach included.
+              {% endblocktrans %}
+            </p>
+          </article>
+      </div>
+
+      <div class="credits">
+        <p>* {% trans "All the activities will be organized by " %}<a href="http://www.casablancaturismo.com.br/" target="_blank">Casablanca Turismo.</a></p>
+        <p>* {% trans "Activities are not included in the conference tickets. Passes will be sold separately." %}</p>
+        <p>* {% trans "Icons' attribution (in respective order): Jeep, Paddle Board and Sail Boat by Luis Prado, Ian Graham and Laurent from" %} <a href="http://www.thenounproject.com/" target="_blank">The Noum Project</a>.</p>
+      </div>
+    </div>
+ {% endblock %}

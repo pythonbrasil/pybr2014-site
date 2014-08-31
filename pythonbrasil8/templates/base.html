@@ -123,6 +123,11 @@
               Porto de Galinhas
             </a>
           </li>
+          <li>
+            <a class="{% is_active request.path 'activities' %}" href="{% url activities %}">
+              {% trans "Activities" %}
+            </a>
+          </li>
         </ul>
       </nav>
   </header>
@@ -134,19 +139,24 @@
             <h2>{% trans 'The Python Comunity Event' %}</h2>
             <p>Recife/Porto de Galinhas, Brasil</p>
           </div>
-          <div class="call-subnav grid-20">
+          <div class="call-subnav grid-15">
             <h3>{% trans 'TUTORIALS' %}</h3>
             <h2>4-5 {% trans 'November' %}, 2014</h2>
-            <p>Local a definir</p>
+            <p>Recife</p>
           </div>
-          <div class="call-subnav grid-20">
+          <div class="call-subnav grid-15">
             <h3>{% trans 'TALKS' %}</h3>
             <h2>6-7 {% trans 'November' %}, 2014</h2>
             <p>Porto de Galinhas</p>
           </div>
-          <div class="call-subnav grid-20">
+          <div class="call-subnav grid-15">
             <h3>{% trans 'SPRINTS' %}</h3>
             <h2>8 {% trans 'November' %}, 2014</h2>
+            <p>Porto de Galinhas</p>
+          </div>
+          <div class="call-subnav grid-15">
+            <h3>{% trans 'ACTIVITIES' %}</h3>
+            <h2>9 {% trans 'November' %}, 2014</h2>
             <p>Porto de Galinhas</p>
           </div>
         </div>
