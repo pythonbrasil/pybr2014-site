@@ -48,6 +48,7 @@ urlpatterns = patterns('',
     url(r'^accounts/password/reset/done/$', TemplateView.as_view(template_name="password_reset_sent.html"), name='password_reset_sent'),
     url(r'^accounts/password/reset/confirm/(?P<uidb36>[0-9A-Za-z]{1,13})-(?P<token>[0-9A-Za-z]{1,13}-[0-9A-Za-z]{1,20})/$', password_reset_confirm, {"template_name": "password_reset_confirm.html"}, name='password_reset_confirm'),
     url(r'^accounts/', include('registration.backends.default.urls')),
+    url(r'^activities/', TemplateView.as_view(template_name="activities.html"), name='activities'),
 
     url(r'^news/', include('pythonbrasil8.news.urls', namespace='news')),
     url(r'^promo_code/', include('pythonbrasil8.promo_code.urls', namespace='promo_code')),

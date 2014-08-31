@@ -713,3 +713,7 @@ address span{
   font-weight: 300;
   border: none;
 }
+
+.credits {
+  font-size: 0.8em;
+}
