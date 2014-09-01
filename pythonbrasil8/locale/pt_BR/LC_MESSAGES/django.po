@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PythonBrasil8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-31 18:27-0300\n"
+"POT-Creation-Date: 2014-08-31 22:55-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Tatiana Al-Chueyr <tatiana.alchueyr@gmail.com>\n"
 "Language-Team: Francisco Souza <f@souza.cc>\n"
@@ -121,10 +121,62 @@ msgid "Porto de Galinhas"
 msgstr "Porto de Galinhas"
 
 #: core/templates/venue.html:11
+#, fuzzy
+msgid "Conference Venue"
+msgstr "Local da Conferência"
+
+#: core/templates/venue.html:13
+msgid ""
+"Hotel Armação sits right by the edge of the sea, on the beach of Porto de "
+"Galinhas, 60 Km from the International Airport of Recife and is the nearest "
+"hotel to the local Fishing Village (2km) – with its charming local shops, "
+"bars, restaurants and the famous coral reefs of the surrounding Natural Sea "
+"Pools."
+msgstr ""
+"A 60 Km do Aeroporto Internacional de Recife, na beira-mar de Porto de "
+"Galinhas, o Armação é o hotel mais próximo da Vila dos Pescadores (apenas "
+"2km) onde encontram-se lojas, bares, restaurantes e os famosos corais das "
+"Piscinas Naturais."
+
+#: core/templates/venue.html:14
+msgid ""
+"There are 188 exquisitely decorated rooms – including en-suite, adjoining, "
+"double, triple, quad as well as  30 rooms with special facilities for the "
+"physically disabled – divided into two categories, Standard and Superior. "
+"All rooms are fully equipped with split system air-conditioning, flat screen "
+"TV with cable, mini-bar, telephone and safe deposit box. Some have balcony."
+msgstr ""
+"São 188 apartamentos - entre suítes, conjugados, duplos, triplos, quádruplos "
+"e ainda 30 apartamentos com facilidades para deficientes físicos - nas "
+"categorias Standard e Superior. Equipados com ar condicionado split, TV tela "
+"plana, canais a cabo, frigobar, telefone, cofre, e alguns com varanda."
+
+#: core/templates/venue.html:15
+msgid ""
+"Hotel Armação also offers its guests contracted services including diving "
+"lessons in the hotel swimming pools with the very first diving session in "
+"the Sea Water Pools by the beach, photography, babysitter, buggy hire, car "
+"hire, horse riding and trips along the entire beach of Porto de Galinhas and "
+"its surroundings."
+msgstr ""
+"Nossos hóspedes contam ainda com serviço terceirizado de aula de mergulho em "
+"nossas piscinas e batismo nas Piscinas Naturais, fotógrafo, babysitter, "
+"aluguel de buggy, carros, caiaque, cavalos e passeios por toda a praia de "
+"Porto de Galinhas e arredores."
+
+#: core/templates/venue.html:17
+msgid "Address"
+msgstr "Endereço"
+
+#: core/templates/venue.html:23
+msgid "Booking and Informations"
+msgstr "Reservas e Informações"
+
+#: core/templates/venue.html:31
 msgid "About Porto de Galinhas"
 msgstr "Sobre Porto de Galinhas"
 
-#: core/templates/venue.html:14
+#: core/templates/venue.html:34
 msgid ""
 "For the first time, PythonBrazil is heading to Porto de Galinhas, "
 "Pernambuco, an amazing beach located 37 mi south of the city of Recife, "
@@ -134,7 +186,7 @@ msgstr ""
 "Galinhas,  uma das praias mais paradisíacas do Brasil localizado a 37 milhas "
 "ao sul da cidade do Recife, Pernambuco."
 
-#: core/templates/venue.html:15
+#: core/templates/venue.html:35
 msgid ""
 "Until a few years ago, Porto was an anonymous small village of fishermen, "
 "but nowadays it is one of the most important tourist destinations in Brazil, "
@@ -147,7 +199,7 @@ msgstr ""
 "Brasil, sendo eleita por dez vezes seguidas a melhor praia do país. Apesar "
 "disto, a vila continua pequena, mantendo sua peculiar arquitetura rústica."
 
-#: core/templates/venue.html:16
+#: core/templates/venue.html:36
 msgid ""
 "The beach line is 11 mi long, all with white, fine grained, clean sand. "
 "There is a chain of millenary reefs lining all along the coast. During the "
@@ -162,15 +214,15 @@ msgstr ""
 "mergulhar e alimentar os peixes em uma água sempre morna. A localização é "
 "famosa pela suas paisagens incríveis e a sua natureza atraente."
 
-#: core/templates/venue.html:19
+#: core/templates/venue.html:39
 msgid "How to get to Porto De Galinhas"
 msgstr "Como chegar em Porto de Galinhas"
 
-#: core/templates/venue.html:21
+#: core/templates/venue.html:41
 msgid "By air"
 msgstr "Por avião"
 
-#: core/templates/venue.html:22
+#: core/templates/venue.html:42
 msgid ""
 "The primary airport for Recife is Gilberto Freyre International Aiport  "
 "(Guararapes Airport). Flights from everywhere to Recife can be found on <a "
@@ -186,7 +238,7 @@ msgstr ""
 "PythonBrasil disponibilizará transporte gratuito para os participantes "
 "saindo de Recife para Porto de Galinhas nos dias que ocorrem a Conferência."
 
-#: core/templates/venue.html:23
+#: core/templates/venue.html:43
 msgid ""
 "You can also take a bus, use a shuttle service, get a taxi or rent a car to "
 "go to Porto de Galinhas (the trip between Recife and Porto usually takes 2 "
@@ -198,11 +250,11 @@ msgstr ""
 "leva 2 horas). Se você está em um estado vizinho, há também a opção de vir "
 "de ônibus ou de carro."
 
-#: core/templates/venue.html:26
+#: core/templates/venue.html:46
 msgid "How the free transportation will work"
 msgstr "Como transporte gratuito irá funcionar"
 
-#: core/templates/venue.html:27
+#: core/templates/venue.html:47
 msgid ""
 "PythonBrazil will provide a nice and comfortable bus to all attendees. In "
 "future we will provide further information."
@@ -210,11 +262,11 @@ msgstr ""
 "A PythonBrasil disponibilizará um confortável ônibus para todos os "
 "participantes. Em breve informaremos mais detalhes."
 
-#: core/templates/venue.html:29
+#: core/templates/venue.html:49
 msgid "From abroad"
 msgstr "Para quem vem do exterior"
 
-#: core/templates/venue.html:30
+#: core/templates/venue.html:50
 msgid ""
 "International travellers from the countries that are include in the Mercosul "
 "Agreement can travel to Brazil freely without the need for a Visa. Citizens "
@@ -228,11 +280,11 @@ msgstr ""
 "brazil.travisa.com/'>http://brazil.travisa.com/</a>  para checar a "
 "necessidade de visto e como obter um."
 
-#: core/templates/venue.html:33
+#: core/templates/venue.html:53
 msgid "Invitation Letters"
 msgstr "Cartas de Convite."
 
-#: core/templates/venue.html:34
+#: core/templates/venue.html:54
 msgid ""
 "Visitor visa applicants may need letters or other documents indicating the "
 "purpose of their visit, evidence of funds to cover accommodation and food, "
