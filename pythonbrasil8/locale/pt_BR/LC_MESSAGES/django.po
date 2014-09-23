@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PythonBrasil8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-31 22:55-0300\n"
+"POT-Creation-Date: 2014-09-23 18:13-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Tatiana Al-Chueyr <tatiana.alchueyr@gmail.com>\n"
 "Language-Team: Francisco Souza <f@souza.cc>\n"
@@ -112,7 +112,6 @@ msgstr ""
 "conferência e aumente a visibilidade da sua empresa."
 
 #: core/templates/sponsors_info.html:12
-#, fuzzy
 msgid "Sponsoring prospectus"
 msgstr "Plano de captação (versão em inglês)"
 
@@ -121,11 +120,10 @@ msgid "Porto de Galinhas"
 msgstr "Porto de Galinhas"
 
 #: core/templates/venue.html:11
-#, fuzzy
 msgid "Conference Venue"
 msgstr "Local da Conferência"
 
-#: core/templates/venue.html:13
+#: core/templates/venue.html:14
 msgid ""
 "Hotel Armação sits right by the edge of the sea, on the beach of Porto de "
 "Galinhas, 60 Km from the International Airport of Recife and is the nearest "
@@ -138,7 +136,7 @@ msgstr ""
 "2km) onde encontram-se lojas, bares, restaurantes e os famosos corais das "
 "Piscinas Naturais."
 
-#: core/templates/venue.html:14
+#: core/templates/venue.html:15
 msgid ""
 "There are 188 exquisitely decorated rooms – including en-suite, adjoining, "
 "double, triple, quad as well as  30 rooms with special facilities for the "
@@ -151,7 +149,7 @@ msgstr ""
 "categorias Standard e Superior. Equipados com ar condicionado split, TV tela "
 "plana, canais a cabo, frigobar, telefone, cofre, e alguns com varanda."
 
-#: core/templates/venue.html:15
+#: core/templates/venue.html:16
 msgid ""
 "Hotel Armação also offers its guests contracted services including diving "
 "lessons in the hotel swimming pools with the very first diving session in "
@@ -164,19 +162,19 @@ msgstr ""
 "aluguel de buggy, carros, caiaque, cavalos e passeios por toda a praia de "
 "Porto de Galinhas e arredores."
 
-#: core/templates/venue.html:17
+#: core/templates/venue.html:18
 msgid "Address"
 msgstr "Endereço"
 
-#: core/templates/venue.html:23
+#: core/templates/venue.html:24
 msgid "Booking and Informations"
 msgstr "Reservas e Informações"
 
-#: core/templates/venue.html:31
+#: core/templates/venue.html:32
 msgid "About Porto de Galinhas"
 msgstr "Sobre Porto de Galinhas"
 
-#: core/templates/venue.html:34
+#: core/templates/venue.html:35
 msgid ""
 "For the first time, PythonBrazil is heading to Porto de Galinhas, "
 "Pernambuco, an amazing beach located 37 mi south of the city of Recife, "
@@ -186,7 +184,7 @@ msgstr ""
 "Galinhas,  uma das praias mais paradisíacas do Brasil localizado a 37 milhas "
 "ao sul da cidade do Recife, Pernambuco."
 
-#: core/templates/venue.html:35
+#: core/templates/venue.html:36
 msgid ""
 "Until a few years ago, Porto was an anonymous small village of fishermen, "
 "but nowadays it is one of the most important tourist destinations in Brazil, "
@@ -199,7 +197,7 @@ msgstr ""
 "Brasil, sendo eleita por dez vezes seguidas a melhor praia do país. Apesar "
 "disto, a vila continua pequena, mantendo sua peculiar arquitetura rústica."
 
-#: core/templates/venue.html:36
+#: core/templates/venue.html:37
 msgid ""
 "The beach line is 11 mi long, all with white, fine grained, clean sand. "
 "There is a chain of millenary reefs lining all along the coast. During the "
@@ -214,15 +212,15 @@ msgstr ""
 "mergulhar e alimentar os peixes em uma água sempre morna. A localização é "
 "famosa pela suas paisagens incríveis e a sua natureza atraente."
 
-#: core/templates/venue.html:39
+#: core/templates/venue.html:40
 msgid "How to get to Porto De Galinhas"
 msgstr "Como chegar em Porto de Galinhas"
 
-#: core/templates/venue.html:41
+#: core/templates/venue.html:42
 msgid "By air"
 msgstr "Por avião"
 
-#: core/templates/venue.html:42
+#: core/templates/venue.html:43
 msgid ""
 "The primary airport for Recife is Gilberto Freyre International Aiport  "
 "(Guararapes Airport). Flights from everywhere to Recife can be found on <a "
@@ -238,7 +236,7 @@ msgstr ""
 "PythonBrasil disponibilizará transporte gratuito para os participantes "
 "saindo de Recife para Porto de Galinhas nos dias que ocorrem a Conferência."
 
-#: core/templates/venue.html:43
+#: core/templates/venue.html:44
 msgid ""
 "You can also take a bus, use a shuttle service, get a taxi or rent a car to "
 "go to Porto de Galinhas (the trip between Recife and Porto usually takes 2 "
@@ -250,11 +248,11 @@ msgstr ""
 "leva 2 horas). Se você está em um estado vizinho, há também a opção de vir "
 "de ônibus ou de carro."
 
-#: core/templates/venue.html:46
+#: core/templates/venue.html:47
 msgid "How the free transportation will work"
 msgstr "Como transporte gratuito irá funcionar"
 
-#: core/templates/venue.html:47
+#: core/templates/venue.html:48
 msgid ""
 "PythonBrazil will provide a nice and comfortable bus to all attendees. In "
 "future we will provide further information."
@@ -262,11 +260,11 @@ msgstr ""
 "A PythonBrasil disponibilizará um confortável ônibus para todos os "
 "participantes. Em breve informaremos mais detalhes."
 
-#: core/templates/venue.html:49
+#: core/templates/venue.html:50
 msgid "From abroad"
 msgstr "Para quem vem do exterior"
 
-#: core/templates/venue.html:50
+#: core/templates/venue.html:51
 msgid ""
 "International travellers from the countries that are include in the Mercosul "
 "Agreement can travel to Brazil freely without the need for a Visa. Citizens "
@@ -280,11 +278,11 @@ msgstr ""
 "brazil.travisa.com/'>http://brazil.travisa.com/</a>  para checar a "
 "necessidade de visto e como obter um."
 
-#: core/templates/venue.html:53
+#: core/templates/venue.html:54
 msgid "Invitation Letters"
 msgstr "Cartas de Convite."
 
-#: core/templates/venue.html:54
+#: core/templates/venue.html:55
 msgid ""
 "Visitor visa applicants may need letters or other documents indicating the "
 "purpose of their visit, evidence of funds to cover accommodation and food, "
@@ -544,7 +542,7 @@ msgid "The code has been successfully sent"
 msgstr "O código foi enviado com sucesso!"
 
 #: schedule/admin.py:22 schedule/models.py:69 templates/base.html:101
-#: templates/proposal.html:46 templates/speakers.html:5
+#: templates/proposal.html:40 templates/speakers.html:5
 #: templates/speakers.html.py:6 templates/speakers.html:14
 msgid "Speakers"
 msgstr "Palestrantes"
@@ -581,7 +579,7 @@ msgstr "Intermediário"
 msgid "Advanced"
 msgstr "Avançado"
 
-#: schedule/models.py:43 schedule/models.py:67 templates/proposal.html:68
+#: schedule/models.py:43 schedule/models.py:67 templates/proposal.html:62
 msgid "Description"
 msgstr "Descrição"
 
@@ -589,16 +587,16 @@ msgstr "Descrição"
 msgid "Type"
 msgstr "Tipo"
 
-#: schedule/models.py:59 templates/proposal.html:28 templates/track.html:4
+#: schedule/models.py:59 templates/proposal.html:26 templates/track.html:4
 #: templates/track.html.py:5
 msgid "Track"
 msgstr "Trilha"
 
-#: schedule/models.py:61 templates/proposal.html:30
+#: schedule/models.py:61 templates/proposal.html:27
 msgid "Audience level"
 msgstr "Nível da audiência"
 
-#: schedule/models.py:62 templates/proposal.html:32
+#: schedule/models.py:62 templates/proposal.html:28
 msgid "Language"
 msgstr "Idioma"
 
@@ -1245,23 +1243,23 @@ msgstr "21 a 23 de outubro de 2010"
 msgid "28th September - 1st October 2011"
 msgstr "28 de setembro a 1º de outubro de 2011"
 
-#: templates/proposal.html:34
+#: templates/proposal.html:29
 msgid "Status"
 msgstr "Estado"
 
-#: templates/proposal.html:37
+#: templates/proposal.html:31
 msgid "Accepted"
 msgstr "Aceita"
 
-#: templates/proposal.html:39
+#: templates/proposal.html:33
 msgid "Confirmed"
 msgstr "Confirmada"
 
-#: templates/proposal.html:41
+#: templates/proposal.html:35
 msgid "Not accepted"
 msgstr "Não aceita"
 
-#: templates/proposal.html:55
+#: templates/proposal.html:49
 msgid "Not supplied"
 msgstr "Não informada"
 
@@ -1296,7 +1294,6 @@ msgid "and register right now."
 msgstr "e associe-se agora."
 
 #: templates/register.html:46
-#, fuzzy
 msgid "Session"
 msgstr "Sessão"
 
@@ -1339,7 +1336,6 @@ msgid "Schedule"
 msgstr "Programação"
 
 #: templates/schedule.html:15
-#, fuzzy
 msgid "PythonBrasil[10] Schedule"
 msgstr "Programação da PythonBrasil"
 
@@ -1352,7 +1348,7 @@ msgid ""
 "\n"
 "              Alex is a software engineer living in San Francisco, "
 "California. He works on Python open source projects, such as PyPy, "
-"OpenStack, and Django. He servers on the board of directors of the Python "
+"OpenStack, and Django. He serves on the board of directors of the Python "
 "Software Foundation and works at Rackspace. When he's not programming, Alex "
 "is a basketball and bagel fan.\n"
 "              "
