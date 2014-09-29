@@ -1,4 +1,4 @@
-tblGenFixed td {
+.waffle td {
     padding: 0 3px;
     overflow: hidden;
     white-space: normal;
@@ -16,8 +16,9 @@ tblGenFixed td {
     display: none;
 }
 
-.tblGenFixed td.s0 {
-    background-color: #073763;
+.waffle td.s0 {
+    height: 25px;
+    background-color: #2D72A2; /*#073763;*/
     font-family: arial,sans,sans-serif;
     font-size: 100.0%;
     font-weight: 700;
@@ -35,8 +36,7 @@ tblGenFixed td {
     border-left: 0;
 }
 
-.tblGenFixed td.s2 {
-    background-color: #3d85c6;
+.waffle td.s2 {
     font-family: arial,sans,sans-serif;
     font-size: 100.0%;
     font-weight: normal;
@@ -51,10 +51,10 @@ tblGenFixed td {
     border-left:;
 }
 
-.tblGenFixed td.s1 {
+.waffle td.s1 {
     background-color: white;
     font-family: arial,sans,sans-serif;
-    font-size: 100.0%;
+    font-size: 150.0%;
     font-weight: normal;
     font-style: normal;
     color: #000000;
@@ -69,7 +69,7 @@ tblGenFixed td {
     border-left:;
 }
 
-.tblGenFixed td.s16 {
+.waffle td.s16 {
     background-color: #9fc5e8;
     font-family: arial,sans,sans-serif;
     font-size: 100.0%;
@@ -86,7 +86,7 @@ tblGenFixed td {
     border-left:;
 }
 
-.tblGenFixed td.s17 {
+.waffle td.s17 {
     background-color: #9fc5e8;
     font-family: arial,sans,sans-serif;
     font-size: 100.0%;
@@ -102,7 +102,7 @@ tblGenFixed td {
     border-bottom:;
 }
 
-.tblGenFixed td.s12 {
+.waffle td.s12 {
     background-color: #9fc5e8;
     font-family: arial,sans,sans-serif;
     font-size: 100.0%;
@@ -119,7 +119,7 @@ tblGenFixed td {
     border-bottom:;
 }
 
-.tblGenFixed td.s9 {
+.waffle td.s9 {
     background-color: white;
     font-family: arial,sans,sans-serif;
     font-size: 100.0%;
@@ -136,7 +136,7 @@ tblGenFixed td {
     border-bottom:;
 }
 
-.tblGenFixed td.s13 {
+.waffle td.s13 {
     background-color: white;
     font-family: arial,sans,sans-serif;
     font-size: 100.0%;
@@ -152,8 +152,8 @@ tblGenFixed td {
     border-left:;
 }
 
-.tblGenFixed td.s14 {
-    background-color: #073763;
+.waffle td.s14 {
+    background-color: #2D72A2;
     font-family: arial,sans,sans-serif;
     font-size: 100.0%;
     font-weight: 700;
@@ -170,7 +170,7 @@ tblGenFixed td {
     border-left:;
 }
 
-.tblGenFixed td.s7 {
+.waffle td.s7 {
     background-color: #6fa8dc;
     font-family: arial,sans,sans-serif;
     font-size: 100.0%;
@@ -187,7 +187,7 @@ tblGenFixed td {
     border-bottom:;
 }
 
-.tblGenFixed td.s15 {
+.waffle td.s15 {
     background-color: white;
     font-family: arial,sans,sans-serif;
     font-size: 100.0%;
@@ -204,7 +204,7 @@ tblGenFixed td {
     border-bottom:;
 }
 
-.tblGenFixed td.s8 {
+.waffle td.s8 {
     background-color: white;
     font-family: arial,sans,sans-serif;
     font-size: 100.0%;
@@ -222,8 +222,8 @@ tblGenFixed td {
     border-left:;
 }
 
-.tblGenFixed td.s5 {
-    background-color: #d9d9d9;
+.waffle td.s5 {
+    height: 130px;
     font-family: arial,sans,sans-serif;
     font-size: 100.0%;
     font-weight: normal;
@@ -239,7 +239,7 @@ tblGenFixed td {
     border-bottom:;
 }
 
-.tblGenFixed td.s6 {
+.waffle td.s6 {
     background-color: #6fa8dc;
     font-family: arial,sans,sans-serif;
     font-size: 100.0%;
@@ -257,7 +257,7 @@ tblGenFixed td {
     border-left:;
 }
 
-.tblGenFixed td.s10 {
+.waffle td.s10 {
     background-color: white;
     font-family: arial,sans,sans-serif;
     font-size: 100.0%;
@@ -274,7 +274,7 @@ tblGenFixed td {
     border-bottom:;
 }
 
-.tblGenFixed td.s3 {
+.waffle td.s3 {
     background-color: #3d85c6;
     font-family: arial,sans,sans-serif;
     font-size: 100.0%;
@@ -291,7 +291,7 @@ tblGenFixed td {
     border-bottom:;
 }
 
-.tblGenFixed td.s4 {
+.waffle td.s4 {
     background-color: #d9d9d9;
     font-family: arial,sans,sans-serif;
     font-size: 100.0%;
@@ -309,7 +309,7 @@ tblGenFixed td {
     border-left:;
 }
 
-.tblGenFixed td.s11 {
+.waffle td.s11 {
     background-color: #9fc5e8;
     font-family: arial,sans,sans-serif;
     font-size: 100.0%;

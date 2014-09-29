@@ -7,17 +7,31 @@
 {% block css %}
 <link rel="stylesheet" href="{{ STATIC_URL }}css/schedule.css" type="text/css" />
 <link rel="stylesheet" href="{{ STATIC_URL }}css/schedule_google_drive.css" type="text/css" />
+<style>
+.grid-65 {
+    width: 100%;
+}
+</style>
 {% endblock %}
 
 
 {% block content %}
-<section>
-  <h1>{% trans "PythonBrasil[10] Schedule" %}</h1>
-  {% include "schedule_from_google_drive_tutorials.html" %}
+<article class="main-call">
+  <h2>{% trans "PythonBrasil[10] Schedule" %}</h2>
+  {# include "schedule_from_google_drive_tutorials.html" #}
 <br/>
 <br/>
   {% include "schedule_from_google_drive.html" %}
+</article>
 
-</section>
 <br />
+<br />
+<br />
+<br />
+<br />
+<br />
+{% endblock %}
+
+{% block sidebar %}
+{# get rid of sidebar #}
 {% endblock %}

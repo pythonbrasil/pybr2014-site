@@ -169,6 +169,7 @@
       <section class="grid-65">
           {% block content %}{% endblock %}
       </section>
+      {% block sidebar %}
       <aside class="special-sponsor-aside grid-35">
         <div class="how-sponsor-call">
             <p>{% trans 'Learn how to become a sponsor' %}<br /><br />
@@ -202,6 +203,7 @@
             <a href="https://twitter.com/pythonbrasil"><img src="{% static 'images/home/tt.png' %}" alt="Twitter da Python Brasil"></a>
         </div>
       </aside>
+      {% endblock %}
     </div>
   </div>
   <div class="grid-caranguejosmall grid-container">
