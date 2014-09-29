@@ -12,25 +12,28 @@
 <div id="proposal">
   <h1>{{ proposal.type|capfirst }} "{{ proposal.title }}"</h1>
 
-  <h2 class="indent">by {% for speaker in speakers %}
+  <h3 class="indent">by {% for speaker in speakers %}
     {% if speaker.twitter %}
     <a href="https://twitter.com/{{ speaker.twitter }}">{{ speaker.name }}</a>
     {% else %}
     {{ speaker.name }}
     {% endif %}
     {% if forloop.last %}.{% else %},{% endif %}
-    {% endfor %}</h2>
+    {% endfor %}</h3>
 
   <div class="twocolumn">
     <div>
       <h2>Meta</h2>
-      <div>
+      <div class="indent">
         <span class="label">{% trans "Track" %}:</span>
         <span class="label-info">{{ proposal.track }}</span>
+        <br>
         <span class="label">{% trans "Audience level" %}:</span>
         <span class="label-info">{{ proposal.get_audience_level_display }}</span>
+        <br>
         <span class="label">{% trans "Language" %}:</span>
         <span class="label-info">{{ proposal.get_language_display }}</span>
+        <br>
         <span class="label">{% trans "Status" %}:</span>
         <span class="label-info">
           {% if proposal.status == 'accepted' %}
@@ -41,32 +44,35 @@
             {% trans "Not accepted" %}
           {% endif %}
         </span>
+        <br>
       </div>
       <div>
         <h2>{% trans "Speakers" %}</h2>
           {% for speaker in speakers %}
-          <h3>
-            {{ speaker.name }}
-            {% if speaker.profession and speaker.institution %}
-            ({{ speaker.profession|capfirst }}, {{ speaker.institution }})
+          <div class="indent">
+            <h3>
+              {{ speaker.name }}
+              {% if speaker.profession and speaker.institution %}
+              ({{ speaker.profession|capfirst }}, {{ speaker.institution }})
+              {% endif %}
+            </h3>
+            {% if not speaker.bio %}
+            <i>({% trans "Not supplied" %})</i>
+            {% else %}
+            {{ speaker.bio }}
             {% endif %}
-          </h3>
-          {% if not speaker.bio %}
-          <i>({% trans "Not supplied" %})</i>
-          {% else %}
-          {{ speaker.bio }}
-          {% endif %}
-          {% if speaker.twitter %}
-          <br />
-          Twitter: <a href="https://twitter.com/{{ speaker.twitter }}">@{{ speaker.twitter }}</a>
-          {% endif %}
-          {% endfor %}
+            {% if speaker.twitter %}
+            <br />
+            Twitter: <a href="https://twitter.com/{{ speaker.twitter }}">@{{ speaker.twitter }}</a>
+            {% endif %}
+            {% endfor %}
+          </div>
       </div>
     </div>
 
     <div>
       <h2>{% trans "Description" %}</h2>
-      {{ proposal.description }}
+      <div class="indent">{{ proposal.description }}</div>
     </div>
 
   </div>
