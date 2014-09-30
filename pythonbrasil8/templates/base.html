@@ -91,22 +91,24 @@
               {% trans "Register" %}
             </a>
           </li>
+          {% comment %}
           <li>
             <a class="{% is_active request.path 'dashboard-sessions' %}" href="{% url dashboard-sessions %}">
               Dashboard
             </a>
           </li>
+          {% endcomment %}
           <li>
             <a class="{% is_active request.path 'speakers' %}" href="{% url speakers %}">
               {% trans "Speakers" %}
             </a>
           </li>
-          {% comment %}
           <li>
             <a class="{% is_active request.path 'schedule' %}" href="{% url schedule %}">
-              {% trans "Talk Subscription" %}
+              {% trans "Schedule" %}
           </a>
           </li>
+          {% comment %}
           <li>
             <a class="{% is_active request.path 'custom-sponsors' %}" href="{% url custom-sponsors %}">
               {% trans "Sponsors" %}

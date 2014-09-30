@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PythonBrasil8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-23 18:13-0300\n"
+"POT-Creation-Date: 2014-09-29 23:05-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Tatiana Al-Chueyr <tatiana.alchueyr@gmail.com>\n"
 "Language-Team: Francisco Souza <f@souza.cc>\n"
@@ -91,7 +91,7 @@ msgstr "Patrocinadores"
 msgid "PYTHONBRASIL SPONSORS"
 msgstr "PATROCINADORES DA PYTHONBRASIL"
 
-#: core/templates/sponsors.html:40 templates/base.html:175
+#: core/templates/sponsors.html:40 templates/base.html:179
 msgid "Learn how to become a sponsor"
 msgstr "Veja como se tornar um patrocinador"
 
@@ -541,8 +541,8 @@ msgstr "E-mail não é uma associação válida"
 msgid "The code has been successfully sent"
 msgstr "O código foi enviado com sucesso!"
 
-#: schedule/admin.py:22 schedule/models.py:69 templates/base.html:101
-#: templates/proposal.html:40 templates/speakers.html:5
+#: schedule/admin.py:22 schedule/models.py:69 templates/base.html:104
+#: templates/proposal.html:50 templates/speakers.html:5
 #: templates/speakers.html.py:6 templates/speakers.html:14
 msgid "Speakers"
 msgstr "Palestrantes"
@@ -579,7 +579,7 @@ msgstr "Intermediário"
 msgid "Advanced"
 msgstr "Avançado"
 
-#: schedule/models.py:43 schedule/models.py:67 templates/proposal.html:62
+#: schedule/models.py:43 schedule/models.py:67 templates/proposal.html:74
 msgid "Description"
 msgstr "Descrição"
 
@@ -587,16 +587,16 @@ msgstr "Descrição"
 msgid "Type"
 msgstr "Tipo"
 
-#: schedule/models.py:59 templates/proposal.html:26 templates/track.html:4
+#: schedule/models.py:59 templates/proposal.html:28 templates/track.html:4
 #: templates/track.html.py:5
 msgid "Track"
 msgstr "Trilha"
 
-#: schedule/models.py:61 templates/proposal.html:27
+#: schedule/models.py:61 templates/proposal.html:31
 msgid "Audience level"
 msgstr "Nível da audiência"
 
-#: schedule/models.py:62 templates/proposal.html:28
+#: schedule/models.py:62 templates/proposal.html:34
 msgid "Language"
 msgstr "Idioma"
 
@@ -838,7 +838,7 @@ msgid "Contact"
 msgstr "Contato"
 
 #: templates/activities.html:5 templates/activities.html.py:6
-#: templates/activities.html:14 templates/base.html:129
+#: templates/activities.html:14 templates/base.html:132
 #: templates/register.html:78
 msgid "Activities"
 msgstr "Atividades"
@@ -953,64 +953,69 @@ msgstr "Blog"
 msgid "Register"
 msgstr "Inscreva-se"
 
-#: templates/base.html:140
+#: templates/base.html:109 templates/schedule.html:4
+#: templates/schedule.html.py:5
+msgid "Schedule"
+msgstr "Programação"
+
+#: templates/base.html:143
 msgid "The Python Comunity Event"
 msgstr "O evento da Comunidade Python"
 
-#: templates/base.html:144
+#: templates/base.html:147
 msgid "TUTORIALS"
 msgstr "TUTORIAIS"
 
-#: templates/base.html:145 templates/base.html.py:150 templates/base.html:155
-#: templates/base.html.py:160
+#: templates/base.html:148 templates/base.html.py:153 templates/base.html:158
+#: templates/base.html.py:163
 msgid "November"
 msgstr "NOVEMBRO"
 
-#: templates/base.html:149
+#: templates/base.html:152
 msgid "TALKS"
 msgstr "PALESTRAS"
 
-#: templates/base.html:154
+#: templates/base.html:157
 msgid "SPRINTS"
 msgstr "SPRINTS"
 
-#: templates/base.html:159
+#: templates/base.html:162
 msgid "ACTIVITIES"
 msgstr "ATIVIDADES"
 
-#: templates/base.html:177
+#: templates/base.html:181
 msgid "become a sponsor"
 msgstr "seja um patrocinador"
 
-#: templates/base.html:189
+#: templates/base.html:193
 msgid "ARE YOU SPEAKING OR ATTENDING?"
 msgstr "VAI PALESTRAR OU PARTICIPAR?"
 
-#: templates/base.html:190
+#: templates/base.html:194
 msgid "grab a badge"
 msgstr "baixe o banner!"
 
-#: templates/base.html:194
+#: templates/base.html:198
 msgid "ARE YOU ATTENDING?"
 msgstr "VAI PARTICIPAR DO EVENTO?"
 
-#: templates/base.html:195
+#: templates/base.html:199
 msgid "Learn more about the code of conduct"
 msgstr "Saiba mais sobre o código de conduta"
 
-#: templates/base.html:198
+#: templates/base.html:202
 msgid "code of conduct"
 msgstr "código de conduta"
 
-#: templates/base.html:223 templates/base.html.py:227
+#: templates/base.html:228 templates/base.html.py:232
 msgid "Organization"
 msgstr "Organização"
 
-#: templates/base.html:231
+#: templates/base.html:236
 msgid "Illustration"
 msgstr "Ilutração"
 
-#: templates/base.html:235
+#: templates/base.html:240
 msgid "WebDesign & Front-End"
 msgstr "WebDesign & Front-End"
 
@@ -1243,23 +1248,23 @@ msgstr "21 a 23 de outubro de 2010"
 msgid "28th September - 1st October 2011"
 msgstr "28 de setembro a 1º de outubro de 2011"
 
-#: templates/proposal.html:29
+#: templates/proposal.html:37
 msgid "Status"
 msgstr "Estado"
 
-#: templates/proposal.html:31
+#: templates/proposal.html:40
 msgid "Accepted"
 msgstr "Aceita"
 
-#: templates/proposal.html:33
+#: templates/proposal.html:42
 msgid "Confirmed"
 msgstr "Confirmada"
 
-#: templates/proposal.html:35
+#: templates/proposal.html:44
 msgid "Not accepted"
 msgstr "Não aceita"
 
-#: templates/proposal.html:49
+#: templates/proposal.html:60
 msgid "Not supplied"
 msgstr "Não informada"
 
@@ -1331,13 +1336,13 @@ msgstr "Erro: Temos alguns macacos treinados trabalhando nisto."
 msgid "Please insert a valid e-mail address"
 msgstr "Por favor, insira um endereço de e-mail válido"
 
-#: templates/schedule.html:4 templates/schedule.html.py:5
-msgid "Schedule"
-msgstr "Programação"
-
-#: templates/schedule.html:15
+#: templates/schedule.html:20
 msgid "PythonBrasil[10] Schedule"
 msgstr "Programação da PythonBrasil"
+
+#: templates/schedule.html:33
+msgid "Schedule subject to change"
+msgstr "Programação sujeita a alterações"
 
 #: templates/social.html:5
 msgid "Brazilian #Python conference in November - Join us!"
