@@ -567,6 +567,7 @@ aside.special-sponsor-aside{
 .sponsors-list-bottom .sponsor-list li, .staff li{
   display: block;
   margin: 0 0 2em;
+  min-height: 170px;
 
 }
 .staff{
