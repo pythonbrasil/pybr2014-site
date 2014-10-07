@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PythonBrasil8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-29 23:05-0300\n"
+"POT-Creation-Date: 2014-10-07 17:56-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Tatiana Al-Chueyr <tatiana.alchueyr@gmail.com>\n"
 "Language-Team: Francisco Souza <f@souza.cc>\n"
@@ -704,7 +704,7 @@ msgstr ""
 #: subscription/templates/subscription/tutorials.html:12
 #: subscription/templates/subscription/tutorials_confirmed.html:12
 #: subscription/templates/subscription/tutorials_success.html:12
-#: templates/register.html:64
+#: templates/register.html:64 templates/schedule.html:22
 msgid "Tutorials"
 msgstr "Tutoriais"
 
@@ -1340,7 +1340,11 @@ msgstr "Por favor, insira um endereço de e-mail válido"
 msgid "PythonBrasil[10] Schedule"
 msgstr "Programação da PythonBrasil"
 
-#: templates/schedule.html:33
+#: templates/schedule.html:27
+msgid "Palestras"
+msgstr ""
+
+#: templates/schedule.html:38
 msgid "Schedule subject to change"
 msgstr "Programação sujeita a alterações"
 
