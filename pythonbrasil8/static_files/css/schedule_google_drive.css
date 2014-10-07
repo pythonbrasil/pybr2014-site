@@ -1,3 +1,7 @@
+
+.waffle table{
+table-layout: fixed;
+}
 .waffle td {
     padding: 0 3px;
     overflow: hidden;
