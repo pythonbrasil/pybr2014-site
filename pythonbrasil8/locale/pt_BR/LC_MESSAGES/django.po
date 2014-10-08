@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PythonBrasil8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-07 17:56-0300\n"
+"POT-Creation-Date: 2014-10-08 20:42-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Tatiana Al-Chueyr <tatiana.alchueyr@gmail.com>\n"
 "Language-Team: Francisco Souza <f@souza.cc>\n"
@@ -949,7 +949,7 @@ msgid "Blog"
 msgstr "Blog"
 
 #: templates/base.html:91 templates/register.html:25
-#: templates/register.html.py:89
+#: templates/schedule.html:24 templates/schedule.html.py:30
 msgid "Register"
 msgstr "Inscreva-se"
 
@@ -1324,15 +1324,23 @@ msgstr "6 a 8 de Novembro"
 msgid "Nov 9th"
 msgstr "9 de Novembro"
 
-#: templates/register.html:113
+#: templates/register.html:89
+msgid "Register for talks"
+msgstr "Inscreva-se para as palestras"
+
+#: templates/register.html:90
+msgid "Register for tutorials"
+msgstr "Inscreva-se para os tutoriais"
+
+#: templates/register.html:114
 msgid "We sent you an e-mail with your discount code! :)"
 msgstr "Acabamos de lhe mandar um e-mail com o código de desconto! :)"
 
-#: templates/register.html:123
+#: templates/register.html:124
 msgid "Error: We have a few monkeys working on it right now."
 msgstr "Erro: Temos alguns macacos treinados trabalhando nisto."
 
-#: templates/register.html:131
+#: templates/register.html:132
 msgid "Please insert a valid e-mail address"
 msgstr "Por favor, insira um endereço de e-mail válido"
 
@@ -1340,11 +1348,11 @@ msgstr "Por favor, insira um endereço de e-mail válido"
 msgid "PythonBrasil[10] Schedule"
 msgstr "Programação da PythonBrasil"
 
-#: templates/schedule.html:27
+#: templates/schedule.html:28
 msgid "Palestras"
 msgstr ""
 
-#: templates/schedule.html:38
+#: templates/schedule.html:40
 msgid "Schedule subject to change"
 msgstr "Programação sujeita a alterações"
 
