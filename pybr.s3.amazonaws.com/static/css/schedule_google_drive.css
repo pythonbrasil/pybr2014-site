@@ -1,0 +1,332 @@
+
+.waffle table{
+table-layout: fixed;
+}
+.waffle td {
+    padding: 0 3px;
+    overflow: hidden;
+    white-space: normal;
+    letter-spacing: 0;
+    word-spacing: 0;
+    background-color: #fff;
+    z-index: 1;
+    border-top: 0px none;
+    border-left: 0px none;
+    border-bottom: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+}
+
+.dn {
+    display: none;
+}
+
+.waffle td.s0 {
+    height: 25px;
+    background-color: #2D72A2; /*#073763;*/
+    font-family: arial,sans,sans-serif;
+    font-size: 100.0%;
+    font-weight: 700;
+    font-style: normal;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: bottom;
+    direction: auto-ltr;
+    white-space: normal;
+    overflow: hidden;
+    border-top: 1px solid #CCC;
+    border-right:;
+    border-bottom:;
+    border-left: 0;
+}
+
+.waffle td.s2 {
+    font-family: arial,sans,sans-serif;
+    font-size: 100.0%;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    vertical-align: bottom;
+    direction: Context;
+    white-space: normal;
+    overflow: hidden;
+    border-right:;
+    border-bottom:;
+    border-left:;
+}
+
+.waffle td.s1 {
+    background-color: white;
+    font-family: arial,sans,sans-serif;
+    font-size: 150.0%;
+    font-weight: normal;
+    font-style: normal;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: bottom;
+    direction: auto-ltr;
+    white-space: normal;
+    overflow: hidden;
+    border-right:;
+    border-bottom:;
+    border-left:;
+}
+
+.waffle td.s16 {
+    background-color: #9fc5e8;
+    font-family: arial,sans,sans-serif;
+    font-size: 100.0%;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    text-align: left;
+    vertical-align: middle;
+    direction: Context;
+    white-space: normal;
+    overflow: hidden;
+    border-right:;
+    border-bottom:;
+    border-left:;
+}
+
+.waffle td.s17 {
+    background-color: #9fc5e8;
+    font-family: arial,sans,sans-serif;
+    font-size: 100.0%;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    direction: Context;
+    white-space: normal;
+    overflow: hidden;
+    border-right:;
+    border-bottom:;
+}
+
+.waffle td.s12 {
+    background-color: #9fc5e8;
+    font-family: arial,sans,sans-serif;
+    font-size: 100.0%;
+    font-weight: 700;
+    font-style: normal;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    direction: auto-ltr;
+    white-space: normal;
+    overflow: hidden;
+    border-right:;
+    border-bottom:;
+}
+
+.waffle td.s9 {
+    background-color: white;
+    font-family: arial,sans,sans-serif;
+    font-size: 100.0%;
+    font-weight: normal;
+    font-style: normal;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    direction: auto-ltr;
+    white-space: normal;
+    overflow: hidden;
+    border-right:;
+    border-bottom:;
+}
+
+.waffle td.s13 {
+    background-color: white;
+    font-family: arial,sans,sans-serif;
+    font-size: 100.0%;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    vertical-align: bottom;
+    direction: Context;
+    white-space: normal;
+    overflow: hidden;
+    border-right:;
+    border-bottom:;
+    border-left:;
+}
+
+.waffle td.s14 {
+    background-color: #2D72A2;
+    font-family: arial,sans,sans-serif;
+    font-size: 100.0%;
+    font-weight: 700;
+    font-style: normal;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: bottom;
+    direction: auto-ltr;
+    white-space: normal;
+    overflow: hidden;
+    border-right:;
+    border-bottom:;
+    border-left:;
+}
+
+.waffle td.s7 {
+    background-color: #6fa8dc;
+    font-family: arial,sans,sans-serif;
+    font-size: 100.0%;
+    font-weight: 700;
+    font-style: normal;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    direction: auto-ltr;
+    white-space: normal;
+    overflow: hidden;
+    border-right:;
+    border-bottom:;
+}
+
+.waffle td.s15 {
+    background-color: white;
+    font-family: arial,sans,sans-serif;
+    font-size: 100.0%;
+    font-weight: normal;
+    font-style: normal;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: bottom;
+    direction: auto-ltr;
+    white-space: normal;
+    overflow: hidden;
+    border-right:;
+    border-bottom:;
+}
+
+.waffle td.s8 {
+    background-color: white;
+    font-family: arial,sans,sans-serif;
+    font-size: 100.0%;
+    font-weight: normal;
+    font-style: normal;
+    color: #000000;
+    text-decoration: none;
+    text-align: left;
+    vertical-align: middle;
+    direction: auto-ltr;
+    white-space: normal;
+    overflow: hidden;
+    border-right:;
+    border-bottom:;
+    border-left:;
+}
+
+.waffle td.s5 {
+    height: 130px;
+    font-family: arial,sans,sans-serif;
+    font-size: 100.0%;
+    font-weight: normal;
+    font-style: normal;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    direction: auto-ltr;
+    white-space: normal;
+    overflow: hidden;
+    border-right:;
+    border-bottom:;
+}
+
+.waffle td.s6 {
+    background-color: #6fa8dc;
+    font-family: arial,sans,sans-serif;
+    font-size: 100.0%;
+    font-weight: normal;
+    font-style: normal;
+    color: #000000;
+    text-decoration: none;
+    text-align: left;
+    vertical-align: middle;
+    direction: auto-ltr;
+    white-space: normal;
+    overflow: hidden;
+    border-right:;
+    border-bottom:;
+    border-left:;
+}
+
+.waffle td.s10 {
+    background-color: white;
+    font-family: arial,sans,sans-serif;
+    font-size: 100.0%;
+    font-weight: 700;
+    font-style: normal;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    direction: auto-ltr;
+    white-space: normal;
+    overflow: hidden;
+    border-right:;
+    border-bottom:;
+}
+
+.waffle td.s3 {
+    background-color: #3d85c6;
+    font-family: arial,sans,sans-serif;
+    font-size: 100.0%;
+    font-weight: normal;
+    font-style: normal;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    direction: auto-ltr;
+    white-space: normal;
+    overflow: hidden;
+    border-right:;
+    border-bottom:;
+}
+
+.waffle td.s4 {
+    background-color: #d9d9d9;
+    font-family: arial,sans,sans-serif;
+    font-size: 100.0%;
+    font-weight: normal;
+    font-style: normal;
+    color: #000000;
+    text-decoration: none;
+    text-align: left;
+    vertical-align: middle;
+    direction: auto-ltr;
+    white-space: normal;
+    overflow: hidden;
+    border-right:;
+    border-bottom:;
+    border-left:;
+}
+
+.waffle td.s11 {
+    background-color: #9fc5e8;
+    font-family: arial,sans,sans-serif;
+    font-size: 100.0%;
+    font-weight: 700;
+    font-style: normal;
+    color: #000000;
+    text-decoration: none;
+    text-align: left;
+    vertical-align: middle;
+    direction: auto-ltr;
+    white-space: normal;
+    overflow: hidden;
+    border-right:;
+    border-bottom:;
+    border-left:;
+}

@@ -1,0 +1,947 @@
+  <!DOCTYPE html>
+
+
+
+
+
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <link rel="shortcut icon" href="../../pybr.s3.amazonaws.com/static/images/header/favicon.1c14c20d9014.ico" type="image/x-icon" />
+  <title>Programação | PythonBrasil[10]</title>
+  <!--[if lt IE 9]>
+    <script src="js/html5.js"></script>
+  <![endif]-->
+  <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,300italic,300' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../pybr.s3.amazonaws.com/static/css/grid.17a63a4c2758.css" />
+  <link rel="stylesheet" href="../../pybr.s3.amazonaws.com/static/css/style.2818890834cd.css" />
+
+  <script src="../../pybr.s3.amazonaws.com/static/js/jquery-1.7.2.min.b8d64d0bc142.js" type="text/javascript"></script>
+  <script src="../../pybr.s3.amazonaws.com/static/js/setlang.92be74e3aa77.js" type="text/javascript"></script>
+  
+<link rel="stylesheet" href="../../pybr.s3.amazonaws.com/static/css/schedule.css" type="text/css" />
+<link rel="stylesheet" href="../../pybr.s3.amazonaws.com/static/css/schedule_google_drive.css" type="text/css" />
+<style>
+.grid-65 {
+    width: 100%;
+}
+</style>
+
+
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="../news/feed/index.html" />
+
+  <!--[if (gt IE 8) | (IEMobile)]><!-->
+  <!--<![endif]-->
+  <!--[if (lt IE 9) & (!IEMobile)]>
+  <![endif]-->
+</head>
+<body>
+  <header class="maintop">
+    <div class="grid-container">
+      <h1 class="grid-80">
+          <a href="../index.html">
+            <img src="../../pybr.s3.amazonaws.com/static/images/header/pybr_logo_pt-br.7c9053fda4af.png" alt="Python Brasil [10]"/>
+        </a>
+      </h1>
+      <div class="grid-20 loginbtn">
+        
+          <a class="white " href="../accounts/login/index.html">
+            Acessar
+          </a>
+        
+      </div>
+    </div>
+    <div class="banner">
+      <div class="banner-inner">
+        <div class="grid-container">
+          <div class="grid-20 mobile-grid-50 flags">
+            <form action="http://2014.pythonbrasil.org.br/i18n/setlang/" method="post">
+              <div style='display:none'><input type='hidden' name='csrfmiddlewaretoken' value='BMRLa9Ppax12KCk5bIWXt2HZ9RkJf6ak' /></div>
+              <input type="hidden" name="language" />
+              
+              
+                <a  href="javascript:;" class="btn-setlang" data-language="en">
+                    <img src="../../pybr.s3.amazonaws.com/static/images/home/en.png" alt="English" />
+                </a>
+              
+                <a class="active" href="javascript:;" class="btn-setlang" data-language="pt-br">
+                    <img src="../../pybr.s3.amazonaws.com/static/images/home/pt-br.png" alt="Português Brasileiro" />
+                </a>
+              
+            </form>
+          </div>
+          
+          <h2 class="grid-80 mobile-grid-50 topdatecall">Recife/Porto de Galinhas<span>2014</span></h2>
+        </div>
+      </div>
+    </div>
+      <nav class="menu grid-container">
+        <ul>
+          <li>
+            <a class="" href="../about/index.html">
+              Sobre
+            </a>
+          </li>
+          <li>
+            <a class="" href="../news/index.html">
+              Blog
+          </a>
+          </li>
+          <li>
+            <a class="" href="../register/index.html">
+              Inscreva-se
+            </a>
+          </li>
+          
+          <li>
+            <a class="" href="../speakers/index.html">
+              Palestrantes
+            </a>
+          </li>
+          <li>
+            <a class="active" href="index.html">
+              Programação
+          </a>
+          </li>
+          
+          <li>
+            <a class="" href="../venue/index.html">
+              Porto de Galinhas
+            </a>
+          </li>
+          <li>
+            <a class="" href="../activities/index.html">
+              Atividades
+            </a>
+          </li>
+        </ul>
+      </nav>
+  </header>
+  <div class="subnav">
+    
+        <div class="grid-container">
+          <div class="call-conf grid-40">
+            <h3>PYTHON BRASIL 2014</h3>
+            <h2>O evento da Comunidade Python</h2>
+            <p>Recife/Porto de Galinhas, Brasil</p>
+          </div>
+          <div class="call-subnav grid-15">
+            <h3>TUTORIAIS</h3>
+            <h2>4-5 NOVEMBRO, 2014</h2>
+            <p>Recife</p>
+          </div>
+          <div class="call-subnav grid-15">
+            <h3>PALESTRAS</h3>
+            <h2>6-7 NOVEMBRO, 2014</h2>
+            <p>Porto de Galinhas</p>
+          </div>
+          <div class="call-subnav grid-15">
+            <h3>SPRINTS</h3>
+            <h2>8 NOVEMBRO, 2014</h2>
+            <p>Porto de Galinhas</p>
+          </div>
+          <div class="call-subnav grid-15">
+            <h3>ATIVIDADES</h3>
+            <h2>9 NOVEMBRO, 2014</h2>
+            <p>Porto de Galinhas</p>
+          </div>
+        </div>
+    
+
+  </div>
+  
+  <div class="maincontent">
+    <div class="grid-container">
+      <section class="grid-65">
+          
+<article class="main-call">
+  <h1>Programação da PythonBrasil</h1>
+  <br/>
+  <h2>Tutoriais</h2>
+  <h5><a href="https://www.google.com.br/maps/place/R.+do+Apolo,+181+-+Recife,+PE,+50030-220/@-8.0609836,-34.8722445,17z/data=!3m1!4b1!4m2!3m1!1s0x7ab18a345477ec7:0x1c54d4cf050d6326?hl=en">Porto Mídia (Rua do Apolo, 181 - Recife)</a></h5>
+  <p><a class="btn" href="https://eventioz.com.br/e/tutoriais-pythonbrasil?from_button=yes&source=orevib&utm_campaign=or_tutoriais_pythonbrasil10&utm_content=integrated_button&utm_medium=integration_tool&utm_source=eventioz" target="_blank">Inscreva-se</a></p>
+  <table class="waffle" cellspacing="0" cellpadding="0">
+<tbody>
+ <tr>
+  <td class="s0" dir="ltr" colspan="3">
+   Primeiro dia
+  </td>
+  <td class="s0" dir="ltr" colspan="3">
+   Segundo dia
+  </td>
+ </tr>
+ <tr>
+  <td class="s0" dir="ltr" colspan="3">
+   Tuesday - 4th November
+  </td>
+  <td class="s0" dir="ltr" colspan="3">
+   Wednesday - 5th November
+  </td>
+ </tr>
+ <tr>
+  <td class="s1" dir="ltr">
+  </td>
+  <td class="s1" dir="ltr">
+   Sala A
+  </td>
+  <td class="s1" dir="ltr">
+   Sala B
+  </td>
+  <td class="s1" dir="ltr">
+   Sala A
+  </td>
+  <td class="s1" dir="ltr">
+   Sala B
+  </td>
+ </tr>
+ <tr>
+  <td class="s2" dir="ltr">
+   8:00
+  </td>
+  <td class="s8 " dir="ltr">
+   <div class="softmerge-inner" >
+   </div>
+  </td>
+  <td class="s8 softmerge" dir="ltr">
+   <div class="softmerge-inner" >
+   </div>
+  </td>
+  <td class="s8" dir="ltr">
+   <div class="softmerge-inner" >
+   <a target="_blank" href="python-in-society/python-birds-tutorial.html">
+    Python Birds (Giovane Liberato, Renzo Nuccitelli)
+   </a>
+   </div>
+  </td>
+  <td class="s5 softmerge" dir="ltr">
+   <div class="softmerge-inner" >
+    IPython in depth: high productivity interactive and parallel python (Fernando Perez)
+   </div>
+  </td>
+ </tr>
+ <tr>
+  <td class="s2" dir="ltr">
+   09:10
+  </td>
+  <td class="s6" dir="ltr" colspan="4">
+   Coffee Break
+  </td>
+ </tr>
+ <tr>
+  <td class="s2" dir="ltr">
+   09:30
+  </td>
+  <td class="s8 softmerge" dir="ltr">
+   <div class="softmerge-inner" >
+   </div>
+  </td>
+  <td class="s8 softmerge" dir="ltr">
+   <div class="softmerge-inner" >
+   </div>
+  </td>
+  <td class="s8" dir="ltr">
+   <div class="softmerge-inner" >
+   <a target="_blank" href="python-in-society/python-birds-tutorial.html">
+    Python Birds (Giovane Liberato, Renzo Nuccitelli)
+   </a>
+   </div>
+  </td>
+  <td class="s5 softmerge" dir="ltr">
+   <div class="softmerge-inner" >
+    IPython in depth: high productivity interactive and parallel python (Fernando Perez)
+   </div>
+  </td>
+ </tr>
+ <tr>
+  <td class="s2" dir="ltr">
+   12:00
+  </td>
+  <td class="s7" dir="ltr" colspan="4">
+   Almoço
+  </td>
+ </tr>
+ <tr>
+  <td class="s2" dir="ltr">
+   13:00
+  </td>
+  <td class="s8" dir="ltr">
+   <div class="softmerge-inner" >
+    <a target="_blank" href="databases/web-semantica-na-pratica-criando-seu-primeiro-modelo-semantico.html">
+     Web Semântica na Prática: Criando seu Primeiro Modelo Semântico (Victor Pantoja, Rômulo Jales)
+    </a>
+   </div>
+  </td>
+  <td class="s8" dir="ltr">
+   <a target="_blank" href="databases/mongoengine-um-odm-sensacional-para-a-modelagem-de-informacoes.html">
+    MongoEngine, Um ODM sensacional para a modelagem de informações (Wilson Júnior)
+   </a>
+  </td>
+  <td class="s8" dir="ltr">
+   <a target="_blank" href="python-in-society/python-birds-tutorial.html">
+    Python Birds (Giovane Liberato, Renzo Nuccitelli)
+   </a>
+  </td>
+  <td class="s8" dir="ltr">
+   <a target="_blank" href="tools-methodology/testando-com-pytest-e-tox.html">
+    Testando com py.test e tox (Danilo Belini)
+   </a>
+  </td>
+ </tr>
+ <tr>
+  <td class="s2" dir="ltr">
+   14:40
+  </td>
+  <td class="s6" dir="ltr" colspan="4">
+   Coffee Break
+  </td>
+ </tr>
+ <tr>
+  <td class="s2" dir="ltr">
+   15:00
+  </td>
+  <td class="s8 softmerge" dir="ltr">
+   <div class="softmerge-inner" >
+    <a target="_blank" href="databases/web-semantica-na-pratica-criando-seu-primeiro-modelo-semantico.html">
+     Web Semântica na Prática: Criando seu Primeiro Modelo Semântico (Victor Pantoja)
+    </a>
+   </div>
+  </td>
+  <td class="s8" dir="ltr">
+   <a target="_blank" href="databases/mongoengine-um-odm-sensacional-para-a-modelagem-de-informacoes.html">
+    MongoEngine, Um ODM sensacional para a modelagem de informações (Wilson Júnior)
+   </a>
+  </td>
+  <td class="s8" dir="ltr">
+   <a target="_blank" href="python-in-society/python-birds-tutorial.html">
+    Python Birds (Giovane Liberato, Renzo Nuccitelli)
+   </a>
+  </td>
+  <td class="s8" dir="ltr">
+   <a target="_blank" href="tools-methodology/testando-com-pytest-e-tox.html">
+    Testando com py.test e tox (Danilo Belini)
+   </a>
+  </td>
+ </tr>
+</tbody>
+</table>
+
+<br/>
+<br/>
+  <h2>Palestras</h2>
+  <h5><a href="https://www.google.com.br/maps/place/Hotel+Arma%C3%A7%C3%A3o/@-8.486124,-35.000724,17z/data=!4m2!3m1!1s0x7aa924946237369:0x18c2d56439c52faa?hl=en">Hotel Armação (Porto de Galinhas)</a></h5>
+  <p><a class="btn" href="https://eventioz.com.br/e/pythonbrasil10?from_button=yes&source=orevib&utm_campaign=or_pythonbrasil10&utm_content=integrated_button&utm_medium=integration_tool&utm_source=eventioz" target="_blank">Inscreva-se</a></p>
+  <table class="waffle" cellspacing="0" cellpadding="0">
+<tbody>
+ <tr>
+  <td class="s0" dir="ltr" colspan="4">
+   Primeiro Dia
+  </td>
+ </tr>
+ <tr>
+  <td class="s0" dir="ltr" colspan="4">
+   Thursday - 6th November
+  </td>
+ </tr>
+ <tr>
+  <td class="s1" dir="ltr">
+  </td>
+  <td class="s1" dir="ltr">
+   Auditório
+  </td>
+  <td class="s1" dir="ltr">
+   Sala A
+  </td>
+  <td class="s1" dir="ltr">
+   Sala B
+  </td>
+ </tr>
+ <tr>
+  <td class="s2" dir="ltr">
+   7:30
+  </td>
+  <td class="s0" dir="ltr" colspan="3">
+   Cadastramento
+  </td>
+ </tr>
+ <tr>
+  <td class="s2" dir="ltr">
+   8:30
+  </td>
+  <td class="s0" dir="ltr" colspan="3">
+   Abertura (Auditório)
+  </td>
+ </tr>
+ <tr>
+  <td class="s2" dir="ltr">
+   9:00
+  </td>
+  <td class="s3" dir="ltr" colspan="3">
+   Fernando Perez (Auditório)
+  </td>
+ </tr>
+ <tr>
+  <td class="s2" dir="ltr">
+   10:00
+  </td>
+  <td class="s4" dir="ltr" colspan="3">
+   Coffee break
+  </td>
+ </tr>
+ <tr>
+  <td class="s2" dir="ltr" rowspan="2">
+   10:30
+  </td>
+  <td class="s5" dir="ltr" rowspan="2">
+   <a target="_blank" href="tools-methodology/brainiak-api-um-plano-maligno-de-dominacao-semantica-hipermidia.html">
+    Brainiak API: um plano maligno de dominação semântica hipermídia (Rodrigo Senra)
+   </a>
+  </td>
+  <td class="s5" dir="ltr" rowspan="2">
+   <a target="_blank" href="django/django-e-angular-o-caminho-das-pedras.html">
+    Django e Angular: o caminho das pedras (Bruno, Santagada)
+   </a>
+  </td>
+  <td class="s5" dir="ltr" rowspan="2">
+   <a target="_blank" href="science/do-zero-a-contribuicao-a-comunidade-cientifica-com-python.html">
+    Do zero a contribuição à comunidade científica com Python (Marco Rougeth, Mário Sérgio)
+   </a>
+  </td>
+ </tr>
+ <tr>
+ </tr>
+ <tr>
+  <td class="s2" dir="ltr">
+   11:10
+  </td>
+  <td class="s5" dir="ltr">
+   <a target="_blank" href="business/guia-do-freelancer-das-galaxias.html">
+    Guia do Freelancer das Galáxias (Henrique Bastos)
+   </a>
+  </td>
+  <td class="s5" dir="ltr">
+   <a target="_blank" href="core-interpreters/timezona-como-manter-se-sao-lidando-com-tempo-e-timestamps-em-aplicacoes-python.html">
+    TimeZona: Como manter-se são lidando com tempo e timestamps em aplicações Python (Cesar Kawakami)
+   </a>
+  </td>
+  <td class="s5" dir="ltr">
+   <a target="_blank" href="cloud-computing/python-na-cloud-do-jeito-certo.html">
+    Python na Cloud do jeito certo. (Tarsis Azevedo, Cezar Sá Espinola)
+   </a>
+  </td>
+ </tr>
+ <tr>
+  <td class="s2" dir="ltr">
+   11:50
+  </td>
+  <td class="s4" dir="ltr" colspan="3">
+   Almoço
+  </td>
+ </tr>
+ <tr>
+  <td class="s2" dir="ltr">
+   14:00
+  </td>
+  <td class="s3" dir="ltr" colspan="3">
+   Lynn Root (Auditório)
+  </td>
+ </tr>
+ <tr>
+  <td class="s2" dir="ltr">
+   15:00
+  </td>
+  <td class="s5" dir="ltr">
+   <a target="_blank" href="web-frameworks/do-ponei-ao-farao-pyramid-web-framework.html">
+   Do ponei ao Faraó, Pyramid Web Framework (Mário Idival)
+   </a>
+  </td>
+  <td class="s5" dir="ltr">
+   <a target="_blank" href="python-in-society/oxente-python-pt-br-ne.html">
+    Oxente, Python PT-BR-NE (Luan Fonseca)
+   </a>
+  </td>
+  <td class="s5" dir="ltr">
+   <a target="_blank" href="tools-methodology/bi-sem-java-yes-we-can.html">
+    BI sem Java, yes we can (Thiago Avelino)
+   </a>
+  </td>
+ </tr>
+ <tr>
+  <td class="s2" dir="ltr">
+   15:40
+  </td>
+  <td class="s4" dir="ltr" colspan="3">
+   Coffee break
+  </td>
+ </tr>
+ <tr>
+  <td class="s2" dir="ltr">
+   16:00
+  </td>
+  <td class="s5" dir="ltr">
+   <a target="_blank" href="other/crawling-massivo.html">
+    Crawling Massivo (Felipe Cruz)
+   </a>
+  </td>
+  <td class="s5" dir="ltr">
+   <a target="_blank" href="core-interpreters/um-python-3-para-a-todos-governar.html">
+    Um python 3 para a todos governar (Cassio Botaro)
+   </a>
+  </td>
+  <td class="s5" dir="ltr">
+   <a target="_blank" href="web-frameworks/migrando-de-rubyevent-machine-para-pythontornado-e-sendo-feliz-com-isso.html">
+    Migrando de ruby+event-machine para python+tornado e sendo feliz com isso (Cezar Sá Espinola)
+   </a>
+  </td>
+ </tr>
+ <tr>
+  <td class="s2" dir="ltr">
+   16:40
+  </td>
+  <td class="s5" dir="ltr">
+   <a target="_blank" href="python-in-society/pythobrasil-minhas-10-python-brasil.html">
+    PythoBrasil[:] - Minhas 10 Python Brasil! (Cláudio Berrondo)
+   </a>
+  </td>
+  <td class="s5" dir="ltr">
+   <a target="_blank" href="other/estrutura-de-dados-com-python.html">
+    Estrutura de Dados com Python? (Fernando Masanori)
+   </a>
+  </td>
+  <td class="s5" dir="ltr">
+   <a target="_blank" href="other/python-vs-gopher.html">
+    Python vs Gopher (Yamil Asusta)
+   </a>
+  </td>
+ </tr>
+ <tr>
+  <td class="s2" dir="ltr">
+   17:20
+  </td>
+  <td class="s3" dir="ltr" colspan="3">
+   Lighting talks (Auditório)
+  </td>
+ </tr>
+ <tr>
+  <td class="s2" dir="ltr">
+   18:00
+  </td>
+  <td class="s0" dir="ltr" colspan="3">
+   Assembléia da APyB
+  </td>
+ </tr>
+ <tr>
+  <td class="s1" dir="ltr" colspan="4" rowspan="3">
+   <br />
+   <br />
+   <br />
+   <br />
+  </td>
+ </tr>
+ <tr>
+ </tr>
+ <tr>
+ </tr>
+ <tr>
+  <td class="s0" dir="ltr" colspan="4">
+   Segundo Dia
+  </td>
+ </tr>
+ <tr>
+  <td class="s0" dir="ltr" colspan="4">
+   Friday - 7th November
+  </td>
+ </tr>
+ <tr>
+  <td class="s1" dir="ltr">
+  </td>
+  <td class="s1" dir="ltr">
+   Auditório
+  </td>
+  <td class="s1" dir="ltr">
+   Sala A
+  </td>
+  <td class="s1" dir="ltr">
+   Sala B
+  </td>
+ </tr>
+ <tr>
+  <td class="s2" dir="ltr">
+   8:00
+  </td>
+  <td class="s0" dir="ltr" colspan="3">
+   Cadastramento
+  </td>
+ </tr>
+ <tr>
+  <td class="s2" dir="ltr">
+   8:30
+  </td>
+  <td class="s3" dir="ltr" colspan="3">
+   Daniel Greenfeld - Pydanny (Auditório)
+  </td>
+ </tr>
+ <tr>
+  <td class="s2" dir="ltr">
+   9:30
+  </td>
+  <td class="s5" dir="ltr">
+   <a target="_blank" href="embedded-systems-mobile/pingo-api-universal-para-gpio.html">
+    Pingo: API &quot;universal&quot; para GPIO (Luciano Ramalho)
+   </a>
+  </td>
+  <td class="s5" dir="ltr">
+   <a target="_blank" href="http://pyladiesnatal.github.io/#about">
+    Painel Mulheres na Tecnologia (Pyladies)
+   </a>
+  </td>
+  <td class="s5" dir="ltr">
+   <a target="_blank" href="other/how-to-make-money-with-odoo.html">
+    How to make money with odoo (Jaime Sanchez)
+   </a>
+  </td>
+ </tr>
+ <tr>
+  <td class="s2" dir="ltr">
+   10:10
+  </td>
+  <td class="s4" dir="ltr" colspan="3">
+   Coffee break
+  </td>
+ </tr>
+ <tr>
+  <td class="s2" dir="ltr">
+   10:40
+  </td>
+  <td class="s5" dir="ltr">
+   <a target="_blank" href="ingles/enterprise-level-python.html">
+    Enterprise level Python (Leonardo Rochael, Łukasz Nowak)
+   </a>
+  </td>
+  <td class="s5" dir="ltr">
+   <a target="_blank" href="business/jusbrasilpy.html">
+    Jusbrasil.py (Gabriel Jordão, Osvaldo Matos Júnior)
+   </a>
+  </td>
+  <td class="s5" dir="ltr">
+   <a target="_blank" href="other/explorando-scrapy-alem-do-tutorial.html">
+    Explorando Scrapy além do tutorial (Elias Dorneles)
+   </a>
+  </td>
+ </tr>
+ <tr>
+  <td class="s2" dir="ltr">
+   11:20
+  </td>
+  <td class="s5" dir="ltr">
+   <a target="_blank" href="ingles/building-solid-web-services-with-loads-and-vaurien.html">
+    Building solid web services with Loads and Vaurien (Tarek Ziadé)
+   </a>
+  </td>
+  <td class="s5" dir="ltr">
+   <a target="_blank" href="plone/criando-testes-com-plone.html">
+    Criando testes com plone (Héctor Velarde, Ramiro)
+   </a>
+  </td>
+  <td class="s5" dir="ltr">
+   <a target="_blank" href="business/morte-as-startups-vamos-ser-inovadores-de-verdade.html">
+    Morte as Startup&#39;s, vamos ser Inovadores de VERDADE (Gileno Alves)
+   </a>
+  </td>
+ </tr>
+ <tr>
+  <td class="s2" dir="ltr">
+   12:00
+  </td>
+  <td class="s4" dir="ltr" colspan="3">
+   Almoço
+  </td>
+ </tr>
+ <tr>
+  <td class="s2" dir="ltr">
+   14:00
+  </td>
+  <td class="s3" dir="ltr" colspan="3">
+   Alex Gaynor (Auditório)
+  </td>
+ </tr>
+ <tr>
+  <td class="s2" dir="ltr">
+   15:00
+  </td>
+  <td class="s5" dir="ltr">
+   <a target="_blank" href="python-in-society/pyladies-uma-iniciativa-que-promove-a-diversidade-na-comunidade-python.html">
+    PyLadies - uma iniciativa que promove a diversidade na comunidade Python (Pyladies)
+   </a>
+  </td>
+  <td class="s5" dir="ltr">
+   <a target="_blank" href="databases/orientdb-no-more-joins.html">
+    OrientDB - No More Joins (Bruno Rocha)
+   </a>
+  </td>
+  <td class="s5" dir="ltr">
+   <a target="_blank" href="sysadmin-devop/digressao-devops-profiling-de-aplicacoes-python-em-servidores-linux.html">
+       Digressão DevOps - Profiling de aplicações Python em servidores Linux (Humberto Diógenes)
+   </a>
+  </td>
+ </tr>
+ <tr>
+  <td class="s2" dir="ltr">
+   15:40
+  </td>
+  <td class="s4" dir="ltr" colspan="3">
+   Coffee break
+  </td>
+ </tr>
+ <tr>
+  <td class="s2" dir="ltr">
+   16:00
+  </td>
+  <td class="s5" dir="ltr">
+   <a target="_blank" href="sysadmin-devop/voce-esta-preparado-para-o-caos.html">
+    Você está preparado para o caos? (Andrews Medina)
+   </a>
+  </td>
+  <td class="s5" dir="ltr">
+   <a target="_blank" href="web-frameworks/construindo-um-feed-de-noticias-em-tempo-real-com-django-e-celery.html">
+    Construindo um feed de notícias em &quot;&quot;tempo real&quot;&quot; com Django e Celery. (Gustavo Carvalho)
+   </a>
+  </td>
+  <td class="s5" dir="ltr">
+   <a target="_blank" href="tools-methodology/anti-padroes-em-python.html">
+   Anti-padrões em Python (Guilherme Vierno)
+   </a>
+  </td>
+ </tr>
+ <tr>
+  <td class="s2" dir="ltr">
+   16:40
+  </td>
+  <td class="s5" dir="ltr">
+   <a target="_blank" href="science/bokeh-powerful-interactive-visualizations-in-your-browser.html">
+    ﻿Bokeh: Powerful Interactive Visualizations in your browser. (Damián Avila)
+   </a>
+  </td>
+  <td class="s5" dir="ltr">
+   <a target="_blank" href="gui-programming/qt-pythonico.html">
+    Qt Pythonico (Daker Fernandes)
+   </a>
+  </td>
+  <td class="s5" dir="ltr">
+   <a target="_blank" href="tools-methodology/detectando-problemas-localmente-para-nao-detecta-los-em-producao.html">
+    Detectando problemas localmente para não detectá-los em produção. (André Augusto)
+   </a>
+  </td>
+ </tr>
+ <tr>
+  <td class="s2" dir="ltr">
+   17:20
+  </td>
+  <td class="s3" dir="ltr" colspan="3">
+   Lighting Talks
+  </td>
+ </tr>
+ <tr>
+  <td class="s2" dir="ltr">
+   17:50
+  </td>
+  <td class="s3" dir="ltr" colspan="3">
+   José Valim (Auditório)
+  </td>
+ </tr>
+ <tr>
+  <td class="s2" dir="ltr">
+   18:50
+  </td>
+  <td class="s0" dir="ltr" colspan="3">
+   Encerramento
+  </td>
+ </tr>
+</tbody>
+</table>
+
+</article>
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<small>Programação sujeita a alterações</small>
+
+      </section>
+      
+
+
+    </div>
+  </div>
+  <div class="grid-caranguejosmall grid-container">
+      <img class="caranguejosmall" src="../../pybr.s3.amazonaws.com/static/images/home/caranguejo_small.e41787f52998.png" />
+  </div>
+  <div class="sponsors-list-bottom">
+    <div class="grid-container">
+      <ul class="sponsor-list">
+        
+        <li class="grid-25">
+          <h4>Diamante</h4>
+          <a href="https://developers.google.com/?hl=pt-BR"><img src="../../pybr.s3.amazonaws.com/media/sponsors/google-developers-logo-text.png" alt="Google"></a>
+        </li>
+        
+        <li class="grid-25">
+          <h4>Platina</h4>
+          <a href="http://www.nic.br/index.shtml"><img src="../../pybr.s3.amazonaws.com/media/sponsors/nic_logo.png" alt="NIC.br"></a>
+        </li>
+        
+        <li class="grid-25">
+          <h4>Ouro</h4>
+          <a href="http://luizalabs.com/"><img src="../../pybr.s3.amazonaws.com/media/sponsors/luiza-labs-white.png" alt="Luiza Labs"></a>
+        </li>
+        
+        <li class="grid-25">
+          <h4>Ouro</h4>
+          <a href="http://evolux.net.br/"><img src="../../pybr.s3.amazonaws.com/media/sponsors/evolux_logo.png" alt="Evolux"></a>
+        </li>
+        
+        <li class="grid-25">
+          <h4>Ouro</h4>
+          <a href="http://globo.com/"><img src="../../pybr.s3.amazonaws.com/media/sponsors/globocom.png" alt="Globo.com"></a>
+        </li>
+        
+        <li class="grid-25">
+          <h4>Ouro</h4>
+          <a href="https://www.python.org/psf/"><img src="../../pybr.s3.amazonaws.com/media/sponsors/PSF-Logo-Narrow-Shapes.png" alt="Python Software Foundation"></a>
+        </li>
+        
+        <li class="grid-25">
+          <h4>Prata</h4>
+          <a href="http://www.rackspace.com/"><img src="../../pybr.s3.amazonaws.com/media/sponsors/Rackspace_logo_No_1_Mgd_small_use_no_tag_color.png" alt="Rackspace"></a>
+        </li>
+        
+        <li class="grid-25">
+          <h4>Prata</h4>
+          <a href="http://znc.com.br/"><img src="../../pybr.s3.amazonaws.com/media/sponsors/znc_logo_reduzida.png" alt="ZNC Sistemas"></a>
+        </li>
+        
+        <li class="grid-25">
+          <h4>Prata</h4>
+          <a href="http://adm.python.pro.br/"><img src="../../pybr.s3.amazonaws.com/media/sponsors/PythonPro1174x445-branco.png" alt="Python Pro"></a>
+        </li>
+        
+        <li class="grid-25">
+          <h4>Bronze</h4>
+          <a href="https://www.mozilla.org/"><img src="../../pybr.s3.amazonaws.com/media/sponsors/mozilla_300px.jpg" alt="Mozilla"></a>
+        </li>
+        
+        <li class="grid-25">
+          <h4>Bronze</h4>
+          <a href="http://www.serpro.gov.br/"><img src="../../pybr.s3.amazonaws.com/media/sponsors/10578838_748809238526972_1885381935_n.jpg" alt="Serpro"></a>
+        </li>
+        
+        <li class="grid-25">
+          <h4>Bronze</h4>
+          <a href="http://github.com/"><img src="../../pybr.s3.amazonaws.com/media/sponsors/GitHub_Logo.png" alt="Github"></a>
+        </li>
+        
+        <li class="grid-25">
+          <h4>Parceiro</h4>
+          <a href="http://welcometothedjango.com.br/"><img src="../../pybr.s3.amazonaws.com/media/sponsors/welcometothedjango-logo-200x65.png" alt="Welcome to the Django"></a>
+        </li>
+        
+        <li class="grid-25">
+          <h4>Parceiro</h4>
+          <a href="http://www.jetbrains.com/pycharm/"><img src="../../pybr.s3.amazonaws.com/media/sponsors/pycharm_logo2.gif" alt="Pycharm"></a>
+        </li>
+        
+        <li class="grid-25">
+          <h4>Parceiro</h4>
+          <a href="http://twoscoopspress.org/"><img src="../../pybr.s3.amazonaws.com/media/sponsors/two-scoops-press-combined-5255x2785-S.png" alt="Two Scoops Press"></a>
+        </li>
+        
+        <li class="grid-25">
+          <h4>Parceiro</h4>
+          <a href="https://eventioz.com.br/"><img src="../../pybr.s3.amazonaws.com/media/sponsors/eventbrite.png" alt="Eventbrite"></a>
+        </li>
+        
+        <li class="grid-25">
+          <h4>Parceiro</h4>
+          <a href="http://www.portodigital.org/"><img src="../../pybr.s3.amazonaws.com/media/sponsors/PORTODIGITAL.jpg" alt="Porto Digital"></a>
+        </li>
+        
+        <li class="grid-25">
+          <h4>Parceiro</h4>
+          <a href="http://www.portomidia.org/"><img src="../../pybr.s3.amazonaws.com/media/sponsors/Logo_PM_Fundo_Branco.jpg" alt="Portomídia"></a>
+        </li>
+        
+        <li class="grid-25">
+          <h4>Parceiro</h4>
+          <a href="http://openmining.io/"><img src="../../pybr.s3.amazonaws.com/media/sponsors/5ce7b4f2-281a-11e4-995b-d823b33fabd0.png" alt="OpenMining"></a>
+        </li>
+        
+        <li class="grid-25">
+          <h4>Parceiro</h4>
+          <a href="http://oreilly.com/"><img src="../../pybr.s3.amazonaws.com/media/sponsors/ORM_logo_box1_hex.jpg" alt="O&#39;Reilly"></a>
+        </li>
+        
+        <li class="grid-25">
+          <h4>Parceiro</h4>
+          <a href="http://novatec.com.br/"><img src="../../pybr.s3.amazonaws.com/media/sponsors/NovatecEditora_Curvas_OK.png" alt="Novatec"></a>
+        </li>
+        
+        <li class="grid-25">
+          <h4>Parceiro</h4>
+          <a href="http://citi.org.br/"><img src="../../pybr.s3.amazonaws.com/media/sponsors/NovaLogo_-_Original.png" alt="CITi"></a>
+        </li>
+        
+        <li class="grid-25">
+          <h4>Produção Executiva</h4>
+          <a href="http://www.casaeventosempresariais.com.br/"><img src="../../pybr.s3.amazonaws.com/media/sponsors/logo_CEE2_vazado.png" alt="Casa Eventos Empresariais"></a>
+        </li>
+        
+      </ul>
+      <ul class="sponsor-list staff grid-100">
+        <li class="grid-25">
+          <h4>Organização</h4>
+          <img src="../../pybr.s3.amazonaws.com/static/images/patrocinadores/pug-pe.db8dd47deab6.png" alt="">
+        </li>
+        <li class="grid-25">
+          <h4>Organização</h4>
+          <img src="../../pybr.s3.amazonaws.com/static/images/patrocinadores/logo-python-brasil.e185c55f1ec5.png" alt="">
+        </li>
+        <li class="grid-25">
+          <h4>Ilutração</h4>
+          <img src="../../pybr.s3.amazonaws.com/static/images/patrocinadores/mascavo.6013d0041b6a.png" alt="">
+        </li>
+        <li class="grid-25">
+          <h4>WebDesign & Front-End</h4>
+          <img src="../../pybr.s3.amazonaws.com/static/images/patrocinadores/umbu.56455624a9ee.png" alt="">
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <footer class="bottom">
+    <div class="grid-container">
+      <div class="grid-100 mobile-grid-100">
+        <img src="../../pybr.s3.amazonaws.com/static/images/home/python_footer.6a41002924a4.png" class="floatright" />
+        <p>PythonBrasil is a non-proﬁt volunteer-driven conference for promoting the open-source Python programming language. It is supported by the Brazilian Python Association (APyB) and by the Python Software Foundation (PSF).</p>
+        
+      </div>
+    </div>
+  </footer>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-49139616-1', 'pythonbrasil.org.br');
+  ga('send', 'pageview');
+
+</script>
+
+</body>
+</html>

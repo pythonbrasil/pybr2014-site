@@ -1,0 +1,23 @@
+#access form p {
+    clear: left;
+    margin-bottom: 3px;
+}
+
+#access form p input {
+    width: 250px;
+}
+
+#access form p label {
+    display: inline-block;
+    vertical-align: top;
+    width: 110px;
+}
+
+.btn-login{
+    margin-left: 400px !important;
+}
+
+.btn-register{
+	margin-left: 385px !important;
+}
+
